@@ -2,11 +2,15 @@ FROM node:22-alpine
 
 WORKDIR /app
 
-COPY backend/package*.json ./
+COPY backend/package*.json ./backend/
 
-RUN npm install --omit=dev
+RUN cd backend && npm install --omit=dev
 
-COPY backend/ ./
+COPY backend/ ./backend/
+
+COPY frontend/ ./frontend/
+
+WORKDIR /app/backend
 
 ENV NODE_ENV=production
 
