@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supplier - Inventory System</title>
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/suppliers.css">
+</head>
+
+<body>
+
+    <div class="app-layout">
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <img src="../thumbnail.png" alt="Logo" class="sidebar-logo">
+                <h2>Inventory</h2>
+                <p>Management System</p>
+            </div>
+
+            <nav class="sidebar-menu">
+
+                <a href="./dashboard.html" class="menu-item">
+                    Dashboard
+                </a>
+
+                <a href="./stock.html" class="menu-item">
+                    Stok
+                </a>
+
+                <a href="./stock-in.html" class="menu-item">
+                    Barang Masuk
+                </a>
+
+                <a href="./products.html" class="menu-item">
+                    Produk
+                </a>
+
+                <a href="./kategori.html" class="menu-item">
+                    Kategori
+                </a>
+
+                <a href="./units.html" class="menu-item">
+                    Satuan
+                </a>
+
+                <a href="./lokasi.html" class="menu-item">
+                    Lokasi
+                </a>
+
+                <a href="./suppliers.html" class="menu-item active">
+                    Supplier
+                </a>
+
+                <a href="./material-issue.html" class="menu-item">
+                    Material Issue
+                </a>
+
+                <a href="./outbound.html" class="menu-item">
+                    Outbound
+                </a>
+
+                <a href="./laporan.html" class="menu-item">
+                    Laporan
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+                <button id="logoutButton">
+                    Logout
+                </button>
+            </div>
+
+        </aside>
+
+
+        <div class="main-area">
+
+            <header class="topbar">
+
+                <div class="topbar-left">
+                    <div>
+                        <h1>Supplier</h1>
+                        <p>Kelola data supplier</p>
+                    </div>
+                </div>
+
+                <div class="user-info">
+                    <span id="userName">Loading...</span>
+                </div>
+
+            </header>
+
+
+            <main class="supplier-content">
+
+                <section class="page-section">
+
+                    <div class="section-header">
+
+                        <div>
+                            <h2>
+                                Daftar Supplier
+                            </h2>
+
+                            <p>
+                                Data supplier yang terdaftar dalam sistem
+                            </p>
+                        </div>
+
+                        <button type="button" id="addSupplierButton">
+                            + Tambah Supplier
+                        </button>
+
+                    </div>
+
+
+                    <p id="formMessage"></p>
+
+
+                    <div class="table-container">
+
+                        <table>
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Nama Supplier</th>
+                                    <th>Kontak</th>
+                                    <th>Alamat</th>
+                                    <th>PIC</th>
+                                    <th>No. PIC</th>
+                                    <th>Catatan</th>
+                                    <th>Aksi</th>
+
+                                </tr>
+
+                            </thead>
+
+                            <tbody id="supplierTableBody">
+
+                                <tr>
+
+                                    <td colspan="7">
+                                        Loading...
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+
+                <section class="form-section hidden" id="supplierFormSection">
+
+                    <div class="section-header">
+
+                        <div>
+
+                            <h2 id="formTitle">
+                                Tambah Supplier
+                            </h2>
+
+                            <p>
+                                Lengkapi data supplier
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <form id="supplierForm">
+
+                        <input type="hidden" id="supplierId">
+
+
+                        <div class="form-group">
+
+                            <label for="supplierName">
+                                Nama Supplier *
+                            </label>
+
+                            <input type="text" id="supplierName" required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="supplierContact">
+                                Kontak
+                            </label>
+
+                            <input type="text" id="supplierContact">
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="supplierAddress">
+                                Alamat
+                            </label>
+
+                            <textarea id="supplierAddress" rows="3"></textarea>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="supplierPicName">
+                                Nama PIC
+                            </label>
+
+                            <input type="text" id="supplierPicName">
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="supplierPicPhone">
+                                No. HP PIC
+                            </label>
+
+                            <input type="text" id="supplierPicPhone">
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="supplierNotes">
+                                Catatan
+                            </label>
+
+                            <textarea id="supplierNotes" rows="4"></textarea>
+
+                        </div>
+
+
+                        <div class="form-actions">
+
+                            <button type="submit" id="saveSupplierButton">
+                                Simpan Supplier
+                            </button>
+
+                            <button type="button" id="cancelSupplierButton">
+                                Batal
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </section>
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <script src="./js/config.js"></script>
+    <script src="./js/session.js"></script>
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/suppliers.js"></script>
+
+</body>
+
+</html>

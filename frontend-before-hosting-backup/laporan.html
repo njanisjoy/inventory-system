@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan - Inventory System</title>
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/laporan.css">
+
+</head>
+
+
+<body>
+
+    <div class="app-layout">
+
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <img src="../thumbnail.png" alt="Logo" class="sidebar-logo">
+                <h2>Inventory</h2>
+                <p>Management System</p>
+            </div>
+
+            <nav class="sidebar-menu">
+
+                <a href="./dashboard.html" class="menu-item">
+                    Dashboard
+                </a>
+
+                <a href="./stock.html" class="menu-item">
+                    Stok
+                </a>
+
+                <a href="./stock-in.html" class="menu-item">
+                    Barang Masuk
+                </a>
+
+                <a href="./products.html" class="menu-item">
+                    Produk
+                </a>
+
+                <a href="./kategori.html" class="menu-item">
+                    Kategori
+                </a>
+
+                <a href="./units.html" class="menu-item">
+                    Satuan
+                </a>
+
+                <a href="./lokasi.html" class="menu-item">
+                    Lokasi
+                </a>
+
+                <a href="./suppliers.html" class="menu-item">
+                    Supplier
+                </a>
+
+                <a href="./material-issue.html" class="menu-item">
+                    Material Issue
+                </a>
+
+                <a href="./outbound.html" class="menu-item">
+                    Outbound
+                </a>
+
+                <a href="./laporan.html" class="menu-item active">
+                    Laporan
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+                <button id="logoutButton">
+                    Logout
+                </button>
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN AREA -->
+
+        <div class="main-area">
+
+
+            <!-- TOPBAR -->
+
+            <header class="topbar">
+
+                <div class="topbar-left">
+                    <div>
+                        <h1>Laporan</h1>
+                        <p>Rekap barang masuk, material issue, dan outbound</p>
+                    </div>
+                </div>
+
+                <div class="user-info">
+                    <span id="userName">Loading...</span>
+                </div>
+
+            </header>
+
+
+            <!-- CONTENT -->
+
+            <main class="laporan-content">
+
+
+                <!-- FILTER -->
+
+                <section class="filter-section">
+
+                    <div class="filter-row">
+
+                        <div class="filter-group">
+                            <label for="periodType">Periode</label>
+                            <select id="periodType">
+                                <option value="custom">Kustom</option>
+                                <option value="this_week">Minggu Ini</option>
+                                <option value="last_week">Minggu Lalu</option>
+                                <option value="this_month" selected>Bulan Ini</option>
+                                <option value="last_month">Bulan Lalu</option>
+                                <option value="last_3_months">3 Bulan Terakhir</option>
+                                <option value="this_year">Tahun Ini</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group" id="customDateGroup">
+                            <label for="dateFrom">Dari</label>
+                            <input type="date" id="dateFrom">
+                        </div>
+
+                        <div class="filter-group" id="customDateGroupTo">
+                            <label for="dateTo">Sampai</label>
+                            <input type="date" id="dateTo">
+                        </div>
+
+                        <div class="filter-group filter-action">
+                            <label>&nbsp;</label>
+                            <button type="button" id="loadReportButton">
+                                Tampilkan Laporan
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <p id="periodLabel" class="period-label"></p>
+
+                </section>
+
+
+                <!-- TAB NAVIGATION -->
+
+                <div class="tab-nav">
+
+                    <button type="button" class="tab-button active" data-tab="stock-in">
+                        Barang Masuk
+                    </button>
+
+                    <button type="button" class="tab-button" data-tab="material-issue">
+                        Material Issue
+                    </button>
+
+                    <button type="button" class="tab-button" data-tab="outbound">
+                        Outbound
+                    </button>
+
+                </div>
+
+
+                <!-- TAB: BARANG MASUK -->
+
+                <section id="tab-stock-in" class="tab-content active">
+
+                    <div class="section-header">
+
+                        <div>
+                            <h2>Barang Masuk</h2>
+                            <p id="stockInPeriodDesc" class="period-desc"></p>
+                        </div>
+
+                        <div class="summary-badges" id="stockInSummary"></div>
+
+                    </div>
+
+                    <div class="table-container">
+
+                        <table>
+
+                            <thead>
+                                <tr>
+                                    <th>Tanggal</th>
+                                    <th>Kode</th>
+                                    <th>Nama Barang</th>
+                                    <th>Jumlah</th>
+                                    <th>Satuan</th>
+                                    <th>Supplier</th>
+                                    <th>No. Invoice</th>
+                                    <th>Catatan</th>
+                                    <th>Dibuat Oleh</th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="stockInBody">
+                                <tr>
+                                    <td colspan="9">Pilih periode dan klik Tampilkan Laporan.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+
+                <!-- TAB: MATERIAL ISSUE -->
+
+                <section id="tab-material-issue" class="tab-content hidden">
+
+                    <div class="section-header">
+
+                        <div>
+                            <h2>Material Issue</h2>
+                            <p id="materialIssuePeriodDesc" class="period-desc"></p>
+                        </div>
+
+                        <div class="summary-badges" id="materialIssueSummary"></div>
+
+                    </div>
+
+                    <div class="table-container">
+
+                        <table>
+
+                            <thead>
+                                <tr>
+                                    <th>No. Material Issue</th>
+                                    <th>Tanggal</th>
+                                    <th>Tim / Pengambil</th>
+                                    <th>Kode</th>
+                                    <th>Nama Barang</th>
+                                    <th>Jumlah</th>
+                                    <th>Satuan</th>
+                                    <th>Tujuan</th>
+                                    <th>Dibuat Oleh</th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="materialIssueBody">
+                                <tr>
+                                    <td colspan="9">Pilih periode dan klik Tampilkan Laporan.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+
+                <!-- TAB: OUTBOUND -->
+
+                <section id="tab-outbound" class="tab-content hidden">
+
+                    <div class="section-header">
+
+                        <div>
+                            <h2>Outbound</h2>
+                            <p id="outboundPeriodDesc" class="period-desc"></p>
+                        </div>
+
+                        <div class="summary-badges" id="outboundSummary"></div>
+
+                    </div>
+
+                    <div class="table-container">
+
+                        <table>
+
+                            <thead>
+                                <tr>
+                                    <th>No. Invoice</th>
+                                    <th>Tanggal</th>
+                                    <th>Customer</th>
+                                    <th>Tujuan</th>
+                                    <th>Kode</th>
+                                    <th>Nama Barang</th>
+                                    <th>Jumlah</th>
+                                    <th>Satuan</th>
+                                    <th>Catatan</th>
+                                    <th>Dibuat Oleh</th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="outboundBody">
+                                <tr>
+                                    <td colspan="10">Pilih periode dan klik Tampilkan Laporan.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <script src="./js/config.js"></script>
+    <script src="./js/session.js"></script>
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/laporan.js"></script>
+
+</body>
+
+</html>

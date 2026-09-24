@@ -1,0 +1,8214 @@
+{
+  "matched": [],
+  "newProducts": [
+    {
+      "sheet": "SPEAKER",
+      "row": 5,
+      "code": "DONE WEB",
+      "name": "SPEAKER BETAVO B-12 V124",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 8,
+      "code": "DONE WEB",
+      "name": "SPEAKER BETAVO B12-V124",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 9,
+      "code": "DONE WEB",
+      "name": "SPEAKER BETAVO B15-S415",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 10,
+      "code": "DONE WEB",
+      "name": "SPEAKER BETAVO B18-V611",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 12,
+      "code": "DONE WEB",
+      "name": "SPEAKER BETAVO B21-V5522",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 13,
+      "code": "DONE WEB",
+      "name": "SPEAKER BETAVO B8-08N",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 14,
+      "code": "DONE WEB",
+      "name": "SPEAKER BETAVO L103",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "TITIPAN",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 15,
+      "code": "DONE WEB",
+      "name": "SPEAKER BETAVO S301",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "TITIPAN",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 17,
+      "code": "DONE WEB",
+      "name": "SPEAKER BEYMA 18G900",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "TITIPAN",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 18,
+      "code": "DONE WEB",
+      "name": "SPEAKER BEYMA 18 P1000 FeV2",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "TITIPAN",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 19,
+      "code": "DONE WEB",
+      "name": "SPEAKER BNC 10NDL64-8",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 20,
+      "code": "DONE WEB",
+      "name": "SPEAKER BNC 8NDL684",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 21,
+      "code": "DONE WEB",
+      "name": "SPEAKER ACR DELUXE 15 700",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 22,
+      "code": "DONE WEB",
+      "name": "SPEAKER DEXO SYD 18L 07A",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 23,
+      "code": "DONE WEB",
+      "name": "SPEAKER DEXO SYD 21L02",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 24,
+      "code": "DONE WEB",
+      "name": "SPEAKER DEXO SYD21L02",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 25,
+      "code": "DONE WEB",
+      "name": "SPEAKER DEXO SYQ12G144",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 26,
+      "code": "DONE WEB",
+      "name": "SPEAKER DEXO SYQ12J103C",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 27,
+      "code": "DONE WEB",
+      "name": "SPEAKER DEXO SYQ12YO5C",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 28,
+      "code": "DONE WEB",
+      "name": "SPEAKER DEXO SYT 5D01",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 29,
+      "code": "DONE WEB",
+      "name": "SPEAKER DEXO SYD18L07A",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 30,
+      "code": "DONE WEB",
+      "name": "SPEAKER DIABLO",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 31,
+      "code": "DONE WEB",
+      "name": "SPEAKER EMINENCE ALPHA-8MLA",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 32,
+      "code": "DONE WEB",
+      "name": "SPEAKER EMINENCE LA6-CBMR",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 33,
+      "code": "DONE WEB",
+      "name": "SPEAKER FAITAL 12FH500",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "RESET DIAN",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 34,
+      "code": "DONE WEB",
+      "name": "SPEAKER HUPER GENESIS 3.1 A",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 35,
+      "code": "DONE WEB",
+      "name": "SPEAKER HUPER GENESIS 3.1 B",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 36,
+      "code": "DONE WEB",
+      "name": "SPEAKER IDR 4INCH",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 37,
+      "code": "DONE WEB",
+      "name": "SPEAKER LAVOCE 10INCH MAF103.00",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 38,
+      "code": "DONE WEB",
+      "name": "SPEAKER LAVOCE MAF103.00",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 39,
+      "code": "DONE WEB",
+      "name": "RECONE KIT LAVOCE SAF184.04",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 40,
+      "code": "DONE WEB",
+      "name": "SPEAKER LAVOCE SAN215.30",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 41,
+      "code": "DONE WEB",
+      "name": "SPEAKER LAVOCE WAF123.00",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 42,
+      "code": "DONE WEB",
+      "name": "RECONE KIT LAVOCE WFX15.800",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 43,
+      "code": "DONE WEB",
+      "name": "SPEAKER LAVOCE WXF 15.800",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 44,
+      "code": "DONE WEB",
+      "name": "SPEAKER MK SKN 10",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 45,
+      "code": "DONE WEB",
+      "name": "SPEAKER MK SKN 12",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 46,
+      "code": "DONE WEB",
+      "name": "SPEAKER MONITOR AUDIO 4INCH 4P258B",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 47,
+      "code": "DONE WEB",
+      "name": "SPEAKER OMR MP250-40A 16OHM",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 49,
+      "code": "DONE WEB",
+      "name": "SPEAKER OMR MP460-32",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 50,
+      "code": "DONE WEB",
+      "name": "SPEAKER RCF L15P400 8 OHM",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 51,
+      "code": "DONE WEB",
+      "name": "SPEAKER RCF L15P400 8 OHM",
+      "category": "SPEAKER",
+      "location": "PABRIK UTAMA",
+      "notes": "U/ PROTOTYPE",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 52,
+      "code": "DONE WEB",
+      "name": "SPEAKER RCF 8NMB420",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 53,
+      "code": "DONE WEB",
+      "name": "SPEAKER RCF L10-750 YK",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "MMC LA GRL",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 54,
+      "code": "DONE WEB",
+      "name": "SPEAKER RCF L10-750 YK",
+      "category": "SPEAKER",
+      "location": "PABRIK UTAMA",
+      "notes": "MMC LA GRL",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 55,
+      "code": "DONE WEB",
+      "name": "SPEAKER RCF LF 18X401",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 56,
+      "code": "DONE WEB",
+      "name": "SPEAKER RCF LF 18X401",
+      "category": "SPEAKER",
+      "location": "PABRIK UTAMA",
+      "notes": "U/ PROTOTYPE",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 57,
+      "code": "DONE WEB",
+      "name": "DRIVER RCF N850",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 58,
+      "code": "DONE WEB",
+      "name": "DRIVER RCF ND 350",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 59,
+      "code": "DONE WEB",
+      "name": "DRIVER RCF ND 350",
+      "category": "SPEAKER",
+      "location": "PABRIK UTAMA",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 60,
+      "code": "DONE WEB",
+      "name": "SPEAKER RDW 12LS900NF",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 61,
+      "code": "DONE WEB",
+      "name": "SPEAKER RDW 18LS 4400NE",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 62,
+      "code": "DONE WEB",
+      "name": "SPEAKER RDW 18LS2000",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 63,
+      "code": "DONE WEB",
+      "name": "SPEAKER RDW 18LS88 PRO",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 64,
+      "code": "DONE WEB",
+      "name": "SPEAKER RDW 21LS2000",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 66,
+      "code": "DONE WEB",
+      "name": "SPEAKER RDW 18 LS1000",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 67,
+      "code": "DONE WEB",
+      "name": "SPEAKER SRX N828",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 68,
+      "code": "DONE WEB",
+      "name": "SPEAKER STX 12 INCH",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 69,
+      "code": "DONE WEB",
+      "name": "SPEAKER STX 15CX75/8OHM",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 70,
+      "code": "DONE WEB",
+      "name": "SPEAKER STX H1028",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 71,
+      "code": "DONE WEB",
+      "name": "SPEAKER STX M1228",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 72,
+      "code": "DONE WEB",
+      "name": "SPEAKER STX M8-250-40A 80OHM",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 73,
+      "code": "DONE WEB",
+      "name": "SPEAKER STX MB10258",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 74,
+      "code": "DONE WEB",
+      "name": "SPEAKER STX N8216",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 75,
+      "code": "DONE WEB",
+      "name": "SPEAKER STX M1538",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 76,
+      "code": "DONE WEB",
+      "name": "DRIVER SV SOUND VOICE DS-25",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 77,
+      "code": "DONE WEB",
+      "name": "SPEAKER VTX 12-700",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 78,
+      "code": "DONE WEB",
+      "name": "SPEAKER VXR ZEUS 12-700",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 79,
+      "code": "DONE WEB",
+      "name": "SPEAKER VXT MILAN 18",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "1 RUSAK",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 80,
+      "code": "DONE WEB",
+      "name": "SPEAKER VXT SPARTA 18-800X",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 81,
+      "code": "DONE WEB",
+      "name": "SPEAKER WISDOM W15-72",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 3,
+      "code": "DONE WEB",
+      "name": "HANDEL HD 210",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "KELUAR 16",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 4,
+      "code": "DONE WEB",
+      "name": "HANDEL HBBL",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 5,
+      "code": "DONE WEB",
+      "name": "HANDEL JH7109",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 6,
+      "code": "DONE WEB",
+      "name": "HANDEL JH7109 MANGKOK",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 7,
+      "code": "DONE WEB",
+      "name": "HANDEL 133 MANGKOK",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 8,
+      "code": "DONE WEB",
+      "name": "HANDEL HD133",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 9,
+      "code": "DONE WEB",
+      "name": "HANDEL HDT24",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 10,
+      "code": "DONE WEB",
+      "name": "HANDEL HD126",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 11,
+      "code": "DONE WEB",
+      "name": "HANDEL HD126 MANGKOK",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 12,
+      "code": "DONE WEB",
+      "name": "HANDEL RD1231",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 13,
+      "code": "DONE WEB",
+      "name": "HANDEL DNB KECIL",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 14,
+      "code": "DONE WEB",
+      "name": "HANDEL HBBR",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 15,
+      "code": "DONE WEB",
+      "name": "HANDEL JBL HD103 HD103",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 17,
+      "code": "DONE WEB",
+      "name": "HANDEL CLA",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 18,
+      "code": "DONE WEB",
+      "name": "HANDEL HANDEL MANGKOK PLASTIK",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 19,
+      "code": "DONE WEB",
+      "name": "HANDEL HANDEL MANGKOK BESI",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 20,
+      "code": "DONE WEB",
+      "name": "HANDEL HANDEL MANGKOK BESI",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "TIDAK LAYAK",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 21,
+      "code": "DONE WEB",
+      "name": "HANDEL HANDEL 133",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 22,
+      "code": "DONE WEB",
+      "name": "SPAREPART PHASE PLUG VERA 10",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 23,
+      "code": "DONE WEB",
+      "name": "HORN HORN NEXO KECIL 18X18",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 29,
+      "code": "DONE WEB",
+      "name": "SPAREPART PANEL DEKOK KOTAK",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 30,
+      "code": "DONE WEB",
+      "name": "SPAREPART GRILL T24",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 35,
+      "code": "DONE WEB",
+      "name": "HORN HORN RCF 18X18 ALUMUNIUM",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 36,
+      "code": "DONE WEB",
+      "name": "HORN HORN RCF 18X18 POLYCARBONATE",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 37,
+      "code": "DONE WEB",
+      "name": "HANDEL HANDEL T24",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 38,
+      "code": "DONE WEB",
+      "name": "SPAREPART RUDAL T24",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 39,
+      "code": "DONE WEB",
+      "name": "SPAREPART GRILL T24",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 40,
+      "code": "DONE WEB",
+      "name": "SPAREPART GRILL 12NL",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 41,
+      "code": "DONE WEB",
+      "name": "HORN HORN LUAR T24",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 42,
+      "code": "DONE WEB",
+      "name": "HORN HORN LA 10",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 43,
+      "code": "DONE WEB",
+      "name": "HORN HORN RCF 33A",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 44,
+      "code": "DONE WEB",
+      "name": "SPAREPART PHASE PLUG MARTIN",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 49,
+      "code": "DONE WEB",
+      "name": "SPAREPART PHASE PLUG NEXO",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 50,
+      "code": "DONE WEB",
+      "name": "HORN HORN NL DOUBLE",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 51,
+      "code": "DONE WEB",
+      "name": "HORN HORN NL SINGLE",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 52,
+      "code": "DONE WEB",
+      "name": "HANDEL HBBR",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 53,
+      "code": "DONE WEB",
+      "name": "HANDEL HD210",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 54,
+      "code": "DONE WEB",
+      "name": "HANDEL HANDEL G109",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 55,
+      "code": "DONE WEB",
+      "name": "SPAREPART DUDUKAN RODA HARDCASE KECIL",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 56,
+      "code": "DONE WEB",
+      "name": "SPAREPART DUDUKAN RODA HARDCASE BESAR",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 57,
+      "code": "DONE WEB",
+      "name": "HANDEL HANDEL JH109",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 58,
+      "code": "DONE WEB",
+      "name": "SPAREPART DUDUKAN HORN T24",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 59,
+      "code": "DONE WEB",
+      "name": "HANDEL HANDEL BESAR",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 60,
+      "code": "DONE WEB",
+      "name": "HORN HORN T24",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "SET",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 61,
+      "code": "DONE WEB",
+      "name": "SPAREPART GRILL VERA 10",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 62,
+      "code": "DONE WEB",
+      "name": "SPAREPART KABEL DEMO",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "GULUNG",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 63,
+      "code": "DONE WEB",
+      "name": "HORN HORN LA12",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 65,
+      "code": "DONE WEB",
+      "name": "SPAREPART SPAREPART VERA",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "SET",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 69,
+      "code": "DONE WEB",
+      "name": "HORN HORN Q ONE A",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 70,
+      "code": "DONE WEB",
+      "name": "HORN HORN Q ONE B",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 3,
+      "code": "HC HDP",
+      "name": "HANDLE PUTIH",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 4,
+      "code": "HC HDH",
+      "name": "HANDLE HITAM",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 5,
+      "code": "HK KP",
+      "name": "KUNCI PUTIH",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 6,
+      "code": "HC SKLP",
+      "name": "SIKU L PUTIH",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 7,
+      "code": "HC SCBP",
+      "name": "SIKU CORNER PUTIH",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 8,
+      "code": "HC PRP",
+      "name": "PAKU PUTIH",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 9,
+      "code": "HC SCKH",
+      "name": "SIKU CORNER HITAM",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 10,
+      "code": "HC KHK",
+      "name": "KUNCI HITAM",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 11,
+      "code": "HC TRB",
+      "name": "TATAKAN RODA BESAR",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 12,
+      "code": "HC TRK",
+      "name": "TATAKAN RODA KECIL",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 13,
+      "code": "HC SCHK",
+      "name": "SIKU CORNER HITAM KECIL",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 14,
+      "code": "HC SCPK",
+      "name": "SIKU CORNER PUTIH KECIL",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 15,
+      "code": "HC RH12U",
+      "name": "REL 12U",
+      "category": "PART HARDCASE",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 3,
+      "code": "SL4 MP",
+      "name": "SASIS SEETRONIC",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 4,
+      "code": "SL4 FXN",
+      "name": "JACK SEETRONIC FEMALE",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 5,
+      "code": "ZHOCNDF30 8E",
+      "name": "MULTIPIN 8 PIN",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 6,
+      "code": "ZHOCNDF30 8A",
+      "name": "MULTIPIN 8 PIN",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 7,
+      "code": "SL4 FXN",
+      "name": "JACK",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 8,
+      "code": "K3F25C",
+      "name": "SASIS",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 9,
+      "code": "ZHOCHDF25 4AE",
+      "name": "MULTIPIN 4 PIN",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 10,
+      "code": "LX3F",
+      "name": "JACK ROXTONE",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 11,
+      "code": "NL2FX",
+      "name": "JACK NEUTRIK",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 12,
+      "code": "MC3MXX",
+      "name": "JACK SEETRONIC MALE",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 13,
+      "code": "JCNK",
+      "name": "JACK CANON KUNING STX FEMALE",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 14,
+      "code": "JCNK",
+      "name": "JACK CANON KUNING STX MALE",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 15,
+      "code": "JCNH",
+      "name": "JACK CANON HITAM STX FEMALE",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 16,
+      "code": "JCNH",
+      "name": "JACK CANON HITAM STX MALE",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 18,
+      "code": "SE8MC",
+      "name": "JACK SEETRONIC ETHERCON",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 21,
+      "code": "RCX RS727",
+      "name": "JACK RCX",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 22,
+      "code": "RCX RS777BG",
+      "name": "JACK RCX",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 23,
+      "code": "RCX 726",
+      "name": "JACK RCX",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 24,
+      "code": "MC3MXX",
+      "name": "JACK NEUTRIK MALE",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 25,
+      "code": "NC3FXX",
+      "name": "JACK NEUTRIK FEMALE",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 26,
+      "code": "NL4MPXX",
+      "name": "",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 3,
+      "code": "RD1515",
+      "name": "BRACKET 4IN1 15IN",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 4,
+      "code": "RDJ042",
+      "name": "BRACKET VERA 15IN",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 5,
+      "code": "RD1226",
+      "name": "BRACKET 4IN1 12IN",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 6,
+      "code": "RD1026",
+      "name": "BRACKET 4IN1 10IN",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 8,
+      "code": "RXBX",
+      "name": "KUNCI T24",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 9,
+      "code": "RP1035",
+      "name": "PINLOCK HITAM",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 10,
+      "code": "RP1035",
+      "name": "PINLOCK PUTIH",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 11,
+      "code": "RP827",
+      "name": "PINLOCK HITAM",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 12,
+      "code": "RP827",
+      "name": "PINLOCK PUTIH",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 13,
+      "code": "RP1227",
+      "name": "PINLOCK",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 14,
+      "code": "SH D16",
+      "name": "SHACKLE D 16MM",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 15,
+      "code": "SH D1/2",
+      "name": "SHACKLE D 1/2 WLL 2T MERAH",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 16,
+      "code": "SH D10",
+      "name": "SHACKLE D 10MM",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 17,
+      "code": "SH D20",
+      "name": "SHACKLE D 20MM",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 18,
+      "code": "SH DKECIL",
+      "name": "SHACKLE D KECIL",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 19,
+      "code": "FERUL",
+      "name": "FERUL ALUMINIUM",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "NEW_PRODUCT"
+    }
+  ],
+  "pendingNoCode": [
+    {
+      "sheet": "SPEAKER",
+      "row": 3,
+      "name": "SPEAKER AUDIO CONTROL ACX L10-16",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 4,
+      "name": "SPEAKER AUDIO CONTROL ALXL10-16",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 6,
+      "name": "SPEAKER BETAVO B12-S312",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 7,
+      "name": "SPEAKER BETAVO B12-V1235",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 11,
+      "name": "KARDUS BETAVO B21-N216",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "DIAMBIL",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 16,
+      "name": "SPEAKER BEYER BY1210",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 48,
+      "name": "SPEAKER OMR MP250-40A 8OHM",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 65,
+      "name": "SPEAKER RDW 12LS900NE",
+      "category": "SPEAKER",
+      "location": "KONTRAKAN 2",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 82,
+      "name": "SPEAKER FABOULUS 10IN ARRAY 25601 M",
+      "category": "SPEAKER",
+      "location": "GUDANG",
+      "notes": "M RIDWAN LA 10HBL",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 83,
+      "name": "SPEAKER BETAVO B15-1535",
+      "category": "SPEAKER",
+      "location": "GUDANG",
+      "notes": "Sample",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 84,
+      "name": "SPEAKER LAVOCE LAV SAF 184.50",
+      "category": "SPEAKER",
+      "location": "GUDANG",
+      "notes": "PT MEKAR ARNADA JAYA",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 85,
+      "name": "SPEAKER RDW FAN10111",
+      "category": "SPEAKER",
+      "location": "GUDANG",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 16,
+      "name": "HANDEL KARA 210 210",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 24,
+      "name": "HORN HORN KARA 10",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 25,
+      "name": "SPAREPART BRACKET KARA 10 DEPAN",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 26,
+      "name": "SPAREPART BRACKET KARA 10 BELAKANG",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 27,
+      "name": "HANDEL MANGKOK BUNDAR KARA 10",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 28,
+      "name": "SPAREPART PLAT DOUBLER BELAKANG KARA 10",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 31,
+      "name": "HANDEL HANDEL KARA 210 DEPAN",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 32,
+      "name": "HANDEL HANDEL KARA 210 BELAKANG",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 33,
+      "name": "SPAREPART PLAT SIKU KARA 210",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 34,
+      "name": "SPAREPART SAYAP HORN KARA 210",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 45,
+      "name": "SPAREPART GRIL KARA 10",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 46,
+      "name": "SPAREPART PANEL SPIKON KARA 10",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 47,
+      "name": "SPAREPART ALUMUNIUM HIGH KARA 10",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 48,
+      "name": "SPAREPART PIN LOCK",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 64,
+      "name": "HORN HORN SAYAP KARA 212",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 66,
+      "name": "SPAREPART SAYAP KARA 210",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 67,
+      "name": "HANDEL HANDEL KARA 210",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 68,
+      "name": "SPAREPART ALUMUNIUM HIGH KARA 210",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 71,
+      "name": "LEM LEM PRESTO EMBER",
+      "category": "SPAREPART",
+      "location": "KONTRAKAN 3",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 72,
+      "name": "LEM LEM PRESTO KALENG",
+      "category": "SPAREPART",
+      "location": "ROLLING DOOR",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 73,
+      "name": "STABILIZER SAMOTO SMT-30K3",
+      "category": "SPAREPART",
+      "location": "ROLLING DOOR",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 74,
+      "name": "HARDCASE HARDCASE SPEAKER",
+      "category": "SPAREPART",
+      "location": "ROLLING DOOR",
+      "notes": "TITIPAN JOKOREBEL",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 75,
+      "name": "HANDEL PVC OVAL HD133 HD133",
+      "category": "SPAREPART",
+      "location": "ROLLING DOOR",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 76,
+      "name": "KARET KAKI KARET BOX BULAT 4201",
+      "category": "SPAREPART",
+      "location": "ROLLING DOOR",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 77,
+      "name": "DAKRON DAKRON",
+      "category": "SPAREPART",
+      "location": "ROLLING DOOR",
+      "notes": "GULUNG",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 78,
+      "name": "SPAREPART CONVERTER HIGH BETAVO TB-H3100",
+      "category": "SPAREPART",
+      "location": "ROLLING DOOR",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 79,
+      "name": "SPAREPART BRACKET 3IN1",
+      "category": "SPAREPART",
+      "location": "ROLLING DOOR",
+      "notes": "SET (TITIPAN MAULANA MA'ARIF",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 80,
+      "name": "SPAREPART GRILL ARA 12",
+      "category": "SPAREPART",
+      "location": "ROLLING DOOR",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 81,
+      "name": "SPAREPART RODA",
+      "category": "SPAREPART",
+      "location": "ROLLING DOOR",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 82,
+      "name": "HORN HORN KODOK DOUBLE 12 INCH",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 83,
+      "name": "HORN HORN RCF ALUMUNIUM 22X25 EX 1.4",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 84,
+      "name": "HORN HORN RCF POLYCARBONATE 22X25 EX 1.4",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 85,
+      "name": "HORN HORN LA10 SINGLE",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 86,
+      "name": "HORN HORN LA12 DOUBLE",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 87,
+      "name": "HORN HORN LA1O DOUBLE",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 88,
+      "name": "HORN HORN RCF POLYCARBONATE 18X18",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 89,
+      "name": "HORN HORN RCF ALUMUNIUM 18X18",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 90,
+      "name": "HORN HORN NEXO 18X18",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 91,
+      "name": "HORN HORN MARTIN DOUBLE",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 92,
+      "name": "HORN HORN KODOK 10 INCH SINGLE",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 93,
+      "name": "HORN HORN TW CUSTO 8INCH",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 94,
+      "name": "HORN HORN CONICAL 1INCH",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 95,
+      "name": "HORN HORN Q ONE",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 96,
+      "name": "SPAREPART MARTIN TRIPLE",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 97,
+      "name": "HORN HORN T24 DUDUKAN",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 98,
+      "name": "SPAREPART KARA 2108",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 99,
+      "name": "HANDEL HANDEL HD275",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 100,
+      "name": "SPAREPART RUDAL T24",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 101,
+      "name": "HANDEL HANDEL T24",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 102,
+      "name": "HANDEL HANDEL 7109",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 103,
+      "name": "SPAREPART MANGKOK 7109",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 104,
+      "name": "SPAREPART GRILL KARA 210",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 105,
+      "name": "SPAREPART KARA",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 106,
+      "name": "HORN HORN EV DOUBLE",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 107,
+      "name": "HORN HORN VERA",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 108,
+      "name": "SPAREPART BRACKET KARA 210 BELAKANG",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "SET",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 109,
+      "name": "HANDEL HANDEL HD109 BESI",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 110,
+      "name": "HANDEL HANDEL HD109 MANGKOK BESI",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPAREPART",
+      "row": 111,
+      "name": "SPAREPART GRILL T24",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "PART RENTAL",
+      "row": 3,
+      "name": "JACK CANON SEETRONIC MC-3MXX-BG",
+      "category": "PART RENTAL",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "PART RENTAL",
+      "row": 4,
+      "name": "JACK CANON SEETRONIC MC-3FXX-BG",
+      "category": "PART RENTAL",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "PART RENTAL",
+      "row": 5,
+      "name": "JACK AKAI MONO SEETRONIC MP-2X-BG",
+      "category": "PART RENTAL",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "PART RENTAL",
+      "row": 6,
+      "name": "SASIS XLR FEMALE SEETRONIC K3F2C-BG",
+      "category": "PART RENTAL",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "PART RENTAL",
+      "row": 7,
+      "name": "SASIS XLR MALE SEETRONIC J3F2C-BG",
+      "category": "PART RENTAL",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "PART RENTAL",
+      "row": 8,
+      "name": "MINI CANON MALE HITAM STX MCM0",
+      "category": "PART RENTAL",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "PART RENTAL",
+      "row": 9,
+      "name": "MINI CANON MALE MERAH STX MCM2",
+      "category": "PART RENTAL",
+      "location": "RENTAL",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 3,
+      "name": "SPEAKER 8 INCH",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "ADI CIKAWAO",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 4,
+      "name": "SPEAKER 8 INCH",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "HARUS ACEH",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 5,
+      "name": "SPEAKER BETAVO B18-S418C",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "TITIPAN YOSI AUDIO KELUAR 2PCS",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 6,
+      "name": "SPEAKER BEYMA 10MI100",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "TITIPAN BEYMA",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 7,
+      "name": "SPEAKER BEYMA 18LEX1200Fe",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "TITIPAN BEYMA",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 8,
+      "name": "SPEAKER BEYMA 21LEX1600Nd",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "TITIPAN BEYMA",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 9,
+      "name": "SPEAKER DEXO SYD1850",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "KO FELIX",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 10,
+      "name": "SPEAKER DEXO SYQ12J03C",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "KO FELIX",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 11,
+      "name": "SPEAKER JBL DY01 18",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "YUGOFA",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 12,
+      "name": "SPEAKER RDW 18LS 4400NE",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "TITIPAN GUSTI FANAMI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 13,
+      "name": "SPEAKER RDW 18LS2000",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "PAK UNYIL",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 14,
+      "name": "SPEAKER SPK REAL 8 INCH",
+      "category": "BARANG TITIPAN",
+      "location": "KONTRAKAN 2",
+      "notes": "BARANG TITIPAN",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 15,
+      "name": "POWER MODUL COMUNNITY PC-1501A",
+      "category": "BARANG TITIPAN",
+      "location": "PABRIK",
+      "notes": "SAMPLE PAK UNTUNG",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 16,
+      "name": "BOX KOSONG SHERMAN PS-1501A",
+      "category": "BARANG TITIPAN",
+      "location": "PABRIK",
+      "notes": "SAMPLE PAK UNTUNG",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 17,
+      "name": "SPEAKER PD PDN-12MH25",
+      "category": "BARANG TITIPAN",
+      "location": "PABRIK",
+      "notes": "SAMPLE PAK UNTUNG",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BARANG TITIPAN",
+      "row": 18,
+      "name": "SPEAKER LINEAR NEO 2106",
+      "category": "BARANG TITIPAN",
+      "location": "WS",
+      "notes": "PEMA",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 3,
+      "name": "DRIVER APOLLO AD 445",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 4,
+      "name": "DRIVER ASHLEY JC150",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 5,
+      "name": "DRIVER ASHLEY",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 6,
+      "name": "CROSSOVER BENNIDA PA-2528",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 7,
+      "name": "DRIVER BETAVO TB-A750",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 8,
+      "name": "DRIVER BETAVO TB-A750",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 9,
+      "name": "DRIVER BETAVO ND-760",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 10,
+      "name": "DRIVER BETAVO TB-H3100",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 11,
+      "name": "SPEAKER BETAVO B12 V-1235",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 12,
+      "name": "DRIVER BEYMA SMC65",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 13,
+      "name": "DRIVER BEYMA CD10Fe/N",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 14,
+      "name": "DRIVER DEXO DE920TN",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 15,
+      "name": "DRIVER DEXO SY44-8B",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 16,
+      "name": "DRIVER DEXO SY44TN-1",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 17,
+      "name": "DRIVER DEXO DE920TN",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 18,
+      "name": "DRIVER FAITAL HF10AT",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 19,
+      "name": "DRIVER FAITAL HF140",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 20,
+      "name": "DRIVER FANE CD131",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 21,
+      "name": "DRIVER MOTOROLA MOTOROLA",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 22,
+      "name": "DRIVER OMR MP-7520",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 23,
+      "name": "DRIVER PHASELAB VHD800NEO",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 24,
+      "name": "CROSSOVER PROFESIONAL AUDIO PA-280 JBL",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 25,
+      "name": "CROSSOVER PROFESIONAL AUDIO R1215",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 26,
+      "name": "DRIVER RCF",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 27,
+      "name": "DRIVER RCX XS-44-D",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 28,
+      "name": "DRIVER RCX XS-44-D",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 29,
+      "name": "DRIVER RDW M120",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 30,
+      "name": "DRIVER RDW M110",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 31,
+      "name": "DRIVER RDW M120",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 32,
+      "name": "DRIVER STX DN6516",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 33,
+      "name": "DRIVER STX D444",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 34,
+      "name": "DRIVER STX D518",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 35,
+      "name": "DRIVER STX DN758",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 36,
+      "name": "DRIVER STX D441",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 37,
+      "name": "DRIVER STX D4516",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 38,
+      "name": "DRIVER STX D443",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 39,
+      "name": "DRIVER STX DN7516",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 40,
+      "name": "DRIVER STX DN758",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 41,
+      "name": "DRIVER STX D518",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 42,
+      "name": "DRIVER STX DN7508",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 43,
+      "name": "DRIVER STX DN788",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 44,
+      "name": "DRIVER STX DN7516",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 45,
+      "name": "DRIVER VXT TITAN 644 ND",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 46,
+      "name": "DRIVER VXT TITAN 851 ND",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 47,
+      "name": "DRIVER VXT BLUE TITAN 974",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 48,
+      "name": "DRIVER VXT TITAN 644 ND",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 49,
+      "name": "DRIVER VXT TITAN 851 ND",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "MATI",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 50,
+      "name": "DRIVER WISDOM DE 800 NEO",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 51,
+      "name": "DRIVER WISDOM DE800-8",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 52,
+      "name": "SPEAKER RX-4500",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 53,
+      "name": "SPEAKER 8NW51N8",
+      "category": "DRIVER",
+      "location": "PABRIK",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "DRIVER",
+      "row": 54,
+      "name": "TWITTER MOTOROLA",
+      "category": "DRIVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 3,
+      "name": "CROSSOVER STX AK 825",
+      "category": "CROSSOVER",
+      "location": "GDG ATAS",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 4,
+      "name": "CROSSOVER STX PA 280 JBL",
+      "category": "CROSSOVER",
+      "location": "GDG ATAS",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 5,
+      "name": "CROSSOVER STX AS 2215",
+      "category": "CROSSOVER",
+      "location": "GDG ATAS",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 6,
+      "name": "CROSSOVER STX PA 2528",
+      "category": "CROSSOVER",
+      "location": "GDG ATAS",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 7,
+      "name": "CROSSOVER STX T3",
+      "category": "CROSSOVER",
+      "location": "GDG ATAS",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 8,
+      "name": "CROSSOVER STX F-500",
+      "category": "CROSSOVER",
+      "location": "GDG ATAS",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 9,
+      "name": "LILITAN BESAR",
+      "category": "CROSSOVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 10,
+      "name": "LILITAN KECIL",
+      "category": "CROSSOVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 11,
+      "name": "CAPASITOR 18UF",
+      "category": "CROSSOVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 12,
+      "name": "CAPASITOR 4,7UF",
+      "category": "CROSSOVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 13,
+      "name": "CAPASITOR 2,2UF",
+      "category": "CROSSOVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 14,
+      "name": "CAPASITOR 3,3UF",
+      "category": "CROSSOVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 15,
+      "name": "CAPASITOR 10UF",
+      "category": "CROSSOVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 16,
+      "name": "CAPASITOR 15UF",
+      "category": "CROSSOVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 17,
+      "name": "CAPASITOR 8,2UF",
+      "category": "CROSSOVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 18,
+      "name": "CAPASITOR 15UF HITAM",
+      "category": "CROSSOVER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "POWER",
+      "row": 3,
+      "name": "POWER VALUE ACOUSTICS VA L4.25",
+      "category": "POWER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "POWER",
+      "row": 4,
+      "name": "POWER BETAVO Z PRO 4.30",
+      "category": "POWER",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 17,
+      "name": "CONNECTOR PASS",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 19,
+      "name": "JACK SPEAKON BIRU SOUNDMAX",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 20,
+      "name": "JACK SPEAKON PUTIH SOUNDMAX",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 27,
+      "name": "ETHERCON SEETRONIC",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 28,
+      "name": "AKAIMONO STX",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 29,
+      "name": "POWER CON BIRU",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 30,
+      "name": "POWER CON ABU",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 31,
+      "name": "SPEAKON STX NL8",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 32,
+      "name": "SPEAKON STX NL4 BULAT",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 33,
+      "name": "AKAISTEREO STX",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 34,
+      "name": "RCS SEETRONIC",
+      "category": "CONNECTOR",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 3,
+      "name": "PAKU TEMBAK LOTUS F20",
+      "category": "SPAREPART",
+      "location": "GUDANG",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 4,
+      "name": "PAKU TEMBAK LOTUS F25",
+      "category": "SPAREPART",
+      "location": "GUDANG",
+      "notes": "UGIH",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 5,
+      "name": "PAKU TEMBAK LOTUS F30",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 6,
+      "name": "STAPLES 13*8",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 7,
+      "name": "STAPLES 1008J",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 8,
+      "name": "KOKER LILITAN BESAR BESAR",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 9,
+      "name": "KOKER LILITAN KECIL KECIL",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 10,
+      "name": "PIPA ALUMINIUM M8",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 11,
+      "name": "PIPA ALUMINIUM M6",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "ATEP",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 12,
+      "name": "SIKU BOX PLASTIK",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 13,
+      "name": "PHASE PLUG MARTIN",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 14,
+      "name": "REMOT CNC",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 15,
+      "name": "HORN SEGITIGA KECIL",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 16,
+      "name": "STAND BOX",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 17,
+      "name": "STAND MIC",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 18,
+      "name": "SPONTAPE",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 19,
+      "name": "PLASTIK WRAPING KECIL",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 20,
+      "name": "PLASTIK WRAPING BESAR",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 21,
+      "name": "LAKBAN KERTAS",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 22,
+      "name": "LAKBAN BENING",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 23,
+      "name": "LAKBAN FRAGILLE",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 24,
+      "name": "LAKBAN DOUBLE TIP",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 25,
+      "name": "LEM SUPER X",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 26,
+      "name": "LEM PU",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 27,
+      "name": "LEM KOREA",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 28,
+      "name": "KAKI KARET LONJONG",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 29,
+      "name": "AMPLAS SUSUN",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 30,
+      "name": "AMPLAS BATU",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 31,
+      "name": "AMPLAS GRIT 100",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 32,
+      "name": "BUSA ROLL ROLL",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 33,
+      "name": "SARUNG TANGAN KAIN",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 34,
+      "name": "MASKER KAIN",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 35,
+      "name": "SILICON CAIR",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 36,
+      "name": "DAKRON BUSA",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 37,
+      "name": "KABEL TASKER C-267 (2X3MM)",
+      "category": "SPAREPART",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 7,
+      "name": "UCLAMP T24",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 20,
+      "name": "ELBOW BESI SIKU PIPA",
+      "category": "BRACKET",
+      "location": "",
+      "notes": "",
+      "status": "PENDING_NO_CODE"
+    }
+  ],
+  "possibleMatch": [],
+  "ambiguous": [],
+  "skipped": [
+    {
+      "sheet": "SPEAKER",
+      "row": 86,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 87,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 88,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 89,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 90,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 91,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 92,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 93,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 94,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 95,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 96,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 97,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 98,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 99,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 100,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 101,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 102,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 103,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 104,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 105,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 106,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 107,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 108,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 109,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 110,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 111,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 112,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 113,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 114,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 115,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 116,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 117,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 118,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 119,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 120,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 121,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 122,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 123,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 124,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 125,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 126,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 127,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 128,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 129,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 130,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 131,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 132,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 133,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 134,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 135,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 136,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 137,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 138,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 139,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 140,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 141,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 142,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 143,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 144,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 145,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 146,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 147,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 148,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 149,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 150,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 151,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 152,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 153,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 154,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 155,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 156,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 157,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 158,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 159,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 160,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 161,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 162,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 163,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 164,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 165,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 166,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 167,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 168,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 169,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 170,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 171,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 172,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 173,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 174,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 175,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 176,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 177,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 178,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 179,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 180,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 181,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 182,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 183,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 184,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 185,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 186,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 187,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 188,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 189,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 190,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 191,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 192,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 193,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 194,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 195,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 196,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 197,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 198,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 199,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 200,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 201,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 202,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 203,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 204,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPEAKER",
+      "row": 205,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 19,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 20,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 21,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 22,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 23,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 24,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 25,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 26,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 27,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 28,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 29,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 30,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 31,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 32,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 33,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 34,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 35,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 36,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 37,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 38,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 39,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 40,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 41,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 42,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 43,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 44,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 45,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 46,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 47,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 48,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 49,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 50,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CROSSOVER",
+      "row": 51,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 5,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 6,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 7,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 8,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 9,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 10,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 11,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 12,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 13,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 14,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 15,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 16,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 17,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 18,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 19,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 20,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 21,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 22,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 23,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 24,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 25,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 26,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 27,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 28,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 29,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 30,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 31,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 32,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 33,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 34,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 35,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 36,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 37,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 38,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 39,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 40,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 41,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 42,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 43,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 44,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 45,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 46,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 47,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 48,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 49,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 50,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 51,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 52,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 53,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 54,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 55,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 56,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 57,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 58,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 59,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 60,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 61,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 62,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 63,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 64,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 65,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 66,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 67,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 68,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 69,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 70,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 71,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 72,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 73,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 74,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 75,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 76,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 77,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 78,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 79,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 80,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 81,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 82,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 83,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 84,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 85,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 86,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 87,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 88,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 89,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 90,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 91,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 92,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 93,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 94,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 95,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 96,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 97,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 98,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 99,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 100,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 101,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 102,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 103,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 104,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 105,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 106,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 107,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 108,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 109,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 110,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 111,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 112,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 113,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 114,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 115,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 116,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 117,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 118,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 119,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 120,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 121,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 122,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 123,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 124,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 125,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 126,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 127,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 128,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 129,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 130,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 131,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 132,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 133,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 134,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 135,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 136,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 137,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 138,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 139,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 140,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 141,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 142,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 143,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 144,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 145,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 146,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 147,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 148,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 149,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 150,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 151,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 152,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 153,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 154,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 155,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 156,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 157,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 158,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 159,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 160,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 161,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 162,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 163,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 164,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 165,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 166,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 167,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 168,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 169,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 170,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 171,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 172,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 173,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 174,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 175,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 176,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 177,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 178,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 179,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 180,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 181,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 182,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 183,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 184,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 185,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 186,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 187,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 188,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 189,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 190,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 191,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 192,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 193,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 194,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 195,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 196,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 197,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 198,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 199,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 200,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 201,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 202,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 203,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 204,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "POWER",
+      "row": 205,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 16,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 17,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 18,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 19,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 20,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 21,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 22,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 23,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 24,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 25,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 26,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 27,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 28,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 29,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 30,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 31,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 32,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 33,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 34,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 35,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 36,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 37,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 38,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 39,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 40,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 41,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 42,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 43,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 44,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 45,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 46,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 47,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 48,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 49,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 50,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 51,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 52,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 53,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 54,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 55,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 56,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 57,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 58,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 59,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 60,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 61,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 62,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 63,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 64,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 65,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 66,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 67,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 68,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 69,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 70,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 71,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 72,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 73,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 74,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 75,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 76,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 77,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 78,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 79,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 80,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 81,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 82,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 83,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 84,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 85,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 86,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 87,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 88,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 89,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 90,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 91,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 92,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 93,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 94,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 95,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 96,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 97,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 98,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 99,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 100,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 101,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 102,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 103,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 104,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 105,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 106,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 107,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 108,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 109,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 110,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 111,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 112,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 113,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 114,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 115,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 116,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 117,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 118,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 119,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 120,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 121,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 122,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 123,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 124,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 125,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 126,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 127,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 128,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 129,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 130,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 131,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 132,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 133,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 134,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 135,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 136,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 137,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 138,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 139,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 140,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 141,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 142,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 143,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 144,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 145,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 146,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 147,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 148,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 149,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 150,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 151,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 152,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 153,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 154,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 155,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 156,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 157,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 158,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 159,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 160,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 161,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 162,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 163,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 164,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 165,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 166,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 167,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 168,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 169,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 170,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 171,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 172,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 173,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 174,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 175,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 176,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 177,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 178,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 179,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 180,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 181,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 182,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 183,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 184,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 185,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 186,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 187,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 188,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 189,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 190,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 191,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 192,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 193,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 194,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 195,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 196,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 197,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 198,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 199,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 200,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 201,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 202,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 203,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 204,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "PART HARDCASE",
+      "row": 205,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 35,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 36,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 37,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 38,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 39,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 40,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 41,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 42,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 43,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 44,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 45,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 46,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 47,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 48,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 49,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 50,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 51,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 52,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 53,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 54,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 55,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 56,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 57,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 58,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 59,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 60,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 61,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 62,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 63,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 64,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 65,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 66,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 67,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 68,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 69,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 70,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 71,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 72,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 73,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 74,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 75,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 76,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 77,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 78,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 79,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 80,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 81,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 82,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 83,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 84,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 85,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 86,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 87,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 88,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 89,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 90,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 91,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 92,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 93,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 94,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 95,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 96,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 97,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 98,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 99,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 100,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 101,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 102,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 103,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 104,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 105,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 106,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 107,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 108,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 109,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 110,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 111,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 112,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 113,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 114,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 115,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 116,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 117,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 118,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 119,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 120,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 121,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 122,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 123,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 124,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 125,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 126,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 127,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 128,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 129,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 130,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 131,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 132,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 133,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 134,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 135,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 136,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 137,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 138,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 139,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 140,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 141,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 142,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 143,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 144,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 145,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 146,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 147,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 148,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 149,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 150,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 151,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 152,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 153,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 154,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 155,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 156,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 157,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 158,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 159,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 160,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 161,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 162,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 163,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 164,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 165,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 166,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 167,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 168,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 169,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 170,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 171,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 172,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 173,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 174,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 175,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 176,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 177,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 178,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 179,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 180,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 181,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 182,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 183,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 184,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 185,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 186,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 187,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 188,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 189,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 190,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 191,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 192,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 193,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 194,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 195,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 196,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 197,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 198,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 199,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 200,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 201,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 202,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 203,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 204,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "CONNECTOR",
+      "row": 205,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 38,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 39,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 40,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 41,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 42,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 43,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 44,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 45,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 46,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 47,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 48,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 49,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 50,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 51,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 52,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 53,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 54,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 55,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 56,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 57,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 58,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 59,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 60,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 61,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 62,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 63,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 64,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 65,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 66,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 67,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 68,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 69,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 70,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 71,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 72,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 73,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 74,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 75,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 76,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 77,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 78,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 79,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 80,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 81,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 82,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 83,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 84,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 85,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 86,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 87,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 88,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 89,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 90,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 91,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 92,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 93,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 94,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 95,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 96,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 97,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 98,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 99,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 100,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 101,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 102,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 103,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 104,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 105,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 106,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 107,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 108,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 109,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 110,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 111,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 112,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 113,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 114,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 115,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 116,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 117,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 118,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 119,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 120,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 121,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 122,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 123,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 124,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 125,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 126,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 127,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 128,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 129,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 130,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 131,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 132,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 133,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 134,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 135,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 136,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 137,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 138,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 139,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 140,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 141,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 142,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 143,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 144,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 145,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 146,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 147,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 148,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 149,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 150,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 151,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 152,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 153,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 154,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 155,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 156,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 157,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 158,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 159,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 160,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 161,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 162,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 163,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 164,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 165,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 166,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 167,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 168,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 169,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 170,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 171,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 172,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 173,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 174,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 175,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 176,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 177,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 178,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 179,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 180,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 181,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 182,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 183,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 184,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 185,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 186,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 187,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 188,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 189,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 190,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 191,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 192,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 193,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 194,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 195,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 196,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 197,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 198,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 199,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 200,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 201,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 202,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 203,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 204,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "SPARE PART 2",
+      "row": 205,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 21,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 22,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 23,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 24,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 25,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 26,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 27,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 28,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 29,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 30,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 31,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 32,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 33,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 34,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 35,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 36,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 37,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 38,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 39,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 40,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 41,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 42,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 43,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 44,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 45,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 46,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 47,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 48,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 49,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 50,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 51,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 52,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 53,
+      "reason": "Baris kosong"
+    },
+    {
+      "sheet": "BRACKET",
+      "row": 54,
+      "reason": "Baris kosong"
+    }
+  ]
+}

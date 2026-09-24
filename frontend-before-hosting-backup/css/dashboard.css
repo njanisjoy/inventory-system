@@ -1,0 +1,68 @@
+/* dashboard.css — page-specific styles only. shared.css handles layout/sidebar/topbar/table. */
+
+.dashboard-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 28px;
+}
+
+/* ======================================================
+   STAT CARDS
+   ====================================================== */
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 22px 24px;
+}
+
+.stat-card h3 {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.stat-card p {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #222;
+}
+
+/* ======================================================
+   STOCK SECTION
+   ====================================================== */
+
+.stock-section {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ======================================================
+   RESPONSIVE
+   ====================================================== */
+
+@media (max-width: 800px) {
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .dashboard-content { padding: 18px; }
+}
+
+@media (max-width: 500px) {
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .dashboard-content { padding: 12px; }
+  .stat-card { padding: 16px 16px; }
+  .stat-card p { font-size: 26px; }
+}

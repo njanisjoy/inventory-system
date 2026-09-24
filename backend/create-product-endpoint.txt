@@ -1,0 +1,270 @@
+﻿/* ======================================================
+   CREATE PRODUCT
+   ADMIN UTAMA SAJA
+   ====================================================== */
+
+app.post(
+    "/api/products",
+    authenticateToken,
+    authorizeRoles("admin_utama"),
+    async (req, res) => {
+
+        const {
+            code,
+            name,
+            category_id,
+            unit_id,
+            default_location_id,
+            minimum_stock,
+            description
+        } = req.body;
+
+        // ==========================================
+        // 1. VALIDASI INPUT DASAR
+        // ==========================================
+
+        if (
+            !code ||
+            !name ||
+            !category_id ||
+            !unit_id
+        ) {
+            return res.status(400).json({
+                message:
+                    "code, name, category_id, dan unit_id wajib diisi"
+            });
+        }
+
+        const cleanCode =
+            String(code).trim();
+
+        const cleanName =
+            String(name).trim();
+
+        if (!cleanCode) {
+            return res.status(400).json({
+                message:
+                    "code tidak boleh kosong"
+            });
+        }
+
+        if (!cleanName) {
+            return res.status(400).json({
+                message:
+                    "name tidak boleh kosong"
+            });
+        }
+
+        const parsedMinimumStock =
+            Number(
+                minimum_stock ?? 0
+            );
+
+        if (
+            !Number.isFinite(
+                parsedMinimumStock
+            ) ||
+            parsedMinimumStock < 0
+        ) {
+            return res.status(400).json({
+                message:
+                    "minimum_stock harus berupa angka 0 atau lebih"
+            });
+        }
+
+
+        try {
+
+            // ==========================================
+            // 2. CEK DUPLICATE CODE
+            // ==========================================
+
+            const duplicateResult =
+                await pool.query(
+                    `
+                    SELECT id
+                    FROM products
+                    WHERE LOWER(code) = LOWER($1);
+                    `,
+                    [cleanCode]
+                );
+
+
+            if (
+                duplicateResult.rows.length > 0
+            ) {
+                return res.status(400).json({
+                    message:
+                        "Kode barang tersebut sudah digunakan"
+                });
+            }
+
+
+            // ==========================================
+            // 3. VALIDASI CATEGORY
+            // ==========================================
+
+            const categoryResult =
+                await pool.query(
+                    `
+                    SELECT
+                        id,
+                        name
+                    FROM categories
+                    WHERE id = $1;
+                    `,
+                    [category_id]
+                );
+
+
+            if (
+                categoryResult.rows.length === 0
+            ) {
+                return res.status(404).json({
+                    message:
+                        "Kategori tidak ditemukan"
+                });
+            }
+
+
+            // ==========================================
+            // 4. VALIDASI UNIT
+            // ==========================================
+
+            const unitResult =
+                await pool.query(
+                    `
+                    SELECT
+                        id,
+                        name,
+                        symbol
+                    FROM units
+                    WHERE id = $1;
+                    `,
+                    [unit_id]
+                );
+
+
+            if (
+                unitResult.rows.length === 0
+            ) {
+                return res.status(404).json({
+                    message:
+                        "Satuan tidak ditemukan"
+                });
+            }
+
+
+            // ==========================================
+            // 5. VALIDASI LOCATION JIKA DIISI
+            // ==========================================
+
+            if (
+                default_location_id
+            ) {
+
+                const locationResult =
+                    await pool.query(
+                        `
+                        SELECT
+                            id,
+                            name,
+                            type
+                        FROM locations
+                        WHERE id = $1;
+                        `,
+                        [
+                            default_location_id
+                        ]
+                    );
+
+
+                if (
+                    locationResult.rows.length === 0
+                ) {
+                    return res.status(404).json({
+                        message:
+                            "Lokasi tidak ditemukan"
+                    });
+                }
+
+            }
+
+
+            // ==========================================
+            // 6. INSERT PRODUCT
+            // ==========================================
+
+            const result =
+                await pool.query(
+                    `
+                    INSERT INTO products (
+                        code,
+                        name,
+                        category_id,
+                        unit_id,
+                        default_location_id,
+                        minimum_stock,
+                        description,
+                        created_at,
+                        updated_at
+                    )
+                    VALUES (
+                        $1,
+                        $2,
+                        $3,
+                        $4,
+                        $5,
+                        $6,
+                        $7,
+                        CURRENT_TIMESTAMP,
+                        CURRENT_TIMESTAMP
+                    )
+                    RETURNING *;
+                    `,
+                    [
+                        cleanCode,
+                        cleanName,
+                        category_id,
+                        unit_id,
+                        default_location_id || null,
+                        parsedMinimumStock,
+                        description?.trim() || null
+                    ]
+                );
+
+
+            // ==========================================
+            // 7. RESPONSE
+            // ==========================================
+
+            res.status(201).json({
+
+                message:
+                    "Produk berhasil ditambahkan",
+
+                product:
+                    result.rows[0]
+
+            });
+
+
+        } catch (error) {
+
+            console.error(error);
+
+            res.status(500).json({
+
+                message:
+                    "Gagal menambahkan produk",
+
+                error:
+                    error.message
+
+            });
+
+        }
+
+    }
+);
+

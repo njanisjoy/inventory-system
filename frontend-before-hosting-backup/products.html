@@ -1,0 +1,512 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Produk - Inventory System</title>
+
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/products.css">
+
+</head>
+
+
+<body>
+
+    <div class="app-layout">
+
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+
+                <img src="../thumbnail.png" alt="Logo" class="sidebar-logo">
+                <h2>Inventory</h2>
+
+                <p>Management System</p>
+
+            </div>
+
+
+            <nav class="sidebar-menu">
+
+                <a href="./dashboard.html" class="menu-item">
+                    Dashboard
+                </a>
+
+                <a href="./stock.html" class="menu-item">
+                    Stok
+                </a>
+
+                <a href="./stock-in.html" class="menu-item">
+                    Barang Masuk
+                </a>
+
+                <a href="./products.html" class="menu-item active">
+                    Produk
+                </a>
+
+                <a href="./kategori.html" class="menu-item">
+                    Kategori
+                </a>
+
+                <a href="./units.html" class="menu-item">
+                    Satuan
+                </a>
+
+                <a href="./lokasi.html" class="menu-item">
+                    Lokasi
+                </a>
+
+                <a href="./suppliers.html" class="menu-item">
+                    Supplier
+                </a>
+
+                <a href="./material-issue.html" class="menu-item">
+                    Material Issue
+                </a>
+
+                <a href="./outbound.html" class="menu-item">
+                    Outbound
+                </a>
+
+                <a href="./laporan.html" class="menu-item">
+                    Laporan
+                </a>
+
+            </nav>
+
+
+            <div class="sidebar-bottom">
+
+                <button id="logoutButton">
+                    Logout
+                </button>
+
+            </div>
+
+        </aside>
+
+
+
+        <!-- MAIN AREA -->
+
+        <div class="main-area">
+
+
+            <!-- TOPBAR -->
+
+            <header class="topbar">
+
+                <div class="topbar-left">
+                    <div>
+                        <h1>Produk</h1>
+                        <p>Kelola data barang dan batas minimum stok</p>
+                    </div>
+                </div>
+
+                <div class="user-info">
+                    <span id="userName">Loading...</span>
+                </div>
+
+            </header>
+
+
+
+            <!-- CONTENT -->
+
+            <main class="products-content">
+
+
+                <!-- TOOLBAR -->
+
+                <section class="products-toolbar">
+
+                    <div>
+
+                        <h2>
+                            Daftar Produk
+                        </h2>
+
+                        <p>
+                            Kelola informasi barang yang digunakan dalam sistem inventory
+                        </p>
+
+                    </div>
+
+
+                    <div class="products-actions">
+
+                        <input type="text" id="searchInput" placeholder="Cari kode atau nama barang...">
+
+                        <button type="button" id="addProductButton" class="add-button">
+                            + Tambah Produk
+                        </button>
+
+                    </div>
+
+                </section>
+
+
+
+                <!-- PRODUCT TABLE -->
+
+                <section class="products-section">
+
+                    <div class="table-container">
+
+                        <table>
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Kode</th>
+
+                                    <th>Nama Barang</th>
+
+                                    <th>Kategori</th>
+
+                                    <th>Satuan</th>
+
+                                    <th>Stok Minimum</th>
+
+                                    <th>Aksi</th>
+
+                                </tr>
+
+                            </thead>
+
+
+                            <tbody id="productsTableBody">
+
+                                <tr>
+
+                                    <td colspan="6">
+                                        Loading...
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ======================================================
+     ADD PRODUCT MODAL
+     ====================================================== -->
+
+    <div id="addModal" class="modal hidden">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <div>
+
+                    <h2>
+                        Tambah Produk
+                    </h2>
+
+                    <p>
+                        Tambahkan barang baru ke sistem inventory
+                    </p>
+
+                </div>
+
+                <button type="button" id="closeAddModalButton" class="close-button">
+                    ×
+                </button>
+
+            </div>
+
+
+            <form id="addProductForm">
+
+                <div class="form-group">
+
+                    <label for="addCode">
+                        Kode Barang
+                    </label>
+
+                    <input type="text" id="addCode" required placeholder="Contoh: MAT-001">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="addName">
+                        Nama Barang
+                    </label>
+
+                    <input type="text" id="addName" required placeholder="Nama barang">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="addCategory">
+                        Kategori
+                    </label>
+
+                    <select id="addCategory" required>
+
+                        <option value="">
+                            Pilih kategori
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="addUnit">
+                        Satuan
+                    </label>
+
+                    <select id="addUnit" required>
+
+                        <option value="">
+                            Pilih satuan
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="addLocation">
+                        Lokasi
+                    </label>
+
+                    <select id="addLocation">
+
+                        <option value="">
+                            Pilih lokasi (opsional)
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="addMinimumStock">
+                        Batas Minimum Stok
+                    </label>
+
+                    <input type="number" id="addMinimumStock" min="0" step="0.001" value="0" required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="addDescription">
+                        Deskripsi
+                    </label>
+
+                    <textarea id="addDescription" rows="4" placeholder="Deskripsi barang (opsional)"></textarea>
+
+                </div>
+
+
+                <p id="addFormMessage"></p>
+
+
+                <div class="form-actions">
+
+                    <button type="button" id="cancelAddButton">
+                        Batal
+                    </button>
+
+
+                    <button type="submit" id="addSaveButton">
+                        Simpan Produk
+                    </button>
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- EDIT PRODUCT MODAL -->
+
+    <div id="editModal" class="modal hidden">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <div>
+
+                    <h2>
+                        Edit Produk
+                    </h2>
+
+                    <p>
+                        Ubah informasi produk
+                    </p>
+
+                </div>
+
+
+                <button type="button" id="closeModalButton" class="close-button" aria-label="Tutup">
+                    &times;
+                </button>
+
+            </div>
+
+
+            <form id="editProductForm">
+
+
+                <input type="hidden" id="editProductId">
+
+
+                <div class="form-group">
+
+                    <label for="editCode">
+                        Kode Barang
+                    </label>
+                    
+                    <input type="text" id="editCode" required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="editName">
+                        Nama Barang
+                    </label>
+
+                    <input type="text" id="editName" required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="editCategory">
+                        Kategori
+                    </label>
+
+                    <select id="editCategory" required>
+
+                        <option value="">
+                            Pilih kategori
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="editUnit">
+                        Satuan
+                    </label>
+
+                    <select id="editUnit" required>
+
+                        <option value="">
+                            Pilih satuan
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="editMinimumStock">
+                        Batas Minimum Stok
+                    </label>
+
+                    <input type="number" id="editMinimumStock" min="0" step="0.001" required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="editDescription">
+                        Deskripsi
+                    </label>
+
+                    <textarea id="editDescription" rows="4"></textarea>
+
+                </div>
+
+
+                <p id="formMessage"></p>
+
+
+                <div class="form-actions">
+
+                    <button type="button" id="cancelButton">
+                        Batal
+                    </button>
+
+
+                    <button type="submit" id="saveButton">
+                        Simpan Perubahan
+                    </button>
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./js/config.js"></script>
+    <script src="./js/session.js"></script>
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/products.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+logs/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local database and backup files
+*.dump
+*.sql
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+coverage/
+
+# Editor files
+.vscode/*
+!.vscode/settings.json

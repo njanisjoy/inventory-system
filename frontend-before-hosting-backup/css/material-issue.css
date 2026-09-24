@@ -1,0 +1,106 @@
+/* material-issue.css — page-specific styles only. shared.css handles layout/sidebar/topbar/table/form/buttons/product-picker. */
+
+.material-issue-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ======================================================
+   SECTIONS
+   ====================================================== */
+
+.form-section,
+.items-section,
+.history-section {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: visible;
+}
+
+.section-header {
+  padding: 18px 22px;
+  border-bottom: 1px solid #eee;
+}
+
+.section-header h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.section-header p {
+  font-size: 12.5px;
+  color: #888;
+  margin-top: 3px;
+}
+
+/* ======================================================
+   FORM
+   ====================================================== */
+
+#materialIssueForm {
+  padding: 22px;
+}
+
+/* ======================================================
+   ITEM INPUT GRID
+   ====================================================== */
+
+.item-input-container {
+  padding: 22px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr auto;
+  gap: 14px;
+  align-items: end;
+}
+
+.item-input-container .form-group {
+  margin-bottom: 0;
+}
+
+.item-input-container .form-actions {
+  margin-bottom: 0;
+  justify-content: flex-start;
+}
+
+/* ======================================================
+   SUBMIT SECTION
+   ====================================================== */
+
+.submit-section {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.submit-section #formMessage {
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+  min-height: 18px;
+}
+
+/* ======================================================
+   RESPONSIVE
+   ====================================================== */
+
+@media (max-width: 900px) {
+  .item-input-container { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 600px) {
+  .material-issue-content { padding: 12px; gap: 12px; }
+  #materialIssueForm,
+  .item-input-container { padding: 14px; }
+  .item-input-container { grid-template-columns: 1fr; }
+  #addItemButton,
+  #submitButton { width: 100%; }
+}

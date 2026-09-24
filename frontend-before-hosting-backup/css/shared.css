@@ -1,0 +1,941 @@
+/* ======================================================
+   SHARED.CSS — Inventory System
+   Komponen bersama untuk semua halaman.
+   ====================================================== */
+
+
+/* ======================================================
+   RESET
+   ====================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6f8;
+  color: #222;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  /* Cegah horizontal scroll di level page */
+  overflow-x: hidden;
+}
+
+
+/* ======================================================
+   LAYOUT
+   ====================================================== */
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-area {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ======================================================
+   SIDEBAR
+   ====================================================== */
+
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+  background: #fff;
+  border-right: 1px solid #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+  z-index: 300;
+}
+
+.sidebar-header {
+  padding: 22px 18px;
+  border-bottom: 1px solid #eee;
+}
+
+.sidebar-logo {
+  display: block;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.sidebar-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.sidebar-header p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 3px;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 8px;
+  gap: 2px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.menu-item {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #555;
+  font-size: 13.5px;
+  transition: background 0.1s, color 0.1s;
+}
+
+.menu-item:hover {
+  background: #f4f4f4;
+  color: #222;
+}
+
+.menu-item.active {
+  background: #222;
+  color: #fff;
+  font-weight: 600;
+}
+
+.sidebar-bottom {
+  padding: 16px;
+  border-top: 1px solid #eee;
+}
+
+#logoutButton {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #f0f0f0;
+  color: #333;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+#logoutButton:hover {
+  background: #e4e4e4;
+}
+
+
+/* ======================================================
+   SIDEBAR OVERLAY BACKDROP
+   ====================================================== */
+
+.sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 299;
+}
+
+.sidebar-backdrop.active {
+  display: block;
+}
+
+
+/* ======================================================
+   TOPBAR
+   ====================================================== */
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 28px;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.topbar-left > div {
+  min-width: 0;
+}
+
+.topbar h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.topbar p {
+  font-size: 12.5px;
+  color: #888;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-info {
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Hamburger button — hidden on desktop */
+.hamburger-btn {
+  display: none;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 7px;
+  background: transparent;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: background 0.1s;
+}
+
+.hamburger-btn:hover {
+  background: #f0f0f0;
+}
+
+.hamburger-btn svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  stroke: #444;
+  stroke-width: 2;
+  stroke-linecap: round;
+  fill: none;
+}
+
+
+/* ======================================================
+   PAGE CONTENT WRAPPER
+   ====================================================== */
+
+.page-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* ======================================================
+   CARD / SECTION
+   ====================================================== */
+
+.card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.card-header h2 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.card-header p {
+  font-size: 12.5px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.section-header h2 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.section-header p {
+  font-size: 12.5px;
+  color: #888;
+  margin-top: 2px;
+}
+
+
+/* ======================================================
+   TABLE
+   ====================================================== */
+
+.table-container {
+  width: 100%;
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Hapus min-width global — tiap halaman atur sendiri jika perlu */
+}
+
+th, td {
+  padding: 11px 14px;
+  text-align: left;
+  font-size: 13px;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #fafafa;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #777;
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: #fcfcfc;
+}
+
+
+/* ======================================================
+   FORM
+   ====================================================== */
+
+.form-body {
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+.form-group label {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #555;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  background: #fff;
+  color: #222;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  /* Prevents iOS zoom on focus */
+  font-size: max(16px, 14px);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #888;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 88px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+#formMessage,
+#addFormMessage {
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+  min-height: 18px;
+}
+
+
+/* ======================================================
+   FORM ACTIONS
+   ====================================================== */
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+
+/* ======================================================
+   BUTTONS
+   ====================================================== */
+
+.btn,
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 7px;
+  background: #222;
+  color: #fff;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.btn:hover, .btn-primary:hover { opacity: 0.82; }
+.btn:disabled, .btn-primary:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 7px;
+  background: #f0f0f0;
+  color: #333;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.1s;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.btn-secondary:hover { background: #e4e4e4; }
+
+.btn-danger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 13px;
+  border: 1px solid #f5c6cb;
+  border-radius: 6px;
+  background: #fff5f5;
+  color: #c0392b;
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.1s;
+  touch-action: manipulation;
+}
+
+.btn-danger:hover { background: #fde8e8; }
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+/* Legacy button selectors */
+.add-button,
+#submitButton,
+#addItemButton,
+#addUnitButton,
+#addSupplierButton,
+#addProductButton,
+#saveButton,
+#addSaveButton,
+#saveSupplierButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 7px;
+  background: #222;
+  color: #fff;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.add-button:hover,
+#submitButton:hover,
+#addItemButton:hover,
+#addUnitButton:hover,
+#addSupplierButton:hover,
+#addProductButton:hover,
+#saveButton:hover,
+#addSaveButton:hover,
+#saveSupplierButton:hover { opacity: 0.82; }
+
+#submitButton:disabled,
+#addItemButton:disabled,
+#saveButton:disabled,
+#addSaveButton:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.edit-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  touch-action: manipulation;
+}
+.edit-button:hover { opacity: 0.82; }
+
+.remove-item-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background: #f0f0f0;
+  color: #333;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.1s;
+  touch-action: manipulation;
+}
+.remove-item-button:hover { background: #e2e2e2; }
+
+#cancelButton,
+#cancelAddButton,
+#cancelSupplierButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 7px;
+  background: #f0f0f0;
+  color: #333;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.1s;
+  touch-action: manipulation;
+}
+#cancelButton:hover,
+#cancelAddButton:hover,
+#cancelSupplierButton:hover { background: #e4e4e4; }
+
+
+/* ======================================================
+   MODAL
+   ====================================================== */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  overscroll-behavior: contain;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  width: 100%;
+  max-width: 560px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  -webkit-overflow-scrolling: touch;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 18px 20px;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.modal-header h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.modal-header p {
+  font-size: 12.5px;
+  color: #888;
+  margin-top: 3px;
+}
+
+.close-button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: #888;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.1s;
+  touch-action: manipulation;
+}
+
+.close-button:hover {
+  background: #f0f0f0;
+  color: #222;
+}
+
+.modal-content form,
+#editProductForm,
+#addProductForm,
+#unitForm {
+  padding: 20px;
+}
+
+
+/* ======================================================
+   PRODUCT PICKER / AUTOCOMPLETE
+   ====================================================== */
+
+.product-picker {
+  position: relative;
+}
+
+.product-results {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  max-height: 240px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  z-index: 200;
+  -webkit-overflow-scrolling: touch;
+}
+
+.product-results.hidden { display: none; }
+
+.product-result {
+  display: block;
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  background: #fff;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.1s;
+  touch-action: manipulation;
+}
+
+.product-result:last-child { border-bottom: none; }
+.product-result:hover, .product-result:active { background: #f5f5f5; }
+
+.product-result-main {
+  font-size: 13.5px;
+  color: #222;
+  font-weight: 600;
+}
+
+.product-result-meta {
+  font-size: 12px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.product-result-empty {
+  padding: 14px;
+  font-size: 13px;
+  color: #999;
+}
+
+.selected-product-info {
+  margin-top: 8px;
+  padding: 10px 13px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 7px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.selected-product-info.hidden { display: none; }
+
+.quantity-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-input input { flex: 1; }
+
+#itemUnit {
+  min-width: 40px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #555;
+}
+
+
+/* ======================================================
+   STATUS BADGES
+   ====================================================== */
+
+.stock-status {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 20px;
+  font-size: 11.5px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.stock-status.NORMAL       { background: #e8f5e9; color: #2e7d32; }
+.stock-status.LOW_STOCK    { background: #fff8e1; color: #e65100; }
+.stock-status.OUT_OF_STOCK { background: #ffebee; color: #c62828; }
+
+.status-badge {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 20px;
+  font-size: 11.5px;
+  font-weight: 700;
+  white-space: nowrap;
+  background: #f0f0f0;
+  color: #555;
+}
+
+.status-badge.status-draft     { background: #f0f0f0; color: #555; }
+.status-badge.status-shipped   { background: #e6f4ea; color: #1e7e34; }
+.status-badge.status-cancelled { background: #fde8e8; color: #c0392b; }
+
+
+/* ======================================================
+   UTILITY
+   ====================================================== */
+
+.hidden { display: none !important; }
+.text-muted { color: #999; font-size: 13px; }
+
+
+/* ======================================================
+   RESPONSIVE — TABLET  (≤ 900px)
+   ====================================================== */
+
+@media (max-width: 900px) {
+
+  .topbar { padding: 14px 20px; }
+
+  .page-content { padding: 18px 20px; }
+
+}
+
+
+/* ======================================================
+   RESPONSIVE — MOBILE  (≤ 700px)
+   Sidebar jadi overlay drawer dari kiri.
+   ====================================================== */
+
+@media (max-width: 700px) {
+
+  /* Sidebar jadi fixed drawer — tersembunyi di kiri */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    transform: translateX(-100%);
+    box-shadow: 4px 0 20px rgba(0,0,0,0.12);
+    min-height: unset;
+    overflow-y: auto;
+  }
+
+  .sidebar.open { transform: translateX(0); }
+
+  .app-layout { display: block; }
+  .main-area  { min-height: 100vh; }
+
+  /* Hamburger tampil */
+  .hamburger-btn { display: inline-flex; }
+
+  /* Topbar compact */
+  .topbar { padding: 12px 16px; }
+  .topbar h1 { font-size: 17px; }
+  .topbar p  { display: none; }
+  .user-info { font-size: 12px; }
+
+  /* Page content */
+  .page-content { padding: 12px; gap: 12px; }
+
+  /* Section header stack */
+  .section-header,
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 14px;
+    gap: 10px;
+  }
+
+  /* Tabel: th boleh wrap di mobile agar kolom lebih compact */
+  th {
+    white-space: normal;
+    font-size: 10px;
+    padding: 9px 10px;
+  }
+
+  td {
+    font-size: 12px;
+    padding: 9px 10px;
+  }
+
+  /* Buttons full-width di form-actions */
+  .form-actions {
+    flex-direction: column-reverse;
+  }
+
+  .form-actions > * {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Modal slide-up dari bawah */
+  .modal {
+    padding: 0;
+    align-items: flex-end;
+  }
+
+  .modal-content {
+    max-width: 100%;
+    max-height: 94vh;
+    border-radius: 16px 16px 0 0;
+  }
+
+  /* Input font-size 16px mencegah zoom iOS */
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 16px;
+  }
+
+}
+
+
+/* ======================================================
+   RESPONSIVE — SMALL MOBILE  (≤ 400px)
+   ====================================================== */
+
+@media (max-width: 400px) {
+
+  .topbar h1 { font-size: 15px; }
+
+  th { font-size: 9.5px; padding: 8px 8px; }
+  td { font-size: 11.5px; padding: 8px 8px; }
+
+  .page-content { padding: 10px; gap: 10px; }
+
+}

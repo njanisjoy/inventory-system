@@ -1,0 +1,2203 @@
+{
+  "generatedAt": "2026-08-25T03:47:08.398Z",
+  "totalRecords": 383,
+  "duplicateCodeGroups": [
+    {
+      "normalizedCode": "DONEWEB",
+      "items": [
+        {
+          "sheet": "SPEAKER",
+          "row": 5,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BETAVO B-12 V124",
+          "normalizedName": "SPEAKER BETAVO B 12 V124",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 8,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BETAVO B12-V124",
+          "normalizedName": "SPEAKER BETAVO B12 V124",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 9,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BETAVO B15-S415",
+          "normalizedName": "SPEAKER BETAVO B15 S415",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 10,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BETAVO B18-V611",
+          "normalizedName": "SPEAKER BETAVO B18 V611",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 12,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BETAVO B21-V5522",
+          "normalizedName": "SPEAKER BETAVO B21 V5522",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 13,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BETAVO B8-08N",
+          "normalizedName": "SPEAKER BETAVO B8 08N",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 14,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BETAVO L103",
+          "normalizedName": "SPEAKER BETAVO L103",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": "TITIPAN"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 15,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BETAVO S301",
+          "normalizedName": "SPEAKER BETAVO S301",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": "TITIPAN"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 17,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BEYMA 18G900",
+          "normalizedName": "SPEAKER BEYMA 18G900",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": "TITIPAN"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 18,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BEYMA 18 P1000 FeV2",
+          "normalizedName": "SPEAKER BEYMA 18 P1000 FEV2",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": "TITIPAN"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 19,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BNC 10NDL64-8",
+          "normalizedName": "SPEAKER BNC 10NDL64 8",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 20,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER BNC 8NDL684",
+          "normalizedName": "SPEAKER BNC 8NDL684",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 21,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER ACR DELUXE 15 700",
+          "normalizedName": "SPEAKER ACR DELUXE 15 700",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 22,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER DEXO SYD 18L 07A",
+          "normalizedName": "SPEAKER DEXO SYD 18L 07A",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 23,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER DEXO SYD 21L02",
+          "normalizedName": "SPEAKER DEXO SYD 21L02",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 24,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER DEXO SYD21L02",
+          "normalizedName": "SPEAKER DEXO SYD21L02",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 25,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER DEXO SYQ12G144",
+          "normalizedName": "SPEAKER DEXO SYQ12G144",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 26,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER DEXO SYQ12J103C",
+          "normalizedName": "SPEAKER DEXO SYQ12J103C",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 27,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER DEXO SYQ12YO5C",
+          "normalizedName": "SPEAKER DEXO SYQ12YO5C",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 28,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER DEXO SYT 5D01",
+          "normalizedName": "SPEAKER DEXO SYT 5D01",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 29,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER DEXO SYD18L07A",
+          "normalizedName": "SPEAKER DEXO SYD18L07A",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 30,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER DIABLO",
+          "normalizedName": "SPEAKER DIABLO",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 31,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER EMINENCE ALPHA-8MLA",
+          "normalizedName": "SPEAKER EMINENCE ALPHA 8MLA",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 32,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER EMINENCE LA6-CBMR",
+          "normalizedName": "SPEAKER EMINENCE LA6 CBMR",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 33,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER FAITAL 12FH500",
+          "normalizedName": "SPEAKER FAITAL 12FH500",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": "RESET DIAN"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 34,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER HUPER GENESIS 3.1 A",
+          "normalizedName": "SPEAKER HUPER GENESIS 3 1 A",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 35,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER HUPER GENESIS 3.1 B",
+          "normalizedName": "SPEAKER HUPER GENESIS 3 1 B",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 36,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER IDR 4INCH",
+          "normalizedName": "SPEAKER IDR 4INCH",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 37,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER LAVOCE 10INCH MAF103.00",
+          "normalizedName": "SPEAKER LAVOCE 10INCH MAF103 00",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 38,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER LAVOCE MAF103.00",
+          "normalizedName": "SPEAKER LAVOCE MAF103 00",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 39,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "RECONE KIT LAVOCE SAF184.04",
+          "normalizedName": "RECONE KIT LAVOCE SAF184 04",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 40,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER LAVOCE SAN215.30",
+          "normalizedName": "SPEAKER LAVOCE SAN215 30",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 41,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER LAVOCE WAF123.00",
+          "normalizedName": "SPEAKER LAVOCE WAF123 00",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 42,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "RECONE KIT LAVOCE WFX15.800",
+          "normalizedName": "RECONE KIT LAVOCE WFX15 800",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 43,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER LAVOCE WXF 15.800",
+          "normalizedName": "SPEAKER LAVOCE WXF 15 800",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 44,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER MK SKN 10",
+          "normalizedName": "SPEAKER MK SKN 10",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 45,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER MK SKN 12",
+          "normalizedName": "SPEAKER MK SKN 12",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 46,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER MONITOR AUDIO 4INCH 4P258B",
+          "normalizedName": "SPEAKER MONITOR AUDIO 4INCH 4P258B",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 47,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER OMR MP250-40A 16OHM",
+          "normalizedName": "SPEAKER OMR MP250 40A 16OHM",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 49,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER OMR MP460-32",
+          "normalizedName": "SPEAKER OMR MP460 32",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 50,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF L15P400 8 OHM",
+          "normalizedName": "SPEAKER RCF L15P400 8 OHM",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 51,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF L15P400 8 OHM",
+          "normalizedName": "SPEAKER RCF L15P400 8 OHM",
+          "category": "SPEAKER",
+          "location": "PABRIK UTAMA",
+          "notes": "U/ PROTOTYPE"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 52,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF 8NMB420",
+          "normalizedName": "SPEAKER RCF 8NMB420",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 53,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF L10-750 YK",
+          "normalizedName": "SPEAKER RCF L10 750 YK",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": "MMC LA GRL"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 54,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF L10-750 YK",
+          "normalizedName": "SPEAKER RCF L10 750 YK",
+          "category": "SPEAKER",
+          "location": "PABRIK UTAMA",
+          "notes": "MMC LA GRL"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 55,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF LF 18X401",
+          "normalizedName": "SPEAKER RCF LF 18X401",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 56,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF LF 18X401",
+          "normalizedName": "SPEAKER RCF LF 18X401",
+          "category": "SPEAKER",
+          "location": "PABRIK UTAMA",
+          "notes": "U/ PROTOTYPE"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 57,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "DRIVER RCF N850",
+          "normalizedName": "DRIVER RCF N850",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 58,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "DRIVER RCF ND 350",
+          "normalizedName": "DRIVER RCF ND 350",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 59,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "DRIVER RCF ND 350",
+          "normalizedName": "DRIVER RCF ND 350",
+          "category": "SPEAKER",
+          "location": "PABRIK UTAMA",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 60,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RDW 12LS900NF",
+          "normalizedName": "SPEAKER RDW 12LS900NF",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 61,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RDW 18LS 4400NE",
+          "normalizedName": "SPEAKER RDW 18LS 4400NE",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 62,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RDW 18LS2000",
+          "normalizedName": "SPEAKER RDW 18LS2000",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 63,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RDW 18LS88 PRO",
+          "normalizedName": "SPEAKER RDW 18LS88 PRO",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 64,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RDW 21LS2000",
+          "normalizedName": "SPEAKER RDW 21LS2000",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 66,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RDW 18 LS1000",
+          "normalizedName": "SPEAKER RDW 18 LS1000",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 67,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER SRX N828",
+          "normalizedName": "SPEAKER SRX N828",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 68,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER STX 12 INCH",
+          "normalizedName": "SPEAKER STX 12 INCH",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 69,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER STX 15CX75/8OHM",
+          "normalizedName": "SPEAKER STX 15CX75 8OHM",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 70,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER STX H1028",
+          "normalizedName": "SPEAKER STX H1028",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 71,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER STX M1228",
+          "normalizedName": "SPEAKER STX M1228",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 72,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER STX M8-250-40A 80OHM",
+          "normalizedName": "SPEAKER STX M8 250 40A 80OHM",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 73,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER STX MB10258",
+          "normalizedName": "SPEAKER STX MB10258",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 74,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER STX N8216",
+          "normalizedName": "SPEAKER STX N8216",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 75,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER STX M1538",
+          "normalizedName": "SPEAKER STX M1538",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 76,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "DRIVER SV SOUND VOICE DS-25",
+          "normalizedName": "DRIVER SV SOUND VOICE DS 25",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 77,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER VTX 12-700",
+          "normalizedName": "SPEAKER VTX 12 700",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 78,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER VXR ZEUS 12-700",
+          "normalizedName": "SPEAKER VXR ZEUS 12 700",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 79,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER VXT MILAN 18",
+          "normalizedName": "SPEAKER VXT MILAN 18",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": "1 RUSAK"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 80,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER VXT SPARTA 18-800X",
+          "normalizedName": "SPEAKER VXT SPARTA 18 800X",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 81,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER WISDOM W15-72",
+          "normalizedName": "SPEAKER WISDOM W15 72",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 3,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HD 210",
+          "normalizedName": "HANDEL HD 210",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": "KELUAR 16"
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 4,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HBBL",
+          "normalizedName": "HANDEL HBBL",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 5,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL JH7109",
+          "normalizedName": "HANDEL JH7109",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 6,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL JH7109 MANGKOK",
+          "normalizedName": "HANDEL JH7109 MANGKOK",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 7,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL 133 MANGKOK",
+          "normalizedName": "HANDEL 133 MANGKOK",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 8,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HD133",
+          "normalizedName": "HANDEL HD133",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 9,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HDT24",
+          "normalizedName": "HANDEL HDT24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 10,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HD126",
+          "normalizedName": "HANDEL HD126",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 11,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HD126 MANGKOK",
+          "normalizedName": "HANDEL HD126 MANGKOK",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 12,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL RD1231",
+          "normalizedName": "HANDEL RD1231",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 13,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL DNB KECIL",
+          "normalizedName": "HANDEL DNB KECIL",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 14,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HBBR",
+          "normalizedName": "HANDEL HBBR",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 15,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL JBL HD103 HD103",
+          "normalizedName": "HANDEL JBL HD103 HD103",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 17,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL CLA",
+          "normalizedName": "HANDEL CLA",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 18,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL MANGKOK PLASTIK",
+          "normalizedName": "HANDEL HANDEL MANGKOK PLASTIK",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 19,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL MANGKOK BESI",
+          "normalizedName": "HANDEL HANDEL MANGKOK BESI",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 20,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL MANGKOK BESI",
+          "normalizedName": "HANDEL HANDEL MANGKOK BESI",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": "TIDAK LAYAK"
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 21,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL 133",
+          "normalizedName": "HANDEL HANDEL 133",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 22,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART PHASE PLUG VERA 10",
+          "normalizedName": "SPAREPART PHASE PLUG VERA 10",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 23,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN NEXO KECIL 18X18",
+          "normalizedName": "HORN HORN NEXO KECIL 18X18",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 29,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART PANEL DEKOK KOTAK",
+          "normalizedName": "SPAREPART PANEL DEKOK KOTAK",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 30,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART GRILL T24",
+          "normalizedName": "SPAREPART GRILL T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 35,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN RCF 18X18 ALUMUNIUM",
+          "normalizedName": "HORN HORN RCF 18X18 ALUMUNIUM",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 36,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN RCF 18X18 POLYCARBONATE",
+          "normalizedName": "HORN HORN RCF 18X18 POLYCARBONATE",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 37,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL T24",
+          "normalizedName": "HANDEL HANDEL T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 38,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART RUDAL T24",
+          "normalizedName": "SPAREPART RUDAL T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 39,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART GRILL T24",
+          "normalizedName": "SPAREPART GRILL T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 40,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART GRILL 12NL",
+          "normalizedName": "SPAREPART GRILL 12NL",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 41,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN LUAR T24",
+          "normalizedName": "HORN HORN LUAR T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 42,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN LA 10",
+          "normalizedName": "HORN HORN LA 10",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 43,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN RCF 33A",
+          "normalizedName": "HORN HORN RCF 33A",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 44,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART PHASE PLUG MARTIN",
+          "normalizedName": "SPAREPART PHASE PLUG MARTIN",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 49,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART PHASE PLUG NEXO",
+          "normalizedName": "SPAREPART PHASE PLUG NEXO",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 50,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN NL DOUBLE",
+          "normalizedName": "HORN HORN NL DOUBLE",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 51,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN NL SINGLE",
+          "normalizedName": "HORN HORN NL SINGLE",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 52,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HBBR",
+          "normalizedName": "HANDEL HBBR",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 53,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HD210",
+          "normalizedName": "HANDEL HD210",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 54,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL G109",
+          "normalizedName": "HANDEL HANDEL G109",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 55,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART DUDUKAN RODA HARDCASE KECIL",
+          "normalizedName": "SPAREPART DUDUKAN RODA HARDCASE KECIL",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 56,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART DUDUKAN RODA HARDCASE BESAR",
+          "normalizedName": "SPAREPART DUDUKAN RODA HARDCASE BESAR",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 57,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL JH109",
+          "normalizedName": "HANDEL HANDEL JH109",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 58,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART DUDUKAN HORN T24",
+          "normalizedName": "SPAREPART DUDUKAN HORN T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 59,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL BESAR",
+          "normalizedName": "HANDEL HANDEL BESAR",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 60,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN T24",
+          "normalizedName": "HORN HORN T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": "SET"
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 61,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART GRILL VERA 10",
+          "normalizedName": "SPAREPART GRILL VERA 10",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 62,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART KABEL DEMO",
+          "normalizedName": "SPAREPART KABEL DEMO",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": "GULUNG"
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 63,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN LA12",
+          "normalizedName": "HORN HORN LA12",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 65,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART SPAREPART VERA",
+          "normalizedName": "SPAREPART SPAREPART VERA",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": "SET"
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 69,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN Q ONE A",
+          "normalizedName": "HORN HORN Q ONE A",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 70,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HORN HORN Q ONE B",
+          "normalizedName": "HORN HORN Q ONE B",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedCode": "SL4FXN",
+      "items": [
+        {
+          "sheet": "CONNECTOR",
+          "row": 4,
+          "code": "SL4 FXN",
+          "normalizedCode": "SL4FXN",
+          "name": "JACK SEETRONIC FEMALE",
+          "normalizedName": "JACK SEETRONIC FEMALE",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "CONNECTOR",
+          "row": 7,
+          "code": "SL4 FXN",
+          "normalizedCode": "SL4FXN",
+          "name": "JACK",
+          "normalizedName": "JACK",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedCode": "MC3MXX",
+      "items": [
+        {
+          "sheet": "CONNECTOR",
+          "row": 12,
+          "code": "MC3MXX",
+          "normalizedCode": "MC3MXX",
+          "name": "JACK SEETRONIC MALE",
+          "normalizedName": "JACK SEETRONIC MALE",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "CONNECTOR",
+          "row": 24,
+          "code": "MC3MXX",
+          "normalizedCode": "MC3MXX",
+          "name": "JACK NEUTRIK MALE",
+          "normalizedName": "JACK NEUTRIK MALE",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedCode": "JCNK",
+      "items": [
+        {
+          "sheet": "CONNECTOR",
+          "row": 13,
+          "code": "JCNK",
+          "normalizedCode": "JCNK",
+          "name": "JACK CANON KUNING STX FEMALE",
+          "normalizedName": "JACK CANON KUNING STX FEMALE",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "CONNECTOR",
+          "row": 14,
+          "code": "JCNK",
+          "normalizedCode": "JCNK",
+          "name": "JACK CANON KUNING STX MALE",
+          "normalizedName": "JACK CANON KUNING STX MALE",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedCode": "JCNH",
+      "items": [
+        {
+          "sheet": "CONNECTOR",
+          "row": 15,
+          "code": "JCNH",
+          "normalizedCode": "JCNH",
+          "name": "JACK CANON HITAM STX FEMALE",
+          "normalizedName": "JACK CANON HITAM STX FEMALE",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "CONNECTOR",
+          "row": 16,
+          "code": "JCNH",
+          "normalizedCode": "JCNH",
+          "name": "JACK CANON HITAM STX MALE",
+          "normalizedName": "JACK CANON HITAM STX MALE",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedCode": "RP1035",
+      "items": [
+        {
+          "sheet": "BRACKET",
+          "row": 9,
+          "code": "RP1035",
+          "normalizedCode": "RP1035",
+          "name": "PINLOCK HITAM",
+          "normalizedName": "PINLOCK HITAM",
+          "category": "BRACKET",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "BRACKET",
+          "row": 10,
+          "code": "RP1035",
+          "normalizedCode": "RP1035",
+          "name": "PINLOCK PUTIH",
+          "normalizedName": "PINLOCK PUTIH",
+          "category": "BRACKET",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedCode": "RP827",
+      "items": [
+        {
+          "sheet": "BRACKET",
+          "row": 11,
+          "code": "RP827",
+          "normalizedCode": "RP827",
+          "name": "PINLOCK HITAM",
+          "normalizedName": "PINLOCK HITAM",
+          "category": "BRACKET",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "BRACKET",
+          "row": 12,
+          "code": "RP827",
+          "normalizedCode": "RP827",
+          "name": "PINLOCK PUTIH",
+          "normalizedName": "PINLOCK PUTIH",
+          "category": "BRACKET",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "duplicateNameGroups": [
+    {
+      "normalizedName": "SPEAKER RCF L15P400 8 OHM",
+      "items": [
+        {
+          "sheet": "SPEAKER",
+          "row": 50,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF L15P400 8 OHM",
+          "normalizedName": "SPEAKER RCF L15P400 8 OHM",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 51,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF L15P400 8 OHM",
+          "normalizedName": "SPEAKER RCF L15P400 8 OHM",
+          "category": "SPEAKER",
+          "location": "PABRIK UTAMA",
+          "notes": "U/ PROTOTYPE"
+        }
+      ]
+    },
+    {
+      "normalizedName": "SPEAKER RCF L10 750 YK",
+      "items": [
+        {
+          "sheet": "SPEAKER",
+          "row": 53,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF L10-750 YK",
+          "normalizedName": "SPEAKER RCF L10 750 YK",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": "MMC LA GRL"
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 54,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF L10-750 YK",
+          "normalizedName": "SPEAKER RCF L10 750 YK",
+          "category": "SPEAKER",
+          "location": "PABRIK UTAMA",
+          "notes": "MMC LA GRL"
+        }
+      ]
+    },
+    {
+      "normalizedName": "SPEAKER RCF LF 18X401",
+      "items": [
+        {
+          "sheet": "SPEAKER",
+          "row": 55,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF LF 18X401",
+          "normalizedName": "SPEAKER RCF LF 18X401",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 56,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RCF LF 18X401",
+          "normalizedName": "SPEAKER RCF LF 18X401",
+          "category": "SPEAKER",
+          "location": "PABRIK UTAMA",
+          "notes": "U/ PROTOTYPE"
+        }
+      ]
+    },
+    {
+      "normalizedName": "DRIVER RCF ND 350",
+      "items": [
+        {
+          "sheet": "SPEAKER",
+          "row": 58,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "DRIVER RCF ND 350",
+          "normalizedName": "DRIVER RCF ND 350",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "SPEAKER",
+          "row": 59,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "DRIVER RCF ND 350",
+          "normalizedName": "DRIVER RCF ND 350",
+          "category": "SPEAKER",
+          "location": "PABRIK UTAMA",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "SPEAKER RDW 18LS 4400NE",
+      "items": [
+        {
+          "sheet": "SPEAKER",
+          "row": 61,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RDW 18LS 4400NE",
+          "normalizedName": "SPEAKER RDW 18LS 4400NE",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "BARANG TITIPAN",
+          "row": 12,
+          "code": "",
+          "normalizedCode": "",
+          "name": "SPEAKER RDW 18LS 4400NE",
+          "normalizedName": "SPEAKER RDW 18LS 4400NE",
+          "category": "BARANG TITIPAN",
+          "location": "KONTRAKAN 2",
+          "notes": "TITIPAN GUSTI FANAMI"
+        }
+      ]
+    },
+    {
+      "normalizedName": "SPEAKER RDW 18LS2000",
+      "items": [
+        {
+          "sheet": "SPEAKER",
+          "row": 62,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPEAKER RDW 18LS2000",
+          "normalizedName": "SPEAKER RDW 18LS2000",
+          "category": "SPEAKER",
+          "location": "KONTRAKAN 2",
+          "notes": ""
+        },
+        {
+          "sheet": "BARANG TITIPAN",
+          "row": 13,
+          "code": "",
+          "normalizedCode": "",
+          "name": "SPEAKER RDW 18LS2000",
+          "normalizedName": "SPEAKER RDW 18LS2000",
+          "category": "BARANG TITIPAN",
+          "location": "KONTRAKAN 2",
+          "notes": "PAK UNYIL"
+        }
+      ]
+    },
+    {
+      "normalizedName": "HANDEL HBBR",
+      "items": [
+        {
+          "sheet": "SPAREPART",
+          "row": 14,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HBBR",
+          "normalizedName": "HANDEL HBBR",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 52,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HBBR",
+          "normalizedName": "HANDEL HBBR",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "HANDEL HANDEL MANGKOK BESI",
+      "items": [
+        {
+          "sheet": "SPAREPART",
+          "row": 19,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL MANGKOK BESI",
+          "normalizedName": "HANDEL HANDEL MANGKOK BESI",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 20,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL MANGKOK BESI",
+          "normalizedName": "HANDEL HANDEL MANGKOK BESI",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": "TIDAK LAYAK"
+        }
+      ]
+    },
+    {
+      "normalizedName": "SPAREPART GRILL T24",
+      "items": [
+        {
+          "sheet": "SPAREPART",
+          "row": 30,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART GRILL T24",
+          "normalizedName": "SPAREPART GRILL T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 39,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART GRILL T24",
+          "normalizedName": "SPAREPART GRILL T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 111,
+          "code": "",
+          "normalizedCode": "",
+          "name": "SPAREPART GRILL T24",
+          "normalizedName": "SPAREPART GRILL T24",
+          "category": "SPAREPART",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "HANDEL HANDEL T24",
+      "items": [
+        {
+          "sheet": "SPAREPART",
+          "row": 37,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "HANDEL HANDEL T24",
+          "normalizedName": "HANDEL HANDEL T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 101,
+          "code": "",
+          "normalizedCode": "",
+          "name": "HANDEL HANDEL T24",
+          "normalizedName": "HANDEL HANDEL T24",
+          "category": "SPAREPART",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "SPAREPART RUDAL T24",
+      "items": [
+        {
+          "sheet": "SPAREPART",
+          "row": 38,
+          "code": "DONE WEB",
+          "normalizedCode": "DONEWEB",
+          "name": "SPAREPART RUDAL T24",
+          "normalizedName": "SPAREPART RUDAL T24",
+          "category": "SPAREPART",
+          "location": "KONTRAKAN 3",
+          "notes": ""
+        },
+        {
+          "sheet": "SPAREPART",
+          "row": 100,
+          "code": "",
+          "normalizedCode": "",
+          "name": "SPAREPART RUDAL T24",
+          "normalizedName": "SPAREPART RUDAL T24",
+          "category": "SPAREPART",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "SPEAKER 8 INCH",
+      "items": [
+        {
+          "sheet": "BARANG TITIPAN",
+          "row": 3,
+          "code": "",
+          "normalizedCode": "",
+          "name": "SPEAKER 8 INCH",
+          "normalizedName": "SPEAKER 8 INCH",
+          "category": "BARANG TITIPAN",
+          "location": "KONTRAKAN 2",
+          "notes": "ADI CIKAWAO"
+        },
+        {
+          "sheet": "BARANG TITIPAN",
+          "row": 4,
+          "code": "",
+          "normalizedCode": "",
+          "name": "SPEAKER 8 INCH",
+          "normalizedName": "SPEAKER 8 INCH",
+          "category": "BARANG TITIPAN",
+          "location": "KONTRAKAN 2",
+          "notes": "HARUS ACEH"
+        }
+      ]
+    },
+    {
+      "normalizedName": "DRIVER BETAVO TB A750",
+      "items": [
+        {
+          "sheet": "DRIVER",
+          "row": 7,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER BETAVO TB-A750",
+          "normalizedName": "DRIVER BETAVO TB A750",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": "MATI"
+        },
+        {
+          "sheet": "DRIVER",
+          "row": 8,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER BETAVO TB-A750",
+          "normalizedName": "DRIVER BETAVO TB A750",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "DRIVER DEXO DE920TN",
+      "items": [
+        {
+          "sheet": "DRIVER",
+          "row": 14,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER DEXO DE920TN",
+          "normalizedName": "DRIVER DEXO DE920TN",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        },
+        {
+          "sheet": "DRIVER",
+          "row": 17,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER DEXO DE920TN",
+          "normalizedName": "DRIVER DEXO DE920TN",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": "MATI"
+        }
+      ]
+    },
+    {
+      "normalizedName": "DRIVER RCX XS 44 D",
+      "items": [
+        {
+          "sheet": "DRIVER",
+          "row": 27,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER RCX XS-44-D",
+          "normalizedName": "DRIVER RCX XS 44 D",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        },
+        {
+          "sheet": "DRIVER",
+          "row": 28,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER RCX XS-44-D",
+          "normalizedName": "DRIVER RCX XS 44 D",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": "MATI"
+        }
+      ]
+    },
+    {
+      "normalizedName": "DRIVER RDW M120",
+      "items": [
+        {
+          "sheet": "DRIVER",
+          "row": 29,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER RDW M120",
+          "normalizedName": "DRIVER RDW M120",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        },
+        {
+          "sheet": "DRIVER",
+          "row": 31,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER RDW M120",
+          "normalizedName": "DRIVER RDW M120",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "DRIVER STX D518",
+      "items": [
+        {
+          "sheet": "DRIVER",
+          "row": 34,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER STX D518",
+          "normalizedName": "DRIVER STX D518",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        },
+        {
+          "sheet": "DRIVER",
+          "row": 41,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER STX D518",
+          "normalizedName": "DRIVER STX D518",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": "MATI"
+        }
+      ]
+    },
+    {
+      "normalizedName": "DRIVER STX DN758",
+      "items": [
+        {
+          "sheet": "DRIVER",
+          "row": 35,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER STX DN758",
+          "normalizedName": "DRIVER STX DN758",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        },
+        {
+          "sheet": "DRIVER",
+          "row": 40,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER STX DN758",
+          "normalizedName": "DRIVER STX DN758",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "DRIVER STX DN7516",
+      "items": [
+        {
+          "sheet": "DRIVER",
+          "row": 39,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER STX DN7516",
+          "normalizedName": "DRIVER STX DN7516",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        },
+        {
+          "sheet": "DRIVER",
+          "row": 44,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER STX DN7516",
+          "normalizedName": "DRIVER STX DN7516",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": "MATI"
+        }
+      ]
+    },
+    {
+      "normalizedName": "DRIVER VXT TITAN 644 ND",
+      "items": [
+        {
+          "sheet": "DRIVER",
+          "row": 45,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER VXT TITAN 644 ND",
+          "normalizedName": "DRIVER VXT TITAN 644 ND",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        },
+        {
+          "sheet": "DRIVER",
+          "row": 48,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER VXT TITAN 644 ND",
+          "normalizedName": "DRIVER VXT TITAN 644 ND",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "DRIVER VXT TITAN 851 ND",
+      "items": [
+        {
+          "sheet": "DRIVER",
+          "row": 46,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER VXT TITAN 851 ND",
+          "normalizedName": "DRIVER VXT TITAN 851 ND",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": ""
+        },
+        {
+          "sheet": "DRIVER",
+          "row": 49,
+          "code": "",
+          "normalizedCode": "",
+          "name": "DRIVER VXT TITAN 851 ND",
+          "normalizedName": "DRIVER VXT TITAN 851 ND",
+          "category": "DRIVER",
+          "location": "PABRIK",
+          "notes": "MATI"
+        }
+      ]
+    },
+    {
+      "normalizedName": "MULTIPIN 8 PIN",
+      "items": [
+        {
+          "sheet": "CONNECTOR",
+          "row": 5,
+          "code": "ZHOCNDF30 8E",
+          "normalizedCode": "ZHOCNDF308E",
+          "name": "MULTIPIN 8 PIN",
+          "normalizedName": "MULTIPIN 8 PIN",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "CONNECTOR",
+          "row": 6,
+          "code": "ZHOCNDF30 8A",
+          "normalizedCode": "ZHOCNDF308A",
+          "name": "MULTIPIN 8 PIN",
+          "normalizedName": "MULTIPIN 8 PIN",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "JACK RCX",
+      "items": [
+        {
+          "sheet": "CONNECTOR",
+          "row": 21,
+          "code": "RCX RS727",
+          "normalizedCode": "RCXRS727",
+          "name": "JACK RCX",
+          "normalizedName": "JACK RCX",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "CONNECTOR",
+          "row": 22,
+          "code": "RCX RS777BG",
+          "normalizedCode": "RCXRS777BG",
+          "name": "JACK RCX",
+          "normalizedName": "JACK RCX",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "CONNECTOR",
+          "row": 23,
+          "code": "RCX 726",
+          "normalizedCode": "RCX726",
+          "name": "JACK RCX",
+          "normalizedName": "JACK RCX",
+          "category": "CONNECTOR",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "PINLOCK HITAM",
+      "items": [
+        {
+          "sheet": "BRACKET",
+          "row": 9,
+          "code": "RP1035",
+          "normalizedCode": "RP1035",
+          "name": "PINLOCK HITAM",
+          "normalizedName": "PINLOCK HITAM",
+          "category": "BRACKET",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "BRACKET",
+          "row": 11,
+          "code": "RP827",
+          "normalizedCode": "RP827",
+          "name": "PINLOCK HITAM",
+          "normalizedName": "PINLOCK HITAM",
+          "category": "BRACKET",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "normalizedName": "PINLOCK PUTIH",
+      "items": [
+        {
+          "sheet": "BRACKET",
+          "row": 10,
+          "code": "RP1035",
+          "normalizedCode": "RP1035",
+          "name": "PINLOCK PUTIH",
+          "normalizedName": "PINLOCK PUTIH",
+          "category": "BRACKET",
+          "location": "",
+          "notes": ""
+        },
+        {
+          "sheet": "BRACKET",
+          "row": 12,
+          "code": "RP827",
+          "normalizedCode": "RP827",
+          "name": "PINLOCK PUTIH",
+          "normalizedName": "PINLOCK PUTIH",
+          "category": "BRACKET",
+          "location": "",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}

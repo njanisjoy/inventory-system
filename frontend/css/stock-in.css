@@ -1,0 +1,44 @@
+/* stock-in.css — page-specific styles only. shared.css handles layout/sidebar/topbar/table/form/buttons/section-header. */
+
+.stock-in-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ======================================================
+   SECTIONS
+   ====================================================== */
+
+.form-section,
+.history-section {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ======================================================
+   FORM LAYOUT
+   ====================================================== */
+
+#stockInForm {
+  padding: 22px;
+}
+
+#formMessage {
+  margin-top: 14px;
+}
+
+/* ======================================================
+   RESPONSIVE
+   ====================================================== */
+
+@media (max-width: 600px) {
+  .stock-in-content { padding: 12px; }
+  #stockInForm { padding: 14px; }
+  #submitButton { width: 100%; }
+}

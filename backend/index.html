@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Inventory System</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <main class="login-page">
+
+    <section class="login-card">
+
+      <div class="login-header">
+        <h1>Inventory System</h1>
+        <p>Silakan masuk untuk melanjutkan</p>
+      </div>
+
+      <form id="loginForm">
+
+        <div class="form-group">
+          <label for="username">Username</label>
+
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Masukkan username"
+            autocomplete="username"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Masukkan password"
+            autocomplete="current-password"
+            required
+          >
+        </div>
+
+        <button type="submit" id="loginButton">
+          Masuk
+        </button>
+
+        <p id="loginMessage" class="login-message"></p>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <script src="./js/api.js"></script>
+  <script src="./js/auth.js"></script>
+
+</body>
+</html>

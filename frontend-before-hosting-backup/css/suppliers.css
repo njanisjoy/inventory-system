@@ -1,0 +1,47 @@
+﻿/* suppliers.css — page-specific styles only. shared.css handles layout/sidebar/topbar/table/form/buttons/section-header. */
+
+.supplier-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ======================================================
+   SECTIONS
+   ====================================================== */
+
+.page-section,
+.form-section {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ======================================================
+   SUPPLIER FORM
+   ====================================================== */
+
+#supplierForm {
+  padding: 22px;
+}
+
+#formMessage {
+  padding: 0 22px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* ======================================================
+   RESPONSIVE
+   ====================================================== */
+
+@media (max-width: 700px) {
+  .supplier-content { padding: 12px; gap: 12px; }
+  #addSupplierButton { width: 100%; }
+  #supplierForm { padding: 14px; }
+}

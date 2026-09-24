@@ -1,0 +1,182 @@
+﻿<!-- ======================================================
+     ADD PRODUCT MODAL
+     ====================================================== -->
+
+<div id="addModal" class="modal hidden">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <div>
+
+                <h2>
+                    Tambah Produk
+                </h2>
+
+                <p>
+                    Tambahkan barang baru ke sistem inventory
+                </p>
+
+            </div>
+
+            <button
+                type="button"
+                id="closeAddModalButton"
+                class="close-button"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <form id="addProductForm">
+
+
+            <div class="form-group">
+
+                <label for="addCode">
+                    Kode Barang
+                </label>
+
+                <input
+                    type="text"
+                    id="addCode"
+                    required
+                    placeholder="Contoh: MAT-001"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="addName">
+                    Nama Barang
+                </label>
+
+                <input
+                    type="text"
+                    id="addName"
+                    required
+                    placeholder="Nama barang"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="addCategory">
+                    Kategori
+                </label>
+
+                <select id="addCategory" required>
+
+                    <option value="">
+                        Pilih kategori
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="addUnit">
+                    Satuan
+                </label>
+
+                <select id="addUnit" required>
+
+                    <option value="">
+                        Pilih satuan
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="addLocation">
+                    Lokasi
+                </label>
+
+                <select id="addLocation">
+
+                    <option value="">
+                        Pilih lokasi (opsional)
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="addMinimumStock">
+                    Batas Minimum Stok
+                </label>
+
+                <input
+                    type="number"
+                    id="addMinimumStock"
+                    min="0"
+                    step="0.001"
+                    value="0"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="addDescription">
+                    Deskripsi
+                </label>
+
+                <textarea
+                    id="addDescription"
+                    rows="4"
+                    placeholder="Deskripsi barang (opsional)"
+                ></textarea>
+
+            </div>
+
+
+            <p id="addFormMessage"></p>
+
+
+            <div class="form-actions">
+
+                <button
+                    type="button"
+                    id="cancelAddButton"
+                >
+                    Batal
+                </button>
+
+
+                <button
+                    type="submit"
+                    id="addSaveButton"
+                >
+                    Simpan Produk
+                </button>
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+</div>
+
+

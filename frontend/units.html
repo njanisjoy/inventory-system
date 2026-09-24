@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <link rel="icon" type="image/png" href="/thumbnail.png">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Master Satuan - Inventory System</title>
+
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/units.css">
+
+</head>
+
+
+<body>
+
+    <div class="app-layout">
+
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+
+                <img src="./thumbnail.png" alt="Logo" class="sidebar-logo">
+                <h2>Inventory</h2>
+
+                <p>Management System</p>
+
+            </div>
+
+
+            <nav class="sidebar-menu">
+
+                <a href="./dashboard.html" class="menu-item">
+                    Dashboard
+                </a>
+
+                <a href="./stock.html" class="menu-item">
+                    Stok
+                </a>
+
+                <a href="./stock-in.html" class="menu-item">
+                    Barang Masuk
+                </a>
+
+                <a href="./products.html" class="menu-item">
+                    Produk
+                </a>
+
+                <a href="./kategori.html" class="menu-item">
+                    Kategori
+                </a>
+
+                <a href="./units.html" class="menu-item active">
+                    Satuan
+                </a>
+
+                <a href="./lokasi.html" class="menu-item">
+                    Lokasi
+                </a>
+
+                <a href="./suppliers.html" class="menu-item">
+                    Supplier
+                </a>
+
+                <a href="./material-issue.html" class="menu-item">
+                    Material Issue
+                </a>
+
+                <a href="./outbound.html" class="menu-item">
+                    Outbound
+                </a>
+
+                <a href="./laporan.html" class="menu-item">
+                    Laporan
+                </a>
+
+            </nav>
+
+
+            <div class="sidebar-bottom">
+
+                <button id="logoutButton">
+                    Logout
+                </button>
+
+            </div>
+
+        </aside>
+
+
+
+        <!-- MAIN AREA -->
+
+        <div class="main-area">
+
+
+            <!-- TOPBAR -->
+
+            <header class="topbar">
+
+                <div class="topbar-left">
+                    <div>
+                        <h1>Satuan</h1>
+                        <p>Kelola satuan yang digunakan oleh produk</p>
+                    </div>
+                </div>
+
+                <div class="user-info">
+                    <span id="userName">Loading...</span>
+                </div>
+
+            </header>
+
+
+
+            <!-- CONTENT -->
+
+            <main class="units-content">
+
+
+                <!-- TOOLBAR -->
+
+                <section class="units-toolbar">
+
+                    <div>
+
+                        <h2>
+                            Daftar Satuan
+                        </h2>
+
+                        <p>
+                            Tambahkan atau ubah satuan produk
+                        </p>
+
+                    </div>
+
+
+                    <div class="units-actions">
+
+                        <input type="text" id="searchInput" placeholder="Cari satuan...">
+
+
+                        <button type="button" id="addUnitButton">
+                            + Tambah Satuan
+                        </button>
+
+                    </div>
+
+                </section>
+
+
+
+                <!-- UNITS TABLE -->
+
+                <section class="units-section">
+
+                    <div class="table-container">
+
+                        <table>
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Nama Satuan</th>
+
+                                    <th>Symbol</th>
+
+                                    <th>Aksi</th>
+
+                                </tr>
+
+                            </thead>
+
+
+                            <tbody id="unitsTableBody">
+
+                                <tr>
+
+                                    <td colspan="3">
+                                        Loading...
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- UNIT MODAL -->
+
+    <div id="unitModal" class="modal hidden">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <div>
+
+                    <h2 id="modalTitle">
+                        Tambah Satuan
+                    </h2>
+
+                    <p>
+                        Kelola nama dan symbol satuan
+                    </p>
+
+                </div>
+
+
+                <button type="button" id="closeModalButton" class="close-button" aria-label="Tutup">
+                    &times;
+                </button>
+
+            </div>
+
+
+            <form id="unitForm">
+
+
+                <input type="hidden" id="unitId">
+
+
+                <div class="form-group">
+
+                    <label for="unitName">
+                        Nama Satuan
+                    </label>
+
+                    <input type="text" id="unitName" placeholder="Contoh: Kilogram" required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="unitSymbol">
+                        Symbol
+                    </label>
+
+                    <input type="text" id="unitSymbol" placeholder="Contoh: KG" maxlength="10" required>
+
+                </div>
+
+
+                <p id="formMessage"></p>
+
+
+                <div class="form-actions">
+
+                    <button type="button" id="cancelButton">
+                        Batal
+                    </button>
+
+
+                    <button type="submit" id="saveButton">
+                        Simpan
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./js/config.js"></script>
+    <script src="./js/session.js"></script>
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/units.js"></script>
+
+</body>
+
+</html>
+
+

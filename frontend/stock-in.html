@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <link rel="icon" type="image/png" href="/thumbnail.png">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Barang Masuk - Inventory System</title>
+
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/stock-in.css">
+
+</head>
+
+
+<body>
+
+    <div class="app-layout">
+
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+
+                <img src="./thumbnail.png" alt="Logo" class="sidebar-logo">
+                <h2>Inventory</h2>
+
+                <p>Management System</p>
+
+            </div>
+
+
+            <nav class="sidebar-menu">
+
+                <a href="./dashboard.html" class="menu-item">
+                    Dashboard
+                </a>
+
+                <a href="./stock.html" class="menu-item">
+                    Stok
+                </a>
+
+                <a href="./stock-in.html" class="menu-item active">
+                    Barang Masuk
+                </a>
+
+                <a href="./products.html" class="menu-item">
+                    Produk
+                </a>
+
+                <a href="./kategori.html" class="menu-item">
+                    Kategori
+                </a>
+
+                <a href="./units.html" class="menu-item">
+                    Satuan
+                </a>
+
+                <a href="./lokasi.html" class="menu-item">
+                    Lokasi
+                </a>
+
+                <a href="./suppliers.html" class="menu-item">
+                    Supplier
+                </a>
+
+                <a href="./material-issue.html" class="menu-item">
+                    Material Issue
+                </a>
+
+                <a href="./outbound.html" class="menu-item">
+                    Outbound
+                </a>
+
+                <a href="./laporan.html" class="menu-item">
+                    Laporan
+                </a>
+
+            </nav>
+
+
+            <div class="sidebar-bottom">
+
+                <button id="logoutButton">
+                    Logout
+                </button>
+
+            </div>
+
+        </aside>
+
+
+
+        <!-- MAIN AREA -->
+
+        <div class="main-area">
+
+
+            <!-- TOPBAR -->
+
+            <header class="topbar">
+
+                <div class="topbar-left">
+                    <div>
+                        <h1>Barang Masuk</h1>
+                        <p>Catat barang yang masuk ke gudang</p>
+                    </div>
+                </div>
+
+                <div class="user-info">
+                    <span id="userName">Loading...</span>
+                </div>
+
+            </header>
+
+
+
+            <!-- CONTENT -->
+
+            <main class="stock-in-content">
+
+
+                <!-- FORM -->
+
+                <section class="form-section">
+
+                    <div class="section-header">
+
+                        <div>
+
+                            <h2>
+                                Tambah Barang Masuk
+                            </h2>
+
+                            <p>
+                                Masukkan transaksi penerimaan barang
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <form id="stockInForm">
+
+
+                        <!-- PRODUK -->
+
+                        <div class="form-group product-picker">
+
+                            <label for="productSearch">
+                                Barang
+                            </label>
+
+                            <input type="text" id="productSearch" placeholder="Cari kode atau nama barang..."
+                                autocomplete="off">
+
+                            <input type="hidden" id="selectedProductId">
+
+                            <div id="productResults" class="product-results hidden"></div>
+
+                            <div id="selectedProductInfo" class="selected-product-info hidden"></div>
+
+                        </div>
+
+
+                        <!-- QUANTITY -->
+
+                        <div class="form-group">
+
+                            <label for="quantity">
+                                Jumlah
+                            </label>
+
+                            <div class="quantity-input">
+
+                                <input type="number" id="quantity" min="0.001" step="0.001"
+                                    placeholder="Masukkan jumlah" required>
+
+                                <span id="itemUnit">
+                                    -
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- TANGGAL -->
+
+                        <div class="form-group">
+
+                            <label for="transactionDate">
+                                Tanggal Transaksi
+                            </label>
+
+                            <input type="date" id="transactionDate" required>
+
+                        </div>
+
+
+
+                        <!-- INVOICE -->
+
+                        <div class="form-group">
+
+                            <label for="invoiceNumber">
+                                Nomor Invoice
+                            </label>
+
+                            <input type="text" id="invoiceNumber" placeholder="Contoh: INV-001">
+
+                        </div>
+
+
+                        <!-- SUPPLIER -->
+
+                        <div class="form-group">
+
+                            <label for="supplierId">
+                                Supplier
+                            </label>
+
+                            <select id="supplierId">
+
+                                <option value="">
+                                    Pilih supplier
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- CATATAN -->
+
+                        <div class="form-group">
+
+                            <label for="notes">
+                                Catatan
+                            </label>
+
+                            <textarea id="notes" rows="4" placeholder="Catatan transaksi..."></textarea>
+
+                        </div>
+
+
+
+                        <!-- BUTTON -->
+
+                        <div class="form-actions">
+
+                            <button type="submit" id="submitButton">
+                                Simpan Barang Masuk
+                            </button>
+
+                        </div>
+
+
+                        <p id="formMessage"></p>
+
+
+                    </form>
+
+                </section>
+
+
+
+                <!-- RIWAYAT -->
+
+                <section class="history-section">
+
+                    <div class="section-header">
+
+                        <div>
+
+                            <h2>
+                                Riwayat Barang Masuk
+                            </h2>
+
+                            <p>
+                                Transaksi barang masuk terbaru
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="table-container">
+
+                        <table>
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Tanggal</th>
+                                    <th>Kode</th>
+                                    <th>Nama Barang</th>
+                                    <th>Jumlah</th>
+                                    <th>Satuan</th>
+                                    <th>Supplier</th>
+                                    <th>Invoice</th>
+                                    <th>Catatan</th>
+                                    <th>Dibuat Oleh</th>
+
+                                </tr>
+
+                            </thead>
+
+
+                            <tbody id="stockInTableBody">
+
+                                <tr>
+
+                                    <td colspan="9">
+                                        Loading...
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./js/config.js"></script>
+    <script src="./js/session.js"></script>
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/stock-in.js"></script>
+
+</body>
+
+</html>
+
+

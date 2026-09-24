@@ -1,0 +1,80 @@
+﻿/* kategori.css â€” page-specific only. shared.css handles layout/sidebar/topbar/table/modal/buttons. */
+
+.kategori-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.kategori-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.kategori-toolbar h2 { font-size: 17px; font-weight: 700; }
+.kategori-toolbar p  { font-size: 12.5px; color: #888; margin-top: 3px; }
+
+.kategori-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+#searchInput {
+  width: 240px;
+  height: 38px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  background: #fff;
+  font-family: inherit;
+  font-size: 13.5px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+#addKategoriButton {
+  height: 38px;
+  padding: 0 14px;
+  border: none;
+  border-radius: 7px;
+  background: #222;
+  color: #fff;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+#addKategoriButton:hover {
+  background: #333;
+}
+
+#searchInput:focus { border-color: #999; }
+
+.kategori-section {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .kategori-toolbar { flex-direction: column; align-items: stretch; }
+  .kategori-actions { width: 100%; }
+  #searchInput { flex: 1; width: auto; }
+  .kategori-content { padding: 18px; }
+}
+
+@media (max-width: 600px) {
+  .kategori-content { padding: 12px; }
+  .kategori-actions { flex-direction: column; }
+  #searchInput, #addKategoriButton { width: 100%; height: 44px; font-size: 16px; }
+}

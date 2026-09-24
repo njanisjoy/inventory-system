@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard - Inventory System</title>
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+
+<body>
+
+    <div class="app-layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <img src="../thumbnail.png" alt="Logo" class="sidebar-logo">
+                <h2>Inventory</h2>
+                <p>Management System</p>
+            </div>
+
+            <nav class="sidebar-menu">
+
+                <a href="./dashboard.html" class="menu-item active">
+                    Dashboard
+                </a>
+
+                <a href="./stock.html" class="menu-item">
+                    Stok
+                </a>
+
+                <a href="./stock-in.html" class="menu-item">
+                    Barang Masuk
+                </a>
+
+                <a href="./products.html" class="menu-item">
+                    Produk
+                </a>
+
+                <a href="./kategori.html" class="menu-item">
+                    Kategori
+                </a>
+
+                <a href="./units.html" class="menu-item">
+                    Satuan
+                </a>
+
+                <a href="./lokasi.html" class="menu-item">
+                    Lokasi
+                </a>
+
+                <a href="./suppliers.html" class="menu-item">
+                    Supplier
+                </a>
+
+                <a href="./material-issue.html" class="menu-item">
+                    Material Issue
+                </a>
+
+                <a href="./outbound.html" class="menu-item">
+                    Outbound
+                </a>
+
+                <a href="./laporan.html" class="menu-item">
+                    Laporan
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <button id="logoutButton">
+                    Logout
+                </button>
+
+            </div>
+
+        </aside>
+
+
+        <!-- CONTENT -->
+        <div class="main-area">
+
+            <!-- TOPBAR -->
+            <header class="topbar">
+
+                <div class="topbar-left">
+                    <div>
+                        <h1>Dashboard</h1>
+                        <p id="welcomeMessage">Loading...</p>
+                    </div>
+                </div>
+
+                <div class="user-info">
+                    <span id="userName">Loading...</span>
+                </div>
+
+            </header>
+
+
+            <!-- DASHBOARD CONTENT -->
+            <main class="dashboard-content">
+
+                <!-- STATISTICS -->
+                <section class="stats-grid">
+
+                    <div class="stat-card">
+
+                        <h3>Total Produk</h3>
+
+                        <p id="totalProducts">
+                            0
+                        </p>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <h3>Low Stock</h3>
+
+                        <p id="lowStock">
+                            0
+                        </p>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <h3>Out of Stock</h3>
+
+                        <p id="outOfStock">
+                            0
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- STOCK TABLE -->
+                <section class="stock-section">
+
+                    <div class="section-header">
+
+                        <div>
+                            <h2>Current Stock</h2>
+
+                            <p>
+                                Kondisi stok barang saat ini
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="table-container">
+
+                        <table>
+
+                            <thead>
+
+                                <tr>
+                                    <th>Kode</th>
+                                    <th>Nama Barang</th>
+                                    <th>Unit</th>
+                                    <th>Stok Saat Ini</th>
+                                    <th>Batas Minimum</th>
+                                    <th>Status</th>
+                                </tr>
+
+                            </thead>
+
+
+                            <tbody id="stockTableBody">
+
+                                <tr>
+                                    <td colspan="6">
+                                        Loading...
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <script src="./js/config.js"></script>
+    <script src="./js/session.js"></script>
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/dashboard.js"></script>
+
+</body>
+
+</html>

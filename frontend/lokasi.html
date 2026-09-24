@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link rel="icon" type="image/png" href="/thumbnail.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokasi - Inventory System</title>
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/lokasi.css">
+</head>
+
+<body>
+<div class="app-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="./thumbnail.png" alt="Logo" class="sidebar-logo">
+            <h2>Inventory</h2>
+            <p>Management System</p>
+        </div>
+        <nav class="sidebar-menu">
+            <a href="./dashboard.html"      class="menu-item">Dashboard</a>
+            <a href="./stock.html"          class="menu-item">Stok</a>
+            <a href="./stock-in.html"       class="menu-item">Barang Masuk</a>
+            <a href="./products.html"       class="menu-item">Produk</a>
+            <a href="./kategori.html"       class="menu-item">Kategori</a>
+            <a href="./units.html"          class="menu-item">Satuan</a>
+            <a href="./lokasi.html"         class="menu-item active">Lokasi</a>
+            <a href="./suppliers.html"      class="menu-item">Supplier</a>
+            <a href="./material-issue.html" class="menu-item">Material Issue</a>
+            <a href="./outbound.html"       class="menu-item">Outbound</a>
+            <a href="./laporan.html"        class="menu-item">Laporan</a>
+        </nav>
+        <div class="sidebar-bottom">
+            <button id="logoutButton">Logout</button>
+        </div>
+    </aside>
+
+    <!-- MAIN -->
+    <div class="main-area">
+
+        <header class="topbar">
+            <div class="topbar-left">
+                <div>
+                    <h1>Lokasi</h1>
+                    <p>Kelola lokasi penyimpanan barang</p>
+                </div>
+            </div>
+            <div class="user-info"><span id="userName">Loading...</span></div>
+        </header>
+
+        <main class="lokasi-content">
+
+            <!-- TOOLBAR -->
+            <section class="lokasi-toolbar">
+                <div>
+                    <h2>Daftar Lokasi</h2>
+                    <p>Tambahkan atau ubah lokasi gudang</p>
+                </div>
+                <div class="lokasi-actions">
+                    <input type="text" id="searchInput" placeholder="Cari lokasi...">
+                    <button type="button" id="addLokasiButton">+ Tambah Lokasi</button>
+                </div>
+            </section>
+
+            <!-- TABLE -->
+            <section class="lokasi-section">
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nama Lokasi</th>
+                                <th>Tipe</th>
+                                <th>Deskripsi</th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody id="lokasiTableBody">
+                            <tr><td colspan="4">Loading...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </main>
+    </div>
+</div>
+
+<!-- MODAL -->
+<div id="lokasiModal" class="modal hidden">
+    <div class="modal-content">
+        <div class="modal-header">
+            <div>
+                <h2 id="modalTitle">Tambah Lokasi</h2>
+                <p>Kelola nama, tipe, dan deskripsi lokasi</p>
+            </div>
+            <button type="button" id="closeModalButton" class="close-button" aria-label="Tutup">&times;</button>
+        </div>
+        <form id="lokasiForm">
+            <input type="hidden" id="lokasiId">
+            <div class="form-group">
+                <label for="lokasiName">Nama Lokasi</label>
+                <input type="text" id="lokasiName" placeholder="Contoh: Gudang Utama" required>
+            </div>
+            <div class="form-group">
+                <label for="lokasiType">Tipe</label>
+                <select id="lokasiType" required>
+                    <option value="">Pilih tipe lokasi</option>
+                    <option value="warehouse">Warehouse (Gudang)</option>
+                    <option value="store">Store (Toko)</option>
+                    <option value="company">Company (Perusahaan)</option>
+                    <option value="other">Other (Lainnya)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="lokasiDesc">Deskripsi <span style="font-weight:400;text-transform:none">(opsional)</span></label>
+                <textarea id="lokasiDesc" rows="3" placeholder="Deskripsi singkat lokasi..."></textarea>
+            </div>
+            <p id="formMessage"></p>
+            <div class="form-actions">
+                <button type="button" id="cancelButton">Batal</button>
+                <button type="submit" id="saveButton">Simpan</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="./js/config.js"></script>
+<script src="./js/session.js"></script>
+<script src="./js/sidebar.js"></script>
+<script src="./js/menu.js"></script>
+<script src="./js/lokasi.js"></script>
+</body>
+</html>
+
+
+
