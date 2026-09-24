@@ -4,4 +4,4 @@
    Untuk deploy production: ganti BASE_URL ke URL server.
    ====================================================== */
 
-const BASE_URL = "https://vibrant-youth-production.up.railway.app";
+const BASE_URL = "github-o1j4jp.helipod.app";
