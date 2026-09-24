@@ -28,6 +28,13 @@ const pool = new Pool({
 });
 
 app.use(express.json());
+// ======================================================
+// SERVE FRONTEND
+// ======================================================
+
+const frontendPath = path.join(__dirname, "..", "frontend");
+
+app.use(express.static(frontendPath));
 
 // ======================================================
 // CORS
@@ -115,7 +122,7 @@ function authorizeRoles(...allowedRoles) {
 // ======================================================
 
 app.get("/", (req, res) => {
-    res.send("Inventory System Berjalan!");
+    res.sendFile(path.join(frontendPath, "index.html"));
 });
 
 
