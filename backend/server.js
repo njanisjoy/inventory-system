@@ -15,29 +15,43 @@ const PORT = process.env.PORT || 3000;
 const JWT_SECRET = process.env.JWT_SECRET;
 
 if (!JWT_SECRET) {
-    console.error("FATAL: JWT_SECRET tidak ditemukan di .env");
+    console.error("FATAL: JWT_SECRET tidak ditemukan di environment variables");
     process.exit(1);
 }
 
-const pool = new Pool({
-    user:     process.env.DB_USER,
-    host:     process.env.DB_HOST,
-    database: process.env.DB_NAME,
-    password: process.env.DB_PASSWORD,
-    port:     Number(process.env.DB_PORT) || 5432,
-    ssl: {
-        rejectUnauthorized: false
+// ======================================================
+// DATABASE POOL
+// Mendukung DATABASE_URL (satu string koneksi) untuk
+// platform cloud, atau variabel terpisah untuk lokal.
+// ======================================================
+
+const poolConfig = process.env.DATABASE_URL
+    ? {
+        connectionString: process.env.DATABASE_URL,
+        ssl: { rejectUnauthorized: false }
     }
+    : {
+        user:     process.env.DB_USER,
+        host:     process.env.DB_HOST,
+        database: process.env.DB_NAME,
+        password: process.env.DB_PASSWORD,
+        port:     Number(process.env.DB_PORT) || 5432,
+        ssl:      process.env.DB_SSL === "false"
+                    ? false
+                    : { rejectUnauthorized: false }
+    };
+
+const pool = new Pool(poolConfig);
+
+// Cek koneksi database saat startup
+pool.connect((err, client, release) => {
+    if (err) {
+        console.error("FATAL: Tidak dapat terhubung ke database:", err.message);
+        process.exit(1);
+    }
+    release();
+    console.log("Database terhubung.");
 });
-
-app.use(express.json());
-// ======================================================
-// SERVE FRONTEND
-// ======================================================
-
-const frontendPath = path.join(__dirname, "..", "frontend");
-
-app.use(express.static(frontendPath));
 
 // ======================================================
 // CORS
@@ -52,6 +66,16 @@ app.use(cors());
 app.use(helmet({
     crossOriginResourcePolicy: { policy: "cross-origin" }
 }));
+
+app.use(express.json());
+
+// ======================================================
+// SERVE FRONTEND
+// ======================================================
+
+const frontendPath = path.join(__dirname, "..", "frontend");
+
+app.use(express.static(frontendPath));
 
 // ======================================================
 // RATE LIMITING — LOGIN
