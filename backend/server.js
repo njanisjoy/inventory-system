@@ -12,6 +12,11 @@ const rateLimit    = require("express-rate-limit");
 const app  = express();
 const PORT = process.env.PORT || 3000;
 
+// Helipod (dan platform cloud lain) menggunakan reverse proxy.
+// Tanpa ini, express-rate-limit akan throw error saat ada
+// header X-Forwarded-For.
+app.set("trust proxy", 1);
+
 const JWT_SECRET = process.env.JWT_SECRET;
 
 if (!JWT_SECRET) {
