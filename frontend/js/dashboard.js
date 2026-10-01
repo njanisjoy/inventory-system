@@ -121,7 +121,6 @@ async function loadDashboard() {
             <td>${item.name}</td>
             <td>${item.unit}</td>
             <td>${formatQuantity(item.current_stock)} ${item.unit}</td>
-            <td>${formatQuantity(item.minimum_stock)} ${item.unit}</td>
             <td>
                 <span class="stock-status ${item.stock_status}">
                     ${formatStockStatus(item.stock_status)}
@@ -140,7 +139,7 @@ async function loadDashboard() {
 
         stockTableBody.innerHTML = `
       <tr>
-        <td colspan="6">
+        <td colspan="5">
           Gagal mengambil data dashboard
         </td>
       </tr>

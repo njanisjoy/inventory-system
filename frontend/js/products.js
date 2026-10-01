@@ -14,6 +14,7 @@ const editCode = document.getElementById("editCode");
 const editName = document.getElementById("editName");
 const editCategory = document.getElementById("editCategory");
 const editUnit = document.getElementById("editUnit");
+const editLocation = document.getElementById("editLocation");
 const editMinimumStock = document.getElementById("editMinimumStock");
 const editDescription = document.getElementById("editDescription");
 const formMessage = document.getElementById("formMessage");
@@ -36,6 +37,11 @@ const addSaveButton = document.getElementById("addSaveButton");
 let productsData = [];
 let categoriesData = [];
 let unitsData = [];
+let locationsData = [];
+
+// Cek role user — hanya admin_utama yang bisa hapus/tambah/edit
+const currentUser = JSON.parse(localStorage.getItem("user") || "{}");
+const isAdminUtama = currentUser.role === "admin_utama";
 
 function formatQuantity(value) {
     return Number(value).toLocaleString("id-ID", { maximumFractionDigits: 3 });
@@ -167,15 +173,12 @@ addProductForm.addEventListener("submit", async event => {
 editProductForm.addEventListener("submit", async event => {
     event.preventDefault();
 
-    const product = productsData.find(item => String(item.id) === String(editProductId.value));
-    if (!product) { formMessage.textContent = "Produk tidak ditemukan."; return; }
-
     const payload = {
         code: editCode.value.trim(),
         name: editName.value.trim(),
         category_id: Number(editCategory.value),
         unit_id: Number(editUnit.value),
-        default_location_id: product.default_location_id || null,
+        default_location_id: editLocation.value ? Number(editLocation.value) : null,
         minimum_stock: Number(editMinimumStock.value),
         description: editDescription.value.trim()
     };
@@ -209,6 +212,27 @@ editProductForm.addEventListener("submit", async event => {
 });
 
 // ======================================================
+// DELETE PRODUCT (SOFT DELETE)
+// ======================================================
+
+async function deleteProduct(productId, productName) {
+    if (!confirm(`Hapus produk "${productName}"?\n\nProduk tidak akan muncul lagi di daftar.`)) return;
+
+    try {
+        const res  = await fetch(`${BASE_URL}/api/products/${productId}`, {
+            method: "DELETE",
+            headers: { Authorization: `Bearer ${token}` }
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.message || "Gagal menghapus produk");
+        await loadProducts();
+    } catch (err) {
+        console.error(err);
+        alert("Gagal menghapus produk: " + err.message);
+    }
+}
+
+// ======================================================
 // LOAD USER
 // ======================================================
 
@@ -217,6 +241,9 @@ async function loadUser() {
     const data = await res.json();
     if (!res.ok) throw new Error(data.message || "Gagal mengambil data user");
     userName.textContent = data.user.name;
+
+    // Simpan user ke localStorage agar tersedia di cek role
+    localStorage.setItem("user", JSON.stringify(data.user));
 }
 
 // ======================================================
@@ -265,6 +292,19 @@ async function loadUnits() {
     });
 }
 
+async function loadLocationsForEdit() {
+    const res  = await fetch(`${BASE_URL}/api/locations`, { headers: { Authorization: `Bearer ${token}` } });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.message || "Gagal mengambil data lokasi");
+    locationsData = data;
+    editLocation.innerHTML = "<option value=''>Pilih lokasi (opsional)</option>";
+    locationsData.forEach(l => {
+        const o = document.createElement("option");
+        o.value = l.id; o.textContent = l.name;
+        editLocation.appendChild(o);
+    });
+}
+
 // ======================================================
 // RENDER PRODUCTS
 // ======================================================
@@ -284,22 +324,29 @@ function renderProducts() {
 
         return matchesSearch && matchesCategory;
     });
+
     productsTableBody.innerHTML = "";
 
     if (filtered.length === 0) {
-        productsTableBody.innerHTML = "<tr><td colspan='6'>Tidak ada produk yang ditemukan.</td></tr>";
+        productsTableBody.innerHTML = `<tr><td colspan="${isAdminUtama ? 6 : 5}">Tidak ada produk yang ditemukan.</td></tr>`;
         return;
     }
 
     filtered.forEach(product => {
         const row = document.createElement("tr");
+        const deleteBtn = isAdminUtama
+            ? `<button type="button" class="delete-button" data-id="${product.id}" data-name="${product.name}">Hapus</button>`
+            : "";
         row.innerHTML = `
             <td>${product.code}</td>
             <td>${product.name}</td>
             <td>${product.category || "-"}</td>
             <td>${product.unit_symbol || "-"}</td>
             <td>${formatQuantity(product.minimum_stock)} ${product.unit_symbol || ""}</td>
-            <td><button type="button" class="edit-button" data-id="${product.id}">Edit</button></td>
+            <td>
+                <button type="button" class="edit-button" data-id="${product.id}">Edit</button>
+                ${deleteBtn}
+            </td>
         `;
         productsTableBody.appendChild(row);
     });
@@ -307,18 +354,32 @@ function renderProducts() {
     productsTableBody.querySelectorAll(".edit-button").forEach(btn => {
         btn.addEventListener("click", () => openEditModal(btn.dataset.id));
     });
+
+    productsTableBody.querySelectorAll(".delete-button").forEach(btn => {
+        btn.addEventListener("click", () => deleteProduct(btn.dataset.id, btn.dataset.name));
+    });
 }
+
+// ======================================================
+// OPEN/CLOSE EDIT MODAL
+// ======================================================
 
 function openEditModal(productId) {
     const product = productsData.find(item => String(item.id) === String(productId));
     if (!product) return;
-    editProductId.value = product.id;
-    editCode.value = product.code;
-    editName.value = product.name;
+
+    editProductId.value   = product.id;
+    editCode.value        = product.code;
+    editName.value        = product.name;
     editMinimumStock.value = product.minimum_stock;
     editDescription.value = product.description || "";
-    editCategory.value = String(product.category_id);
-    editUnit.value = String(product.unit_id);
+    editCategory.value    = String(product.category_id);
+    editUnit.value        = String(product.unit_id);
+
+    // Set lokasi setelah locationsData terisi
+    editLocation.value = product.default_location_id ? String(product.default_location_id) : "";
+
+    formMessage.textContent = "";
     editModal.classList.remove("hidden");
 }
 
@@ -345,8 +406,7 @@ logoutButton.addEventListener("click", () => {
 async function init() {
     try {
         await loadUser();
-        await loadCategories();
-        await loadUnits();
+        await Promise.all([loadCategories(), loadUnits(), loadLocationsForEdit()]);
         await loadProducts();
     } catch (err) {
         console.error(err);
@@ -355,6 +415,3 @@ async function init() {
 }
 
 init();
-
-
-

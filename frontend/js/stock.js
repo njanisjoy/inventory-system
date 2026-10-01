@@ -190,10 +190,7 @@ function renderStock() {
                 ${item.unit}
             </td>
 
-            <td>
-                ${formatQuantity(item.minimum_stock)}
-                ${item.unit}
-            </td>
+            <td>${item.notes || "-"}</td>
 
             <td>
                 <span class="stock-status ${item.stock_status}">

@@ -160,11 +160,7 @@ app.get("/", (req, res) => {
 
 
 // ======================================================
-// UNITS
-// ======================================================
-
-// ======================================================
-// GET UNITS
+// UNITS — GET
 // SEMUA USER YANG SUDAH LOGIN BOLEH MELIHAT
 // ======================================================
 
@@ -184,6 +180,7 @@ app.get(
           created_at,
           updated_at
         FROM units
+        WHERE is_active = TRUE
         ORDER BY id;
       `);
 
@@ -338,6 +335,7 @@ app.get(
                     ON c.id = p.category_id
                 LEFT JOIN units u
                     ON u.id = p.unit_id
+                WHERE p.is_active = TRUE
                 ORDER BY p.id;
             `);
 
@@ -858,6 +856,32 @@ app.put(
     }
 );
 
+// ======================================================
+// DELETE PRODUCT (SOFT DELETE)
+// ADMIN UTAMA SAJA
+// ======================================================
+
+app.delete(
+    "/api/products/:id",
+    authenticateToken,
+    authorizeRoles("admin_utama"),
+    async (req, res) => {
+        const productId = req.params.id;
+        try {
+            const result = await pool.query(
+                `UPDATE products SET is_active = FALSE, updated_at = CURRENT_TIMESTAMP WHERE id = $1 RETURNING id;`,
+                [productId]
+            );
+            if (result.rows.length === 0) {
+                return res.status(404).json({ message: "Produk tidak ditemukan" });
+            }
+            res.json({ message: "Produk berhasil dihapus" });
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ message: "Gagal menghapus produk", error: error.message });
+        }
+    }
+);
 
 // ======================================================
 // UPDATE UNIT
@@ -978,10 +1002,34 @@ app.put(
 );
 
 // ======================================================
-// CATEGORIES
+// DELETE UNIT (SOFT DELETE)
+// ADMIN UTAMA SAJA
 // ======================================================
+
+app.delete(
+    "/api/units/:id",
+    authenticateToken,
+    authorizeRoles("admin_utama"),
+    async (req, res) => {
+        const unitId = req.params.id;
+        try {
+            const result = await pool.query(
+                `UPDATE units SET is_active = FALSE, updated_at = CURRENT_TIMESTAMP WHERE id = $1 RETURNING id;`,
+                [unitId]
+            );
+            if (result.rows.length === 0) {
+                return res.status(404).json({ message: "Satuan tidak ditemukan" });
+            }
+            res.json({ message: "Satuan berhasil dihapus" });
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ message: "Gagal menghapus satuan", error: error.message });
+        }
+    }
+);
+
 // ======================================================
-// CREATE CATEGORY
+// CATEGORIES — CREATE
 // ADMIN UTAMA SAJA
 // ======================================================
 
@@ -1202,6 +1250,33 @@ app.put(
 );
 
 // ======================================================
+// DELETE CATEGORY (SOFT DELETE)
+// ADMIN UTAMA SAJA
+// ======================================================
+
+app.delete(
+    "/api/categories/:id",
+    authenticateToken,
+    authorizeRoles("admin_utama"),
+    async (req, res) => {
+        const categoryId = req.params.id;
+        try {
+            const result = await pool.query(
+                `UPDATE categories SET is_active = FALSE, updated_at = CURRENT_TIMESTAMP WHERE id = $1 RETURNING id;`,
+                [categoryId]
+            );
+            if (result.rows.length === 0) {
+                return res.status(404).json({ message: "Kategori tidak ditemukan" });
+            }
+            res.json({ message: "Kategori berhasil dihapus" });
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ message: "Gagal menghapus kategori", error: error.message });
+        }
+    }
+);
+
+// ======================================================
 // GET CATEGORIES
 // SEMUA USER YANG SUDAH LOGIN BOLEH MELIHAT
 // ======================================================
@@ -1222,6 +1297,7 @@ app.get(
           created_at,
           updated_at
         FROM categories
+        WHERE is_active = TRUE
         ORDER BY id;
       `);
 
@@ -1240,11 +1316,7 @@ app.get(
 );
 
 // ======================================================
-// LOCATIONS
-// ======================================================
-
-// ======================================================
-// GET LOCATIONS
+// LOCATIONS — GET
 // SEMUA USER YANG SUDAH LOGIN BOLEH MELIHAT
 // ======================================================
 
@@ -1265,6 +1337,7 @@ app.get(
           created_at,
           updated_at
         FROM locations
+        WHERE is_active = TRUE
         ORDER BY id;
       `);
 
@@ -1516,13 +1589,35 @@ app.put(
     }
 );
 
+// ======================================================
+// DELETE LOCATION (SOFT DELETE)
+// ADMIN UTAMA SAJA
+// ======================================================
+
+app.delete(
+    "/api/locations/:id",
+    authenticateToken,
+    authorizeRoles("admin_utama"),
+    async (req, res) => {
+        const locationId = req.params.id;
+        try {
+            const result = await pool.query(
+                `UPDATE locations SET is_active = FALSE, updated_at = CURRENT_TIMESTAMP WHERE id = $1 RETURNING id;`,
+                [locationId]
+            );
+            if (result.rows.length === 0) {
+                return res.status(404).json({ message: "Lokasi tidak ditemukan" });
+            }
+            res.json({ message: "Lokasi berhasil dihapus" });
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ message: "Gagal menghapus lokasi", error: error.message });
+        }
+    }
+);
 
 // ======================================================
-// SUPPLIERS
-// ======================================================
-
-// ======================================================
-// GET SUPPLIERS
+// SUPPLIERS — GET
 // SEMUA USER YANG SUDAH LOGIN BOLEH MELIHAT
 // ======================================================
 
@@ -1546,6 +1641,7 @@ app.get(
           created_at,
           updated_at
         FROM suppliers
+        WHERE is_active = TRUE
         ORDER BY id;
       `);
 
@@ -1819,15 +1915,35 @@ app.put(
     }
 );
 
+// ======================================================
+// DELETE SUPPLIER (SOFT DELETE)
+// ADMIN UTAMA SAJA
+// ======================================================
+
+app.delete(
+    "/api/suppliers/:id",
+    authenticateToken,
+    authorizeRoles("admin_utama"),
+    async (req, res) => {
+        const supplierId = req.params.id;
+        try {
+            const result = await pool.query(
+                `UPDATE suppliers SET is_active = FALSE, updated_at = CURRENT_TIMESTAMP WHERE id = $1 RETURNING id;`,
+                [supplierId]
+            );
+            if (result.rows.length === 0) {
+                return res.status(404).json({ message: "Supplier tidak ditemukan" });
+            }
+            res.json({ message: "Supplier berhasil dihapus" });
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ message: "Gagal menghapus supplier", error: error.message });
+        }
+    }
+);
 
 // ======================================================
-// STOCK
-// ======================================================
-
-
-
-// ======================================================
-// CURRENT STOCK
+// STOCK — CURRENT STOCK
 // ======================================================
 
 app.get(
@@ -1853,7 +1969,8 @@ app.get(
           p.category_id,
           c.name AS category,
           p.default_location_id AS location_id,
-          l.name AS location
+          l.name AS location,
+          p.description AS notes
         FROM stock_status ss
         JOIN products p ON p.id = ss.product_id
         LEFT JOIN categories c ON c.id = p.category_id
@@ -2130,12 +2247,6 @@ app.get("/api/me", authenticateToken, async (req, res) => {
         });
     }
 });
-
-// ======================================================
-// CURRENT USER
-// ======================================================
-
-
 
 // ======================================================
 // STOCK IN
@@ -3511,12 +3622,8 @@ app.post(
 );
 
 // ======================================================
-// LAPORAN
-// ======================================================
-
-// ======================================================
-// GET LAPORAN BARANG MASUK
-// Filter: date_from, date_to, period (week/month)
+// LAPORAN — GET BARANG MASUK
+// Filter: date_from, date_to
 // ======================================================
 
 app.get(
@@ -3721,8 +3828,6 @@ app.get(
     }
 );
 
-
-// ======================================================
 // ======================================================
 // START SERVER
 // ======================================================
@@ -3730,5 +3835,3 @@ app.get(
 app.listen(PORT, () => {
     console.log(`Server berjalan di port ${PORT}`);
 });
-
-

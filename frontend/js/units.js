@@ -18,6 +18,9 @@ const logoutButton   = document.getElementById("logoutButton");
 
 let unitsData = [];
 
+const currentUser  = JSON.parse(localStorage.getItem("user") || "{}");
+const isAdminUtama = currentUser.role === "admin_utama";
+
 // ======================================================
 // LOAD USER
 // ======================================================
@@ -27,6 +30,7 @@ async function loadUser() {
     const data = await res.json();
     if (!res.ok) throw new Error(data.message || "Gagal mengambil data user");
     userName.textContent = data.user.name;
+    localStorage.setItem("user", JSON.stringify(data.user));
 }
 
 // ======================================================
@@ -46,7 +50,7 @@ async function loadUnits() {
 // ======================================================
 
 function renderUnits() {
-    const keyword = searchInput.value.trim().toLowerCase();
+    const keyword  = searchInput.value.trim().toLowerCase();
     const filtered = unitsData.filter(u =>
         u.name.toLowerCase().includes(keyword) ||
         u.symbol.toLowerCase().includes(keyword)
@@ -55,16 +59,22 @@ function renderUnits() {
     unitsTableBody.innerHTML = "";
 
     if (filtered.length === 0) {
-        unitsTableBody.innerHTML = "<tr><td colspan='3'>Tidak ada satuan yang ditemukan.</td></tr>";
+        unitsTableBody.innerHTML = `<tr><td colspan="${isAdminUtama ? 3 : 2}">Tidak ada satuan yang ditemukan.</td></tr>`;
         return;
     }
 
     filtered.forEach(unit => {
         const row = document.createElement("tr");
+        const deleteBtn = isAdminUtama
+            ? `<button type="button" class="delete-button" data-id="${unit.id}" data-name="${unit.name}">Hapus</button>`
+            : "";
         row.innerHTML = `
             <td>${unit.name}</td>
             <td>${unit.symbol}</td>
-            <td><button type="button" class="edit-button" data-id="${unit.id}">Edit</button></td>
+            <td>
+                <button type="button" class="edit-button" data-id="${unit.id}">Edit</button>
+                ${deleteBtn}
+            </td>
         `;
         unitsTableBody.appendChild(row);
     });
@@ -72,6 +82,30 @@ function renderUnits() {
     unitsTableBody.querySelectorAll(".edit-button").forEach(btn => {
         btn.addEventListener("click", () => openEditModal(btn.dataset.id));
     });
+
+    unitsTableBody.querySelectorAll(".delete-button").forEach(btn => {
+        btn.addEventListener("click", () => deleteUnit(btn.dataset.id, btn.dataset.name));
+    });
+}
+
+// ======================================================
+// DELETE (SOFT DELETE)
+// ======================================================
+
+async function deleteUnit(id, name) {
+    if (!confirm(`Hapus satuan "${name}"?\n\nSatuan tidak akan muncul lagi di daftar.`)) return;
+    try {
+        const res  = await fetch(`${BASE_URL}/api/units/${id}`, {
+            method: "DELETE",
+            headers: { Authorization: `Bearer ${token}` }
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.message || "Gagal menghapus satuan");
+        await loadUnits();
+    } catch (err) {
+        console.error(err);
+        alert("Gagal menghapus satuan: " + err.message);
+    }
 }
 
 // ======================================================
@@ -80,9 +114,9 @@ function renderUnits() {
 
 function openAddModal() {
     modalTitle.textContent = "Tambah Satuan";
-    unitIdInput.value = "";
-    unitName.value = "";
-    unitSymbol.value = "";
+    unitIdInput.value      = "";
+    unitName.value         = "";
+    unitSymbol.value       = "";
     formMessage.textContent = "";
     unitModal.classList.remove("hidden");
 }
@@ -90,10 +124,10 @@ function openAddModal() {
 function openEditModal(id) {
     const unit = unitsData.find(item => String(item.id) === String(id));
     if (!unit) return;
-    modalTitle.textContent = "Edit Satuan";
-    unitIdInput.value = unit.id;
-    unitName.value = unit.name;
-    unitSymbol.value = unit.symbol;
+    modalTitle.textContent  = "Edit Satuan";
+    unitIdInput.value       = unit.id;
+    unitName.value          = unit.name;
+    unitSymbol.value        = unit.symbol;
     formMessage.textContent = "";
     unitModal.classList.remove("hidden");
 }
@@ -109,7 +143,7 @@ cancelButton.addEventListener("click", closeUnitModal);
 searchInput.addEventListener("input", renderUnits);
 
 // ======================================================
-// SAVE UNIT
+// SAVE
 // ======================================================
 
 unitForm.addEventListener("submit", async event => {
@@ -118,10 +152,7 @@ unitForm.addEventListener("submit", async event => {
     const name   = unitName.value.trim();
     const symbol = unitSymbol.value.trim().toUpperCase();
 
-    if (!name || !symbol) {
-        formMessage.textContent = "Nama dan symbol wajib diisi.";
-        return;
-    }
+    if (!name || !symbol) { formMessage.textContent = "Nama dan symbol wajib diisi."; return; }
 
     const isEdit = Boolean(unitIdInput.value);
     const url    = isEdit ? `${BASE_URL}/api/units/${unitIdInput.value}` : `${BASE_URL}/api/units`;

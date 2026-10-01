@@ -18,8 +18,15 @@ const logoutButton      = document.getElementById("logoutButton");
 
 let kategoriData = [];
 
+const currentUser  = JSON.parse(localStorage.getItem("user") || "{}");
+const isAdminUtama = currentUser.role === "admin_utama";
+
 function escapeHtml(str) {
-    return String(str).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+    return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
 }
 
 // ======================================================
@@ -31,6 +38,7 @@ async function loadUser() {
     const data = await res.json();
     if (!res.ok) throw new Error(data.message || "Gagal mengambil data user");
     userName.textContent = data.user.name;
+    localStorage.setItem("user", JSON.stringify(data.user));
 }
 
 // ======================================================
@@ -50,7 +58,7 @@ async function loadKategori() {
 // ======================================================
 
 function renderKategori() {
-    const keyword = searchInput.value.trim().toLowerCase();
+    const keyword  = searchInput.value.trim().toLowerCase();
     const filtered = kategoriData.filter(k =>
         k.name.toLowerCase().includes(keyword) ||
         (k.description || "").toLowerCase().includes(keyword)
@@ -59,16 +67,22 @@ function renderKategori() {
     kategoriTableBody.innerHTML = "";
 
     if (filtered.length === 0) {
-        kategoriTableBody.innerHTML = "<tr><td colspan='3'>Tidak ada kategori yang ditemukan.</td></tr>";
+        kategoriTableBody.innerHTML = `<tr><td colspan="${isAdminUtama ? 3 : 2}">Tidak ada kategori yang ditemukan.</td></tr>`;
         return;
     }
 
     filtered.forEach(k => {
         const tr = document.createElement("tr");
+        const deleteBtn = isAdminUtama
+            ? `<button type="button" class="delete-button" data-id="${k.id}" data-name="${escapeHtml(k.name)}">Hapus</button>`
+            : "";
         tr.innerHTML = `
             <td>${escapeHtml(k.name)}</td>
             <td>${escapeHtml(k.description || "-")}</td>
-            <td><button type="button" class="edit-button" data-id="${k.id}">Edit</button></td>
+            <td>
+                <button type="button" class="edit-button" data-id="${k.id}">Edit</button>
+                ${deleteBtn}
+            </td>
         `;
         kategoriTableBody.appendChild(tr);
     });
@@ -76,6 +90,30 @@ function renderKategori() {
     kategoriTableBody.querySelectorAll(".edit-button").forEach(btn => {
         btn.addEventListener("click", () => openEditModal(btn.dataset.id));
     });
+
+    kategoriTableBody.querySelectorAll(".delete-button").forEach(btn => {
+        btn.addEventListener("click", () => deleteKategori(btn.dataset.id, btn.dataset.name));
+    });
+}
+
+// ======================================================
+// DELETE (SOFT DELETE)
+// ======================================================
+
+async function deleteKategori(id, name) {
+    if (!confirm(`Hapus kategori "${name}"?\n\nKategori tidak akan muncul lagi di daftar.`)) return;
+    try {
+        const res  = await fetch(`${BASE_URL}/api/categories/${id}`, {
+            method: "DELETE",
+            headers: { Authorization: `Bearer ${token}` }
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.message || "Gagal menghapus kategori");
+        await loadKategori();
+    } catch (err) {
+        console.error(err);
+        alert("Gagal menghapus kategori: " + err.message);
+    }
 }
 
 // ======================================================
@@ -124,10 +162,7 @@ kategoriForm.addEventListener("submit", async event => {
     const name = kategoriName.value.trim();
     const desc = kategoriDesc.value.trim();
 
-    if (!name) {
-        formMessage.textContent = "Nama kategori wajib diisi.";
-        return;
-    }
+    if (!name) { formMessage.textContent = "Nama kategori wajib diisi."; return; }
 
     const isEdit = Boolean(kategoriIdInput.value);
     const url    = isEdit ? `${BASE_URL}/api/categories/${kategoriIdInput.value}` : `${BASE_URL}/api/categories`;

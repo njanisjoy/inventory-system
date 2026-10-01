@@ -20,6 +20,9 @@ const token = localStorage.getItem("token");
 
 let suppliersData = [];
 
+const currentUser  = JSON.parse(localStorage.getItem("user") || "{}");
+const isAdminUtama = currentUser.role === "admin_utama";
+
 // ======================================================
 // API HELPER
 // ======================================================
@@ -45,6 +48,7 @@ async function apiRequest(url, options = {}) {
 async function loadUser() {
     const data = await apiRequest(`${BASE_URL}/api/me`);
     userName.textContent = data.user?.name || data.name || "User";
+    localStorage.setItem("user", JSON.stringify(data.user));
 }
 
 // ======================================================
@@ -52,7 +56,7 @@ async function loadUser() {
 // ======================================================
 
 async function loadSuppliers() {
-    supplierTableBody.innerHTML = "<tr><td colspan='7'>Loading...</td></tr>";
+    supplierTableBody.innerHTML = "<tr><td colspan='8'>Loading...</td></tr>";
     const data = await apiRequest(`${BASE_URL}/api/suppliers`);
     if (!Array.isArray(data)) throw new Error("Format data supplier tidak valid");
     suppliersData = data;
@@ -67,11 +71,14 @@ function renderSuppliers() {
     supplierTableBody.innerHTML = "";
 
     if (suppliersData.length === 0) {
-        supplierTableBody.innerHTML = "<tr><td colspan='7'>Belum ada supplier.</td></tr>";
+        supplierTableBody.innerHTML = `<tr><td colspan="${isAdminUtama ? 8 : 7}">Belum ada supplier.</td></tr>`;
         return;
     }
 
     suppliersData.forEach(supplier => {
+        const deleteBtn = isAdminUtama
+            ? `<button type="button" class="delete-button" data-id="${supplier.id}" data-name="${supplier.name}">Hapus</button>`
+            : "";
         const row = document.createElement("tr");
         row.innerHTML = `
             <td>${supplier.name || "-"}</td>
@@ -80,10 +87,33 @@ function renderSuppliers() {
             <td>${supplier.pic_name || "-"}</td>
             <td>${supplier.pic_phone || "-"}</td>
             <td>${supplier.notes || "-"}</td>
-            <td><button type="button" class="edit-button" data-id="${supplier.id}">Edit</button></td>
+            <td>
+                <button type="button" class="edit-button" data-id="${supplier.id}">Edit</button>
+                ${deleteBtn}
+            </td>
         `;
         supplierTableBody.appendChild(row);
     });
+}
+
+// ======================================================
+// DELETE (SOFT DELETE)
+// ======================================================
+
+async function deleteSupplier(id, name) {
+    if (!confirm(`Hapus supplier "${name}"?\n\nSupplier tidak akan muncul lagi di daftar.`)) return;
+    try {
+        const res  = await fetch(`${BASE_URL}/api/suppliers/${id}`, {
+            method: "DELETE",
+            headers: { Authorization: `Bearer ${token}` }
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.message || "Gagal menghapus supplier");
+        await loadSuppliers();
+    } catch (err) {
+        console.error(err);
+        alert("Gagal menghapus supplier: " + err.message);
+    }
 }
 
 // ======================================================
@@ -92,8 +122,8 @@ function renderSuppliers() {
 
 function openAddForm() {
     supplierForm.reset();
-    supplierId.value = "";
-    formTitle.textContent = "Tambah Supplier";
+    supplierId.value       = "";
+    formTitle.textContent  = "Tambah Supplier";
     saveSupplierButton.textContent = "Simpan Supplier";
     formMessage.textContent = "";
     supplierFormSection.classList.remove("hidden");
@@ -102,14 +132,14 @@ function openAddForm() {
 function openEditForm(id) {
     const supplier = suppliersData.find(item => String(item.id) === String(id));
     if (!supplier) return;
-    supplierId.value = supplier.id;
-    supplierName.value = supplier.name || "";
-    supplierContact.value = supplier.contact || "";
-    supplierAddress.value = supplier.address || "";
-    supplierPicName.value = supplier.pic_name || "";
-    supplierPicPhone.value = supplier.pic_phone || "";
-    supplierNotes.value = supplier.notes || "";
-    formTitle.textContent = "Edit Supplier";
+    supplierId.value        = supplier.id;
+    supplierName.value      = supplier.name || "";
+    supplierContact.value   = supplier.contact || "";
+    supplierAddress.value   = supplier.address || "";
+    supplierPicName.value   = supplier.pic_name || "";
+    supplierPicPhone.value  = supplier.pic_phone || "";
+    supplierNotes.value     = supplier.notes || "";
+    formTitle.textContent   = "Edit Supplier";
     saveSupplierButton.textContent = "Simpan Perubahan";
     formMessage.textContent = "";
     supplierFormSection.classList.remove("hidden");
@@ -118,7 +148,7 @@ function openEditForm(id) {
 
 function closeForm() {
     supplierForm.reset();
-    supplierId.value = "";
+    supplierId.value        = "";
     formMessage.textContent = "";
     supplierFormSection.classList.add("hidden");
 }
@@ -129,10 +159,8 @@ function closeForm() {
 
 async function saveSupplier(event) {
     event.preventDefault();
-
     try {
         formMessage.textContent = "Menyimpan supplier...";
-
         const id = supplierId.value.trim();
         const payload = {
             name:      supplierName.value.trim(),
@@ -142,11 +170,9 @@ async function saveSupplier(event) {
             pic_phone: supplierPicPhone.value.trim(),
             notes:     supplierNotes.value.trim()
         };
-
         const result = id
             ? await apiRequest(`${BASE_URL}/api/suppliers/${id}`, { method: "PUT",  body: JSON.stringify(payload) })
             : await apiRequest(`${BASE_URL}/api/suppliers`,       { method: "POST", body: JSON.stringify(payload) });
-
         formMessage.textContent = result.message || "Supplier berhasil disimpan.";
         await loadSuppliers();
         setTimeout(closeForm, 500);
@@ -161,8 +187,10 @@ async function saveSupplier(event) {
 // ======================================================
 
 supplierTableBody.addEventListener("click", event => {
-    const btn = event.target.closest(".edit-button");
-    if (btn) openEditForm(btn.dataset.id);
+    const editBtn   = event.target.closest(".edit-button");
+    const deleteBtn = event.target.closest(".delete-button");
+    if (editBtn)   openEditForm(editBtn.dataset.id);
+    if (deleteBtn) deleteSupplier(deleteBtn.dataset.id, deleteBtn.dataset.name);
 });
 
 addSupplierButton.addEventListener("click", openAddForm);
