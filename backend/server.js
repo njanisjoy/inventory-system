@@ -3460,13 +3460,6 @@ app.post(
 
                 const product = productResult.rows[0];
 
-                // Material Issue hanya untuk bahan mentah
-                if (product.category !== "Bahan Mentah") {
-                    throw new Error(
-                        `${product.code} bukan kategori Bahan Mentah`
-                    );
-                }
-
                 // Hitung stok langsung dari sumber kebenaran
                 const stockResult = await client.query(
                     `

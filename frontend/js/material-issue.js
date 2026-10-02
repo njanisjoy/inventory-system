@@ -154,11 +154,7 @@ async function loadRawMaterials() {
         );
     }
 
-    productsData =
-        data.filter(
-            product =>
-                (product.category || "").toLowerCase() === "bahan mentah"
-        );
+    productsData = data;
 
     productResults.classList.add("hidden");
 
