@@ -133,12 +133,13 @@ async function loadRawMaterials() {
 
     const response =
         await fetch(
-            `${BASE_URL}/api/products`,
+            `${BASE_URL}/api/products?t=${Date.now()}`,
             {
                 method: "GET",
                 headers: {
                     Authorization:
-                        `Bearer ${token}`
+                        `Bearer ${token}`,
+                    "Cache-Control": "no-cache"
                 }
             }
         );
