@@ -154,11 +154,13 @@ async function loadRawMaterials() {
         );
     }
 
-    productsData =
-        data.filter(
-            product =>
-                product.category === "Bahan Mentah"
-        );
+    // Tampilkan semua produk dulu untuk debug
+    productsData = data;
+
+    // Filter hanya Bahan Mentah (aktif setelah debug)
+    // productsData = data.filter(product =>
+    //     (product.category || "").toLowerCase().includes("bahan mentah")
+    // );
 
     productResults.classList.add("hidden");
 
