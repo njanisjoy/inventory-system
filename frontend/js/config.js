@@ -4,4 +4,4 @@
    Untuk deploy production: ganti BASE_URL ke URL server.
    ====================================================== */
 
-const BASE_URL = "https://vibrant-youth-production.up.railway.app";
+const BASE_URL = "https://inventory-system-ssd.up.railway.app";
