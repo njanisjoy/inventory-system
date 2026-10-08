@@ -1972,7 +1972,7 @@ app.get(
           l.name AS location,
           p.description AS notes
         FROM stock_status ss
-        JOIN products p ON p.id = ss.product_id
+        JOIN products p ON p.id = ss.product_id AND p.is_active = TRUE
         LEFT JOIN categories c ON c.id = p.category_id
         LEFT JOIN locations l ON l.id = p.default_location_id
         ORDER BY ss.name;
