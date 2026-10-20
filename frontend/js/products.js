@@ -212,23 +212,74 @@ editProductForm.addEventListener("submit", async event => {
 });
 
 // ======================================================
-// DELETE PRODUCT (SOFT DELETE)
+// DELETE PRODUCT (SOFT DELETE) — CUSTOM MODAL
 // ======================================================
 
-async function deleteProduct(productId, productName) {
-    if (!confirm(`Hapus produk "${productName}"?\n\nProduk tidak akan muncul lagi di daftar.`)) return;
+const deleteConfirmModal  = document.getElementById("deleteConfirmModal");
+const deleteConfirmMessage = document.getElementById("deleteConfirmMessage");
+const deleteStockWarning  = document.getElementById("deleteStockWarning");
+const deleteStockInfo     = document.getElementById("deleteStockInfo");
+const deleteCancelBtn     = document.getElementById("deleteCancelBtn");
+const deleteConfirmBtn    = document.getElementById("deleteConfirmBtn");
 
+let pendingDeleteId = null;
+
+deleteCancelBtn.addEventListener("click", () => {
+    deleteConfirmModal.classList.add("hidden");
+    pendingDeleteId = null;
+});
+
+deleteConfirmBtn.addEventListener("click", async () => {
+    if (!pendingDeleteId) return;
+    deleteConfirmBtn.disabled = true;
     try {
-        const res  = await fetch(`${BASE_URL}/api/products/${productId}`, {
+        const res  = await fetch(`${BASE_URL}/api/products/${pendingDeleteId}`, {
             method: "DELETE",
             headers: { Authorization: `Bearer ${token}` }
         });
         const data = await res.json();
         if (!res.ok) throw new Error(data.message || "Gagal menghapus produk");
+        deleteConfirmModal.classList.add("hidden");
+        pendingDeleteId = null;
         await loadProducts();
     } catch (err) {
         console.error(err);
         alert("Gagal menghapus produk: " + err.message);
+    } finally {
+        deleteConfirmBtn.disabled = false;
+    }
+});
+
+async function deleteProduct(productId, productName) {
+    pendingDeleteId = productId;
+
+    // Tampilkan pesan dasar dulu
+    deleteConfirmMessage.textContent = `Apakah kamu yakin ingin menghapus produk "${productName}"? Produk tidak akan muncul lagi di daftar dan dropdown.`;
+    deleteStockWarning.classList.add("hidden");
+    deleteConfirmModal.classList.remove("hidden");
+
+    // Fetch stok produk ini
+    try {
+        const res  = await fetch(`${BASE_URL}/api/stock`, {
+            headers: { Authorization: `Bearer ${token}` }
+        });
+        if (res.ok) {
+            const stockData = await res.json();
+            const item = stockData.find(s => String(s.product_id) === String(productId));
+            if (item) {
+                const stok = Number(item.current_stock);
+                if (stok > 0) {
+                    deleteStockInfo.textContent = `Produk ini masih memiliki stok tersisa sebanyak ${stok.toLocaleString("id-ID")} ${item.unit}. Hapus hanya jika kamu yakin barang ini tidak akan digunakan lagi.`;
+                    deleteStockWarning.classList.remove("hidden");
+                } else {
+                    deleteStockInfo.textContent = `Stok produk ini sudah habis (0 ${item.unit}).`;
+                    deleteStockWarning.classList.remove("hidden");
+                }
+            }
+        }
+    } catch (err) {
+        // Gagal fetch stok — modal tetap tampil tanpa info stok
+        console.error(err);
     }
 }
 
