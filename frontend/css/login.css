@@ -1,5 +1,5 @@
 /* ======================================================
-   LOGIN.CSS — Inventory System
+   LOGIN.CSS — Inventory System (Dark Mode)
    ====================================================== */
 
 *, *::before, *::after {
@@ -9,9 +9,9 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background: #f5f6f8;
-  color: #222;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #0f0f0f;
+  color: #e8e8e8;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
@@ -38,10 +38,10 @@ body {
 .login-card {
   width: 100%;
   max-width: 400px;
-  background: #fff;
-  border: 1px solid #e8e8e8;
+  background: #141414;
+  border: 1px solid #222;
   border-radius: 14px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
   padding: 40px 36px 36px;
 }
 
@@ -68,12 +68,12 @@ body {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: -0.5px;
-  color: #111;
+  color: #f0f0f0;
 }
 
 .login-brand p {
   font-size: 13px;
-  color: #999;
+  color: #555;
   margin-top: 4px;
 }
 
@@ -93,7 +93,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  color: #555;
+  color: #666;
   margin-bottom: 7px;
 }
 
@@ -101,24 +101,23 @@ body {
   width: 100%;
   height: 44px;
   padding: 0 14px;
-  border: 1.5px solid #e0e0e0;
+  border: 1px solid #2a2a2a;
   border-radius: 8px;
-  background: #fafafa;
-  color: #222;
+  background: #1a1a1a;
+  color: #e0e0e0;
   font-family: inherit;
   font-size: 15px;
   outline: none;
-  transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+  transition: border-color 0.15s, box-shadow 0.15s;
 }
 
 .form-group input:focus {
-  border-color: #333;
-  background: #fff;
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06);
+  border-color: #444;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.05);
 }
 
 .form-group input::placeholder {
-  color: #bbb;
+  color: #444;
   font-size: 14px;
 }
 
@@ -127,13 +126,8 @@ body {
    PASSWORD TOGGLE
    ====================================================== */
 
-.password-wrapper {
-  position: relative;
-}
-
-.password-wrapper input {
-  padding-right: 44px;
-}
+.password-wrapper { position: relative; }
+.password-wrapper input { padding-right: 44px; }
 
 .toggle-password {
   position: absolute;
@@ -149,20 +143,13 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0;
-  color: #aaa;
+  color: #444;
   transition: color 0.15s;
   border-radius: 4px;
 }
 
-.toggle-password:hover {
-  color: #444;
-}
-
-.toggle-password svg {
-  width: 18px;
-  height: 18px;
-  display: block;
-}
+.toggle-password:hover { color: #aaa; }
+.toggle-password svg { width: 18px; height: 18px; display: block; }
 
 
 /* ======================================================
@@ -175,30 +162,21 @@ body {
   margin-top: 8px;
   border: none;
   border-radius: 8px;
-  background: #222;
-  color: #fff;
+  background: #f0f0f0;
+  color: #111;
   font-family: inherit;
   font-size: 15px;
   font-weight: 700;
   cursor: pointer;
   letter-spacing: 0.2px;
-  transition: opacity 0.15s, background 0.15s;
+  transition: opacity 0.15s;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
 }
 
-#loginButton:hover {
-  opacity: 0.85;
-}
-
-#loginButton:active {
-  opacity: 0.75;
-}
-
-#loginButton:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
+#loginButton:hover  { opacity: 0.85; }
+#loginButton:active { opacity: 0.75; }
+#loginButton:disabled { opacity: 0.4; cursor: not-allowed; }
 
 
 /* ======================================================
@@ -211,16 +189,11 @@ body {
   font-weight: 600;
   text-align: center;
   min-height: 20px;
-  color: #444;
+  color: #666;
 }
 
-.login-message.error {
-  color: #c0392b;
-}
-
-.login-message.success {
-  color: #1e7e34;
-}
+.login-message.error   { color: #e05050; }
+.login-message.success { color: #4caf6e; }
 
 
 /* ======================================================
@@ -228,24 +201,8 @@ body {
    ====================================================== */
 
 @media (max-width: 480px) {
-
-  .login-card {
-    padding: 32px 22px 28px;
-    border-radius: 12px;
-  }
-
-  .login-brand h1 {
-    font-size: 22px;
-  }
-
-  .form-group input {
-    height: 48px;
-    font-size: 16px;
-  }
-
-  #loginButton {
-    height: 50px;
-    font-size: 16px;
-  }
-
+  .login-card { padding: 32px 22px 28px; border-radius: 12px; }
+  .login-brand h1 { font-size: 22px; }
+  .form-group input { height: 48px; font-size: 16px; }
+  #loginButton { height: 50px; font-size: 16px; }
 }

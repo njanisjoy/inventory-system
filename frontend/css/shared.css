@@ -1,8 +1,6 @@
 /* ======================================================
-   SHARED.CSS — Inventory System
-   Komponen bersama untuk semua halaman.
+   SHARED.CSS — Inventory System (Dark Mode)
    ====================================================== */
-
 
 /* ======================================================
    RESET
@@ -15,12 +13,11 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background: #f5f6f8;
-  color: #222;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #0f0f0f;
+  color: #e8e8e8;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  /* Cegah horizontal scroll di level page */
   overflow-x: hidden;
 }
 
@@ -49,8 +46,8 @@ body {
 .sidebar {
   width: 220px;
   min-height: 100vh;
-  background: #fff;
-  border-right: 1px solid #e8e8e8;
+  background: #141414;
+  border-right: 1px solid #222;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
@@ -60,7 +57,7 @@ body {
 
 .sidebar-header {
   padding: 22px 18px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #222;
 }
 
 .sidebar-logo {
@@ -73,14 +70,15 @@ body {
 }
 
 .sidebar-header h2 {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   letter-spacing: -0.3px;
+  color: #f0f0f0;
 }
 
 .sidebar-header p {
-  font-size: 12px;
-  color: #999;
+  font-size: 11.5px;
+  color: #555;
   margin-top: 3px;
 }
 
@@ -98,42 +96,43 @@ body {
   padding: 10px 12px;
   border-radius: 6px;
   text-decoration: none;
-  color: #555;
+  color: #888;
   font-size: 13.5px;
   transition: background 0.1s, color 0.1s;
 }
 
 .menu-item:hover {
-  background: #f4f4f4;
-  color: #222;
+  background: #1e1e1e;
+  color: #e0e0e0;
 }
 
 .menu-item.active {
-  background: #222;
-  color: #fff;
+  background: #ffffff;
+  color: #111;
   font-weight: 600;
 }
 
 .sidebar-bottom {
   padding: 16px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #222;
 }
 
 #logoutButton {
   width: 100%;
   padding: 10px;
-  border: none;
+  border: 1px solid #2a2a2a;
   border-radius: 6px;
-  background: #f0f0f0;
-  color: #333;
+  background: #1a1a1a;
+  color: #888;
   font-size: 13.5px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.1s;
+  transition: background 0.1s, color 0.1s;
 }
 
 #logoutButton:hover {
-  background: #e4e4e4;
+  background: #222;
+  color: #ccc;
 }
 
 
@@ -145,7 +144,7 @@ body {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 299;
 }
 
@@ -163,8 +162,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 18px 28px;
-  background: #fff;
-  border-bottom: 1px solid #e8e8e8;
+  background: #141414;
+  border-bottom: 1px solid #222;
   gap: 12px;
   position: sticky;
   top: 0;
@@ -178,14 +177,13 @@ body {
   min-width: 0;
 }
 
-.topbar-left > div {
-  min-width: 0;
-}
+.topbar-left > div { min-width: 0; }
 
 .topbar h1 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   letter-spacing: -0.3px;
+  color: #f0f0f0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -193,7 +191,7 @@ body {
 
 .topbar p {
   font-size: 12.5px;
-  color: #888;
+  color: #555;
   margin-top: 2px;
   white-space: nowrap;
   overflow: hidden;
@@ -203,12 +201,11 @@ body {
 .user-info {
   font-size: 13px;
   font-weight: 600;
-  color: #444;
+  color: #aaa;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
-/* Hamburger button — hidden on desktop */
 .hamburger-btn {
   display: none;
   flex-shrink: 0;
@@ -224,15 +221,13 @@ body {
   transition: background 0.1s;
 }
 
-.hamburger-btn:hover {
-  background: #f0f0f0;
-}
+.hamburger-btn:hover { background: #1e1e1e; }
 
 .hamburger-btn svg {
   display: block;
   width: 20px;
   height: 20px;
-  stroke: #444;
+  stroke: #aaa;
   stroke-width: 2;
   stroke-linecap: round;
   fill: none;
@@ -259,8 +254,8 @@ body {
    ====================================================== */
 
 .card {
-  background: #fff;
-  border: 1px solid #e8e8e8;
+  background: #141414;
+  border: 1px solid #222;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -272,23 +267,13 @@ body {
   flex-wrap: wrap;
   gap: 12px;
   padding: 16px 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #222;
 }
 
-.card-header h2 {
-  font-size: 15px;
-  font-weight: 700;
-}
+.card-header h2 { font-size: 15px; font-weight: 700; color: #f0f0f0; }
+.card-header p  { font-size: 12.5px; color: #555; margin-top: 2px; }
 
-.card-header p {
-  font-size: 12.5px;
-  color: #888;
-  margin-top: 2px;
-}
-
-.card-body {
-  padding: 20px;
-}
+.card-body { padding: 20px; }
 
 .section-header {
   display: flex;
@@ -297,19 +282,11 @@ body {
   flex-wrap: wrap;
   gap: 12px;
   padding: 16px 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #222;
 }
 
-.section-header h2 {
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.section-header p {
-  font-size: 12.5px;
-  color: #888;
-  margin-top: 2px;
-}
+.section-header h2 { font-size: 15px; font-weight: 700; color: #f0f0f0; }
+.section-header p  { font-size: 12.5px; color: #555; margin-top: 2px; }
 
 
 /* ======================================================
@@ -327,34 +304,36 @@ body {
 table {
   width: 100%;
   border-collapse: collapse;
-  /* Hapus min-width global — tiap halaman atur sendiri jika perlu */
 }
 
 th, td {
   padding: 11px 14px;
   text-align: left;
   font-size: 13px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #1e1e1e;
+  color: #d0d0d0;
 }
 
 th {
-  background: #fafafa;
+  background: #161616;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: #777;
+  color: #555;
   white-space: nowrap;
   position: sticky;
   top: 0;
 }
 
-tbody tr:last-child td {
-  border-bottom: none;
-}
+tbody tr:last-child td { border-bottom: none; }
 
-tbody tr:hover {
-  background: #fcfcfc;
+tbody tr:hover { background: #1a1a1a; }
+
+/* Kolom aksi tidak melebar */
+td:last-child {
+  white-space: nowrap;
+  width: 1%;
 }
 
 
@@ -362,9 +341,7 @@ tbody tr:hover {
    FORM
    ====================================================== */
 
-.form-body {
-  padding: 20px;
-}
+.form-body { padding: 20px; }
 
 .form-group {
   display: flex;
@@ -372,14 +349,12 @@ tbody tr:hover {
   margin-bottom: 16px;
 }
 
-.form-group:last-child {
-  margin-bottom: 0;
-}
+.form-group:last-child { margin-bottom: 0; }
 
 .form-group label {
   font-size: 11.5px;
   font-weight: 700;
-  color: #555;
+  color: #666;
   margin-bottom: 6px;
   text-transform: uppercase;
   letter-spacing: 0.3px;
@@ -390,37 +365,39 @@ tbody tr:hover {
 .form-group textarea {
   width: 100%;
   padding: 10px 12px;
-  border: 1px solid #ddd;
+  border: 1px solid #2a2a2a;
   border-radius: 7px;
-  background: #fff;
-  color: #222;
+  background: #1a1a1a;
+  color: #e0e0e0;
   font-family: inherit;
-  font-size: 14px;
+  font-size: max(16px, 14px);
   outline: none;
   transition: border-color 0.15s, box-shadow 0.15s;
-  /* Prevents iOS zoom on focus */
-  font-size: max(16px, 14px);
 }
 
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #888;
-  box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
+  border-color: #444;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.04);
+}
+
+.form-group select option {
+  background: #1a1a1a;
+  color: #e0e0e0;
 }
 
 .form-group textarea {
   resize: vertical;
   min-height: 88px;
   line-height: 1.5;
-  font-size: 14px;
 }
 
 #formMessage,
 #addFormMessage {
   font-size: 13px;
   font-weight: 600;
-  color: #444;
+  color: #aaa;
   min-height: 18px;
 }
 
@@ -451,8 +428,8 @@ tbody tr:hover {
   padding: 10px 18px;
   border: none;
   border-radius: 7px;
-  background: #222;
-  color: #fff;
+  background: #f0f0f0;
+  color: #111;
   font-family: inherit;
   font-size: 13.5px;
   font-weight: 600;
@@ -463,39 +440,39 @@ tbody tr:hover {
   touch-action: manipulation;
 }
 
-.btn:hover, .btn-primary:hover { opacity: 0.82; }
-.btn:disabled, .btn-primary:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn:hover, .btn-primary:hover { opacity: 0.85; }
+.btn:disabled, .btn-primary:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .btn-secondary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 10px 18px;
-  border: none;
+  border: 1px solid #2a2a2a;
   border-radius: 7px;
-  background: #f0f0f0;
-  color: #333;
+  background: #1a1a1a;
+  color: #aaa;
   font-family: inherit;
   font-size: 13.5px;
   font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
-  transition: background 0.1s;
+  transition: background 0.1s, color 0.1s;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
 }
 
-.btn-secondary:hover { background: #e4e4e4; }
+.btn-secondary:hover { background: #222; color: #ccc; }
 
 .btn-danger {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 7px 13px;
-  border: 1px solid #f5c6cb;
+  border: 1px solid #3a1a1a;
   border-radius: 6px;
-  background: #fff5f5;
-  color: #c0392b;
+  background: #1e0e0e;
+  color: #e05050;
   font-family: inherit;
   font-size: 12.5px;
   font-weight: 600;
@@ -504,13 +481,7 @@ tbody tr:hover {
   touch-action: manipulation;
 }
 
-.btn-danger:hover { background: #fde8e8; }
-
-.btn-sm {
-  padding: 6px 12px;
-  font-size: 12px;
-  border-radius: 5px;
-}
+.btn-danger:hover { background: #2a1010; }
 
 /* Legacy button selectors */
 .add-button,
@@ -521,15 +492,17 @@ tbody tr:hover {
 #addProductButton,
 #saveButton,
 #addSaveButton,
-#saveSupplierButton {
+#saveSupplierButton,
+#addKategoriButton,
+#addLokasiButton {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 10px 18px;
   border: none;
   border-radius: 7px;
-  background: #222;
-  color: #fff;
+  background: #f0f0f0;
+  color: #111;
   font-family: inherit;
   font-size: 13.5px;
   font-weight: 600;
@@ -548,33 +521,35 @@ tbody tr:hover {
 #addProductButton:hover,
 #saveButton:hover,
 #addSaveButton:hover,
-#saveSupplierButton:hover { opacity: 0.82; }
+#saveSupplierButton:hover,
+#addKategoriButton:hover,
+#addLokasiButton:hover { opacity: 0.85; }
 
 #submitButton:disabled,
 #addItemButton:disabled,
 #saveButton:disabled,
-#addSaveButton:disabled { opacity: 0.45; cursor: not-allowed; }
+#addSaveButton:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .edit-button {
   padding: 6px 12px;
-  border: none;
+  border: 1px solid #2a2a2a;
   border-radius: 5px;
-  background: #333;
-  color: #fff;
+  background: #1e1e1e;
+  color: #ccc;
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
-  transition: opacity 0.15s;
+  transition: background 0.1s, color 0.1s;
   touch-action: manipulation;
 }
-.edit-button:hover { opacity: 0.82; }
+.edit-button:hover { background: #282828; color: #fff; }
 
 .delete-button {
   padding: 6px 12px;
-  border: 1px solid #f5c6cb;
+  border: 1px solid #3a1a1a;
   border-radius: 5px;
-  background: #fff5f5;
-  color: #c0392b;
+  background: #1e0e0e;
+  color: #e05050;
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
@@ -582,27 +557,21 @@ tbody tr:hover {
   touch-action: manipulation;
   margin-left: 4px;
 }
-.delete-button:hover { background: #fde8e8; }
-
-/* Kolom aksi tidak mengembang terlalu lebar */
-td:last-child {
-  white-space: nowrap;
-  width: 1%;
-}
+.delete-button:hover { background: #2a1212; }
 
 .remove-item-button {
   padding: 6px 12px;
-  border: none;
+  border: 1px solid #2a2a2a;
   border-radius: 5px;
-  background: #f0f0f0;
-  color: #333;
+  background: #1a1a1a;
+  color: #888;
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.1s;
   touch-action: manipulation;
 }
-.remove-item-button:hover { background: #e2e2e2; }
+.remove-item-button:hover { background: #222; color: #ccc; }
 
 #cancelButton,
 #cancelAddButton,
@@ -611,20 +580,20 @@ td:last-child {
   align-items: center;
   justify-content: center;
   padding: 10px 18px;
-  border: none;
+  border: 1px solid #2a2a2a;
   border-radius: 7px;
-  background: #f0f0f0;
-  color: #333;
+  background: #1a1a1a;
+  color: #aaa;
   font-family: inherit;
   font-size: 13.5px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.1s;
+  transition: background 0.1s, color 0.1s;
   touch-action: manipulation;
 }
 #cancelButton:hover,
 #cancelAddButton:hover,
-#cancelSupplierButton:hover { background: #e4e4e4; }
+#cancelSupplierButton:hover { background: #222; color: #ccc; }
 
 
 /* ======================================================
@@ -638,23 +607,22 @@ td:last-child {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
   z-index: 1000;
   overscroll-behavior: contain;
 }
 
-.modal.hidden {
-  display: none;
-}
+.modal.hidden { display: none; }
 
 .modal-content {
   width: 100%;
   max-width: 560px;
   max-height: 90vh;
   overflow-y: auto;
-  background: #fff;
+  background: #141414;
+  border: 1px solid #2a2a2a;
   border-radius: 12px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
   -webkit-overflow-scrolling: touch;
 }
 
@@ -664,23 +632,15 @@ td:last-child {
   align-items: flex-start;
   gap: 12px;
   padding: 18px 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #222;
   position: sticky;
   top: 0;
-  background: #fff;
+  background: #141414;
   z-index: 1;
 }
 
-.modal-header h2 {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.modal-header p {
-  font-size: 12.5px;
-  color: #888;
-  margin-top: 3px;
-}
+.modal-header h2 { font-size: 16px; font-weight: 700; color: #f0f0f0; }
+.modal-header p  { font-size: 12.5px; color: #555; margin-top: 3px; }
 
 .close-button {
   width: 32px;
@@ -688,7 +648,7 @@ td:last-child {
   border: none;
   border-radius: 6px;
   background: transparent;
-  color: #888;
+  color: #555;
   font-size: 20px;
   line-height: 1;
   cursor: pointer;
@@ -696,14 +656,11 @@ td:last-child {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  transition: background 0.1s;
+  transition: background 0.1s, color 0.1s;
   touch-action: manipulation;
 }
 
-.close-button:hover {
-  background: #f0f0f0;
-  color: #222;
-}
+.close-button:hover { background: #1e1e1e; color: #ccc; }
 
 .modal-content form,
 #editProductForm,
@@ -714,12 +671,10 @@ td:last-child {
 
 
 /* ======================================================
-   PRODUCT PICKER / AUTOCOMPLETE
+   PRODUCT PICKER
    ====================================================== */
 
-.product-picker {
-  position: relative;
-}
+.product-picker { position: relative; }
 
 .product-results {
   position: absolute;
@@ -728,10 +683,10 @@ td:last-child {
   right: 0;
   max-height: 240px;
   overflow-y: auto;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
   border-radius: 8px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   z-index: 200;
   -webkit-overflow-scrolling: touch;
 }
@@ -743,8 +698,8 @@ td:last-child {
   width: 100%;
   padding: 12px 14px;
   border: none;
-  border-bottom: 1px solid #f0f0f0;
-  background: #fff;
+  border-bottom: 1px solid #222;
+  background: #1a1a1a;
   text-align: left;
   cursor: pointer;
   font-family: inherit;
@@ -753,52 +708,33 @@ td:last-child {
 }
 
 .product-result:last-child { border-bottom: none; }
-.product-result:hover, .product-result:active { background: #f5f5f5; }
+.product-result:hover, .product-result:active { background: #222; }
 
-.product-result-main {
-  font-size: 13.5px;
-  color: #222;
-  font-weight: 600;
-}
-
-.product-result-meta {
-  font-size: 12px;
-  color: #888;
-  margin-top: 2px;
-}
-
-.product-result-empty {
-  padding: 14px;
-  font-size: 13px;
-  color: #999;
-}
+.product-result-main { font-size: 13.5px; color: #e0e0e0; font-weight: 600; }
+.product-result-meta { font-size: 12px; color: #666; margin-top: 2px; }
+.product-result-empty { padding: 14px; font-size: 13px; color: #555; }
 
 .selected-product-info {
   margin-top: 8px;
   padding: 10px 13px;
-  background: #fafafa;
-  border: 1px solid #eee;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
   border-radius: 7px;
   font-size: 13px;
   line-height: 1.7;
-  color: #444;
+  color: #aaa;
 }
 
 .selected-product-info.hidden { display: none; }
 
-.quantity-input {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
+.quantity-input { display: flex; align-items: center; gap: 10px; }
 .quantity-input input { flex: 1; }
 
 #itemUnit {
   min-width: 40px;
   font-size: 13.5px;
   font-weight: 700;
-  color: #555;
+  color: #888;
 }
 
 
@@ -815,9 +751,9 @@ td:last-child {
   white-space: nowrap;
 }
 
-.stock-status.NORMAL       { background: #e8f5e9; color: #2e7d32; }
-.stock-status.LOW_STOCK    { background: #fff8e1; color: #e65100; }
-.stock-status.OUT_OF_STOCK { background: #ffebee; color: #c62828; }
+.stock-status.NORMAL       { background: #0d2e16; color: #4caf6e; }
+.stock-status.LOW_STOCK    { background: #2e1f00; color: #e0a020; }
+.stock-status.OUT_OF_STOCK { background: #2e0a0a; color: #e05050; }
 
 .status-badge {
   display: inline-block;
@@ -826,13 +762,13 @@ td:last-child {
   font-size: 11.5px;
   font-weight: 700;
   white-space: nowrap;
-  background: #f0f0f0;
-  color: #555;
+  background: #1e1e1e;
+  color: #777;
 }
 
-.status-badge.status-draft     { background: #f0f0f0; color: #555; }
-.status-badge.status-shipped   { background: #e6f4ea; color: #1e7e34; }
-.status-badge.status-cancelled { background: #fde8e8; color: #c0392b; }
+.status-badge.status-draft     { background: #1e1e1e; color: #777; }
+.status-badge.status-shipped   { background: #0d2e16; color: #4caf6e; }
+.status-badge.status-cancelled { background: #2e0a0a; color: #e05050; }
 
 
 /* ======================================================
@@ -840,30 +776,24 @@ td:last-child {
    ====================================================== */
 
 .hidden { display: none !important; }
-.text-muted { color: #999; font-size: 13px; }
+.text-muted { color: #555; font-size: 13px; }
 
 
 /* ======================================================
-   RESPONSIVE — TABLET  (≤ 900px)
+   RESPONSIVE — TABLET (≤ 900px)
    ====================================================== */
 
 @media (max-width: 900px) {
-
   .topbar { padding: 14px 20px; }
-
   .page-content { padding: 18px 20px; }
-
 }
 
 
 /* ======================================================
-   RESPONSIVE — MOBILE  (≤ 700px)
-   Sidebar jadi overlay drawer dari kiri.
+   RESPONSIVE — MOBILE (≤ 700px)
    ====================================================== */
 
 @media (max-width: 700px) {
-
-  /* Sidebar jadi fixed drawer — tersembunyi di kiri */
   .sidebar {
     position: fixed;
     top: 0;
@@ -871,92 +801,50 @@ td:last-child {
     height: 100%;
     width: 260px;
     transform: translateX(-100%);
-    box-shadow: 4px 0 20px rgba(0,0,0,0.12);
+    box-shadow: 4px 0 20px rgba(0,0,0,0.4);
     min-height: unset;
     overflow-y: auto;
   }
 
   .sidebar.open { transform: translateX(0); }
-
   .app-layout { display: block; }
   .main-area  { min-height: 100vh; }
-
-  /* Hamburger tampil */
   .hamburger-btn { display: inline-flex; }
-
-  /* Topbar compact */
   .topbar { padding: 12px 16px; }
   .topbar h1 { font-size: 17px; }
   .topbar p  { display: none; }
   .user-info { font-size: 12px; }
-
-  /* Page content */
   .page-content { padding: 12px; gap: 12px; }
 
-  /* Section header stack */
-  .section-header,
-  .card-header {
+  .section-header, .card-header {
     flex-direction: column;
     align-items: flex-start;
     padding: 12px 14px;
     gap: 10px;
   }
 
-  /* Tabel: th boleh wrap di mobile agar kolom lebih compact */
-  th {
-    white-space: normal;
-    font-size: 10px;
-    padding: 9px 10px;
-  }
+  th { white-space: normal; font-size: 10px; padding: 9px 10px; }
+  td { font-size: 12px; padding: 9px 10px; }
 
-  td {
-    font-size: 12px;
-    padding: 9px 10px;
-  }
+  .form-actions { flex-direction: column-reverse; }
+  .form-actions > * { width: 100%; justify-content: center; }
 
-  /* Buttons full-width di form-actions */
-  .form-actions {
-    flex-direction: column-reverse;
-  }
+  .modal { padding: 0; align-items: flex-end; }
+  .modal-content { max-width: 100%; max-height: 94vh; border-radius: 16px 16px 0 0; }
 
-  .form-actions > * {
-    width: 100%;
-    justify-content: center;
-  }
-
-  /* Modal slide-up dari bawah */
-  .modal {
-    padding: 0;
-    align-items: flex-end;
-  }
-
-  .modal-content {
-    max-width: 100%;
-    max-height: 94vh;
-    border-radius: 16px 16px 0 0;
-  }
-
-  /* Input font-size 16px mencegah zoom iOS */
   .form-group input,
   .form-group select,
-  .form-group textarea {
-    font-size: 16px;
-  }
-
+  .form-group textarea { font-size: 16px; }
 }
 
 
 /* ======================================================
-   RESPONSIVE — SMALL MOBILE  (≤ 400px)
+   RESPONSIVE — SMALL MOBILE (≤ 400px)
    ====================================================== */
 
 @media (max-width: 400px) {
-
   .topbar h1 { font-size: 15px; }
-
   th { font-size: 9.5px; padding: 8px 8px; }
   td { font-size: 11.5px; padding: 8px 8px; }
-
   .page-content { padding: 10px; gap: 10px; }
-
 }
