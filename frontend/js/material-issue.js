@@ -131,33 +131,34 @@ async function loadUser() {
 
 async function loadRawMaterials() {
 
-    const response =
-        await fetch(
-            `${BASE_URL}/api/products?t=${Date.now()}`,
-            {
-                method: "GET",
-                headers: {
-                    Authorization:
-                        `Bearer ${token}`,
-                    "Cache-Control": "no-cache"
-                }
-            }
-        );
+    const [productRes, stockRes] = await Promise.all([
+        fetch(`${BASE_URL}/api/products?t=${Date.now()}`, {
+            method: "GET",
+            headers: { Authorization: `Bearer ${token}`, "Cache-Control": "no-cache" }
+        }),
+        fetch(`${BASE_URL}/api/stock?t=${Date.now()}`, {
+            method: "GET",
+            headers: { Authorization: `Bearer ${token}`, "Cache-Control": "no-cache" }
+        })
+    ]);
 
-    const data =
-        await response.json();
+    const productData = await productRes.json();
+    const stockData   = await stockRes.json();
 
-    if (!response.ok) {
-        throw new Error(
-            data.message ||
-            "Gagal mengambil daftar produk"
-        );
-    }
+    if (!productRes.ok) throw new Error(productData.message || "Gagal mengambil daftar produk");
+    if (!stockRes.ok)   throw new Error(stockData.message   || "Gagal mengambil data stok");
 
-    productsData = data;
+    // Buat map stok berdasarkan product_id
+    const stockMap = {};
+    stockData.forEach(s => { stockMap[s.product_id] = s.current_stock; });
+
+    // Gabungkan current_stock ke data produk
+    productsData = productData.map(p => ({
+        ...p,
+        current_stock: stockMap[p.id] !== undefined ? stockMap[p.id] : null
+    }));
 
     productResults.classList.add("hidden");
-
 }
 
 
@@ -310,25 +311,8 @@ function selectProduct(product) {
             Satuan: ${product.unit_symbol || "-"}
         </div>
 
-        ${currentStock !== null
-            ? `
-                    <div>
-                        Stok saat ini:
-                        ${formatQuantity(currentStock)}
-                        ${product.unit_symbol || ""}
-                    </div>
-                  `
-            : ""
-        }
-
-        ${minimumStock !== null
-            ? `
-                    <div>
-                        Batas minimum:
-                        ${formatQuantity(minimumStock)}
-                        ${product.unit_symbol || ""}
-                    </div>
-                  `
+        ${product.current_stock !== null && product.current_stock !== undefined
+            ? `<div>Stok saat ini: <strong>${formatQuantity(product.current_stock)} ${product.unit_symbol || ""}</strong></div>`
             : ""
         }
     `;
