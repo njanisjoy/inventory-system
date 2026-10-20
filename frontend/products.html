@@ -536,14 +536,14 @@
                     <p>Tindakan ini tidak dapat dibatalkan</p>
                 </div>
             </div>
-            <div style="padding: 20px;">
-                <p id="deleteConfirmMessage" style="font-size:14px; color:#333; margin-bottom:16px; line-height:1.6;"></p>
-                <div id="deleteStockWarning" class="hidden" style="background:#fff8e1; border:1px solid #ffe082; border-radius:8px; padding:12px 14px; margin-bottom:16px; font-size:13px; color:#7a5c00;">
+            <div class="delete-modal-body">
+                <p id="deleteConfirmMessage" class="delete-modal-text"></p>
+                <div id="deleteStockWarning" class="delete-stock-warning hidden">
                     <strong>⚠ Perhatian:</strong> <span id="deleteStockInfo"></span>
                 </div>
                 <div class="form-actions">
-                    <button type="button" id="deleteCancelBtn">Batal</button>
-                    <button type="button" id="deleteConfirmBtn" class="delete-button" style="padding:10px 18px; font-size:13.5px;">Ya, Hapus</button>
+                    <button type="button" id="deleteCancelBtn" class="btn-secondary">Batal</button>
+                    <button type="button" id="deleteConfirmBtn" class="delete-button delete-button-lg">Ya, Hapus</button>
                 </div>
             </div>
         </div>
