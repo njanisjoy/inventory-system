@@ -1,4 +1,4 @@
-﻿/* kategori.css â€” page-specific only. shared.css handles layout/sidebar/topbar/table/modal/buttons. */
+﻿/* kategori.css — page-specific (dark mode) */
 
 .kategori-content {
   max-width: 900px;
@@ -16,8 +16,8 @@
   gap: 16px;
 }
 
-.kategori-toolbar h2 { font-size: 17px; font-weight: 700; }
-.kategori-toolbar p  { font-size: 12.5px; color: #888; margin-top: 3px; }
+.kategori-toolbar h2 { font-size: 17px; font-weight: 700; color: #f0f0f0; }
+.kategori-toolbar p  { font-size: 12.5px; color: #555; margin-top: 3px; }
 
 .kategori-actions {
   display: flex;
@@ -30,38 +30,37 @@
   width: 240px;
   height: 38px;
   padding: 0 12px;
-  border: 1px solid #ddd;
+  border: 1px solid #2a2a2a;
   border-radius: 7px;
-  background: #fff;
+  background: #1a1a1a;
+  color: #e0e0e0;
   font-family: inherit;
   font-size: 13.5px;
   outline: none;
   transition: border-color 0.15s;
 }
 
+#searchInput:focus { border-color: #444; }
+
 #addKategoriButton {
   height: 38px;
   padding: 0 14px;
   border: none;
   border-radius: 7px;
-  background: #222;
-  color: #fff;
+  background: #f0f0f0;
+  color: #111;
   font-family: inherit;
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.15s;
+  transition: opacity 0.15s;
 }
 
-#addKategoriButton:hover {
-  background: #333;
-}
-
-#searchInput:focus { border-color: #999; }
+#addKategoriButton:hover { opacity: 0.85; }
 
 .kategori-section {
-  background: #fff;
-  border: 1px solid #e8e8e8;
+  background: #141414;
+  border: 1px solid #222;
   border-radius: 10px;
   overflow: hidden;
 }

@@ -1,4 +1,4 @@
-﻿/* outbound.css — page-specific styles only. shared.css handles layout/sidebar/topbar/table/form/buttons/product-picker/status-badges. */
+﻿/* outbound.css — page-specific (dark mode) */
 
 .outbound-content {
   max-width: 1200px;
@@ -9,55 +9,27 @@
   gap: 20px;
 }
 
-/* ======================================================
-   SECTIONS
-   ====================================================== */
-
 .form-section,
 .items-section,
 .history-section {
-  background: #fff;
-  border: 1px solid #e8e8e8;
+  background: #141414;
+  border: 1px solid #222;
   border-radius: 10px;
   overflow: hidden;
 }
-.items-section {
-  overflow: visible;
-}
 
-/* Pastikan product autocomplete berada di atas section berikutnya */
-.items-section:has(.product-picker) {
-  position: relative;
-  z-index: 10;
-}
+.items-section { overflow: visible; }
+.items-section:has(.product-picker) { position: relative; z-index: 10; }
 
 .section-header {
   padding: 18px 22px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #222;
 }
 
-.section-header h2 {
-  font-size: 16px;
-  font-weight: 700;
-}
+.section-header h2 { font-size: 16px; font-weight: 700; color: #f0f0f0; }
+.section-header p  { font-size: 12.5px; color: #555; margin-top: 3px; }
 
-.section-header p {
-  font-size: 12.5px;
-  color: #888;
-  margin-top: 3px;
-}
-
-/* ======================================================
-   FORM
-   ====================================================== */
-
-#outboundForm {
-  padding: 22px;
-}
-
-/* ======================================================
-   ITEM INPUT GRID
-   ====================================================== */
+#outboundForm { padding: 22px; }
 
 .item-input-container {
   padding: 22px;
@@ -67,22 +39,12 @@
   align-items: end;
 }
 
-.item-input-container .form-group {
-  margin-bottom: 0;
-}
-
-.item-input-container .form-actions {
-  margin-bottom: 0;
-  justify-content: flex-start;
-}
-
-/* ======================================================
-   SUBMIT SECTION
-   ====================================================== */
+.item-input-container .form-group    { margin-bottom: 0; }
+.item-input-container .form-actions  { margin-bottom: 0; justify-content: flex-start; }
 
 .submit-section {
-  background: #fff;
-  border: 1px solid #e8e8e8;
+  background: #141414;
+  border: 1px solid #222;
   border-radius: 10px;
   padding: 20px 22px;
   display: flex;
@@ -90,49 +52,29 @@
   gap: 12px;
 }
 
-#formMessage {
-  font-size: 13px;
-  font-weight: 600;
-  color: #444;
-  min-height: 18px;
-}
+#formMessage { font-size: 13px; font-weight: 600; color: #888; min-height: 18px; }
 
-/* ======================================================
-   CATATAN INLINE (HISTORY)
-   ====================================================== */
-
-.notes-cell {
-  /* min-width dihapus agar tidak paksa overflow di mobile */
-  max-width: 220px;
-}
+.notes-cell { max-width: 220px; }
 
 .notes-text {
   display: block;
   font-size: 13px;
-  color: #555;
+  color: #666;
   white-space: pre-wrap;
   word-break: break-word;
 }
 
-.notes-text.hidden {
-  display: none;
-}
-
-.notes-edit {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.notes-edit.hidden {
-  display: none;
-}
+.notes-text.hidden { display: none; }
+.notes-edit { display: flex; flex-direction: column; gap: 6px; }
+.notes-edit.hidden { display: none; }
 
 .notes-textarea {
   width: 100%;
   padding: 7px 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #2a2a2a;
   border-radius: 6px;
+  background: #1a1a1a;
+  color: #e0e0e0;
   font-family: inherit;
   font-size: 13px;
   resize: vertical;
@@ -140,56 +82,44 @@
   transition: border-color 0.15s;
 }
 
-.notes-textarea:focus {
-  border-color: #999;
-}
-
-.notes-actions {
-  display: flex;
-  gap: 6px;
-}
+.notes-textarea:focus { border-color: #444; }
+.notes-actions { display: flex; gap: 6px; }
 
 .save-notes-button {
   padding: 5px 12px;
   border: none;
   border-radius: 5px;
-  background: #222;
-  color: #fff;
+  background: #f0f0f0;
+  color: #111;
   font-family: inherit;
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
   transition: opacity 0.15s;
 }
-
-.save-notes-button:hover { opacity: 0.82; }
-
-.save-notes-button:disabled {
-  opacity: 0.45;
-  cursor: not-allowed;
-}
+.save-notes-button:hover    { opacity: 0.85; }
+.save-notes-button:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .cancel-notes-button {
   padding: 5px 12px;
-  border: none;
+  border: 1px solid #2a2a2a;
   border-radius: 5px;
-  background: #f0f0f0;
-  color: #333;
+  background: #1a1a1a;
+  color: #888;
   font-family: inherit;
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.1s;
 }
-
-.cancel-notes-button:hover { background: #e4e4e4; }
+.cancel-notes-button:hover { background: #222; }
 
 .edit-notes-button {
   padding: 5px 11px;
-  border: none;
+  border: 1px solid #2a2a2a;
   border-radius: 5px;
-  background: #f0f0f0;
-  color: #333;
+  background: #1a1a1a;
+  color: #888;
   font-family: inherit;
   font-size: 12px;
   font-weight: 600;
@@ -197,18 +127,10 @@
   white-space: nowrap;
   transition: background 0.1s;
 }
-
-.edit-notes-button:hover { background: #e4e4e4; }
-
+.edit-notes-button:hover  { background: #222; color: #ccc; }
 .edit-notes-button.hidden { display: none; }
 
-/* ======================================================
-   RESPONSIVE
-   ====================================================== */
-
-@media (max-width: 1000px) {
-  .item-input-container { grid-template-columns: 1fr 1fr; }
-}
+@media (max-width: 1000px) { .item-input-container { grid-template-columns: 1fr 1fr; } }
 
 @media (max-width: 700px) {
   .outbound-content { padding: 12px; gap: 12px; }

@@ -1,4 +1,4 @@
-﻿/* suppliers.css — page-specific styles only. shared.css handles layout/sidebar/topbar/table/form/buttons/section-header. */
+﻿/* suppliers.css — page-specific (dark mode) */
 
 .supplier-content {
   max-width: 1200px;
@@ -9,36 +9,22 @@
   gap: 20px;
 }
 
-/* ======================================================
-   SECTIONS
-   ====================================================== */
-
 .page-section,
 .form-section {
-  background: #fff;
-  border: 1px solid #e8e8e8;
+  background: #141414;
+  border: 1px solid #222;
   border-radius: 10px;
   overflow: hidden;
 }
 
-/* ======================================================
-   SUPPLIER FORM
-   ====================================================== */
-
-#supplierForm {
-  padding: 22px;
-}
+#supplierForm { padding: 22px; }
 
 #formMessage {
   padding: 0 22px 14px;
   font-size: 13px;
   font-weight: 600;
-  color: #444;
+  color: #888;
 }
-
-/* ======================================================
-   RESPONSIVE
-   ====================================================== */
 
 @media (max-width: 700px) {
   .supplier-content { padding: 12px; gap: 12px; }

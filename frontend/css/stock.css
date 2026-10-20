@@ -1,14 +1,10 @@
-/* stock.css — page-specific styles only. shared.css handles layout/sidebar/topbar/table/status badges. */
+/* stock.css — page-specific (dark mode) */
 
 .stock-content {
   max-width: 1400px;
   margin: 0 auto;
   padding: 28px;
 }
-
-/* ======================================================
-   TOOLBAR
-   ====================================================== */
 
 .stock-toolbar {
   display: flex;
@@ -18,16 +14,8 @@
   margin-bottom: 18px;
 }
 
-.stock-toolbar h2 {
-  font-size: 17px;
-  font-weight: 700;
-}
-
-.stock-toolbar p {
-  font-size: 12.5px;
-  color: #888;
-  margin-top: 3px;
-}
+.stock-toolbar h2 { font-size: 17px; font-weight: 700; color: #f0f0f0; }
+.stock-toolbar p  { font-size: 12.5px; color: #555; margin-top: 3px; }
 
 .stock-actions {
   display: flex;
@@ -40,9 +28,10 @@
 .stock-actions select {
   height: 38px;
   padding: 0 12px;
-  border: 1px solid #ddd;
+  border: 1px solid #2a2a2a;
   border-radius: 7px;
-  background: #fff;
+  background: #1a1a1a;
+  color: #e0e0e0;
   font-family: inherit;
   font-size: 13.5px;
   outline: none;
@@ -52,24 +41,16 @@
 .stock-actions input { width: 240px; }
 
 .stock-actions input:focus,
-.stock-actions select:focus {
-  border-color: #999;
-}
+.stock-actions select:focus { border-color: #444; }
 
-/* ======================================================
-   TABLE WRAPPER
-   ====================================================== */
+.stock-actions select option { background: #1a1a1a; color: #e0e0e0; }
 
 .stock-section {
-  background: #fff;
-  border: 1px solid #e8e8e8;
+  background: #141414;
+  border: 1px solid #222;
   border-radius: 10px;
   overflow: hidden;
 }
-
-/* ======================================================
-   RESPONSIVE
-   ====================================================== */
 
 @media (max-width: 900px) {
   .stock-toolbar { flex-direction: column; align-items: stretch; }
