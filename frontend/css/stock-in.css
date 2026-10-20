@@ -1,4 +1,4 @@
-/* stock-in.css — page-specific (dark mode) */
+/* stock-in.css — page-specific (clean & minimal) */
 
 .stock-in-content {
   max-width: 1000px;
@@ -11,8 +11,8 @@
 
 .form-section,
 .history-section {
-  background: #141414;
-  border: 1px solid #222;
+  background: #fff;
+  border: 1px solid #ebebeb;
   border-radius: 10px;
   overflow: hidden;
 }

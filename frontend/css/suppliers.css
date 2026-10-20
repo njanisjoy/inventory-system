@@ -1,4 +1,4 @@
-﻿/* suppliers.css — page-specific (dark mode) */
+﻿/* suppliers.css — page-specific (clean & minimal) */
 
 .supplier-content {
   max-width: 1200px;
@@ -11,8 +11,8 @@
 
 .page-section,
 .form-section {
-  background: #141414;
-  border: 1px solid #222;
+  background: #fff;
+  border: 1px solid #ebebeb;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -23,7 +23,7 @@
   padding: 0 22px 14px;
   font-size: 13px;
   font-weight: 600;
-  color: #888;
+  color: #555;
 }
 
 @media (max-width: 700px) {

@@ -1,4 +1,4 @@
-/* dashboard.css — page-specific (dark mode) */
+/* dashboard.css — page-specific (clean & minimal) */
 
 .dashboard-content {
   max-width: 1400px;
@@ -14,31 +14,31 @@
 }
 
 .stat-card {
-  background: #141414;
-  border: 1px solid #222;
+  background: #fff;
+  border: 1px solid #ebebeb;
   border-radius: 10px;
   padding: 22px 24px;
 }
 
 .stat-card h3 {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: #555;
-  margin-bottom: 12px;
+  letter-spacing: 0.6px;
+  color: #aaa;
+  margin-bottom: 10px;
 }
 
 .stat-card p {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 700;
   letter-spacing: -1px;
-  color: #f0f0f0;
+  color: #111;
 }
 
 .stock-section {
-  background: #141414;
-  border: 1px solid #222;
+  background: #fff;
+  border: 1px solid #ebebeb;
   border-radius: 10px;
   overflow: hidden;
 }
