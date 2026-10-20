@@ -143,48 +143,12 @@
 
 
     // ======================================================
-    // TAMPILKAN ROLE DI TOPBAR (opsional, membantu debugging)
-    // ======================================================
-
-    function showRoleBadge() {
-        const userInfoEl = document.querySelector(".user-info");
-        if (!userInfoEl) return;
-
-        const ROLE_LABELS = {
-            admin_utama: "Admin Utama",
-            admin_2:     "Admin 2",
-            admin_3:     "Admin 3",
-            gudang:      "Gudang"
-        };
-
-        const label = ROLE_LABELS[role] || role;
-
-        const badge = document.createElement("span");
-        badge.textContent = label;
-        Object.assign(badge.style, {
-            display:       "inline-block",
-            marginLeft:    "8px",
-            padding:       "2px 8px",
-            borderRadius:  "12px",
-            fontSize:      "11px",
-            fontWeight:    "700",
-            background:    "#f0f0f0",
-            color:         "#555",
-            verticalAlign: "middle"
-        });
-
-        userInfoEl.appendChild(badge);
-    }
-
-
-    // ======================================================
     // JALANKAN SAAT DOM SIAP
     // ======================================================
 
     function init() {
         applyMenuVisibility();
         applyButtonVisibility();
-        showRoleBadge();
     }
 
     if (document.readyState === "loading") {
