@@ -10,21 +10,11 @@
 }
 
 .page-section,
-.form-section {
-  background: #fff;
-  border: 1px solid #ebebeb;
-  border-radius: 10px;
-  overflow: hidden;
-}
+.form-section { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
 
 #supplierForm { padding: 22px; }
 
-#formMessage {
-  padding: 0 22px 14px;
-  font-size: 13px;
-  font-weight: 600;
-  color: #555;
-}
+#formMessage { padding: 0 22px 14px; font-size: 13px; font-weight: 600; color: var(--text-sub); }
 
 @media (max-width: 700px) {
   .supplier-content { padding: 12px; gap: 12px; }

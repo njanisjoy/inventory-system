@@ -42,13 +42,8 @@
             btn.textContent = nowDark ? "☀️" : "🌙";
         });
 
-        // Sisipkan sebelum .user-info
-        const userInfo = topbar.querySelector(".user-info");
-        if (userInfo) {
-            topbar.insertBefore(btn, userInfo);
-        } else {
-            topbar.appendChild(btn);
-        }
+        // Sisipkan di ujung kanan topbar (setelah semua elemen)
+        topbar.appendChild(btn);
     }
 
     if (document.readyState === "loading") {
