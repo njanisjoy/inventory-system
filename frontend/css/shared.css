@@ -842,44 +842,75 @@ body.dark-mode .status-badge.status-cancelled { background: #2e0a0a; color: #e05
    ====================================================== */
 
 @media (max-width: 700px) {
+  /* Sidebar jadi drawer overlay */
   .sidebar {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0; left: 0;
     height: 100%;
     width: 260px;
     transform: translateX(-100%);
-    box-shadow: 4px 0 20px rgba(0,0,0,0.12);
+    box-shadow: 4px 0 20px rgba(0,0,0,0.15);
     min-height: unset;
     overflow-y: auto;
   }
-
   .sidebar.open { transform: translateX(0); }
   .app-layout { display: block; }
   .main-area  { min-height: 100vh; }
+
+  /* Topbar compact — hanya ikon + judul + user pill + toggle */
   .hamburger-btn { display: inline-flex; }
-  .topbar { padding: 12px 16px; }
-  .topbar h1 { font-size: 16px; }
+  .topbar {
+    padding: 10px 14px;
+    gap: 8px;
+  }
+  .topbar-left { gap: 8px; }
+  .topbar h1 { font-size: 15px; }
   .topbar p  { display: none; }
-  .user-info { font-size: 12px; padding: 4px 10px; }
+
+  /* User pill — hanya tampilkan teks singkat */
+  .user-info {
+    font-size: 11.5px;
+    padding: 4px 9px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Theme toggle ukuran kecil */
+  .theme-toggle {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  /* Page content */
   .page-content { padding: 12px; gap: 12px; }
 
+  /* Section header stack vertikal */
   .section-header, .card-header {
     flex-direction: column;
     align-items: flex-start;
     padding: 12px 14px;
-    gap: 10px;
+    gap: 8px;
   }
 
-  th { white-space: normal; font-size: 10px; padding: 9px 10px; }
+  /* Tabel — horizontal scroll, th tidak wrap */
+  .table-container { max-height: none; }
+  table { min-width: 480px; }
+  th { font-size: 10px; padding: 9px 10px; white-space: nowrap; }
   td { font-size: 12px; padding: 9px 10px; }
 
+  /* Form actions stack */
   .form-actions { flex-direction: column-reverse; }
   .form-actions > * { width: 100%; justify-content: center; }
 
+  /* Modal slide up dari bawah */
   .modal { padding: 0; align-items: flex-end; }
   .modal-content { max-width: 100%; max-height: 94vh; border-radius: 16px 16px 0 0; }
 
+  /* Input font 16px cegah zoom iOS */
   .form-group input,
   .form-group select,
   .form-group textarea { font-size: 16px; }
@@ -891,7 +922,9 @@ body.dark-mode .status-badge.status-cancelled { background: #2e0a0a; color: #e05
    ====================================================== */
 
 @media (max-width: 400px) {
-  .topbar h1 { font-size: 15px; }
+  .topbar { padding: 8px 12px; }
+  .topbar h1 { font-size: 14px; }
+  .user-info { max-width: 80px; font-size: 11px; }
   th { font-size: 9.5px; padding: 8px 8px; }
   td { font-size: 11.5px; padding: 8px 8px; }
   .page-content { padding: 10px; gap: 10px; }
