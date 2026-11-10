@@ -328,6 +328,7 @@ app.get(
                 p.minimum_stock,
                 p.description,
                 p.harga_beli,
+                p.harga_updated_at,
                 c.name AS category,
                 u.name AS unit,
                 u.symbol AS unit_symbol
@@ -905,9 +906,9 @@ app.patch(
         try {
             const result = await pool.query(
                 `UPDATE products
-                 SET harga_beli = $1, updated_at = CURRENT_TIMESTAMP
+                 SET harga_beli = $1, harga_updated_at = CURRENT_TIMESTAMP, updated_at = CURRENT_TIMESTAMP
                  WHERE id = $2 AND is_active = TRUE
-                 RETURNING id, code, name, harga_beli;`,
+                 RETURNING id, code, name, harga_beli, harga_updated_at;`,
                 [parsed, productId]
             );
 

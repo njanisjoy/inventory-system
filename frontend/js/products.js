@@ -290,6 +290,7 @@ async function deleteProduct(productId, productName) {
 const hargaModal        = document.getElementById("hargaModal");
 const hargaProductName  = document.getElementById("hargaProductName");
 const hargaDisplay      = document.getElementById("hargaDisplay");
+const hargaUpdatedAt    = document.getElementById("hargaUpdatedAt");
 const hargaForm         = document.getElementById("hargaForm");
 const hargaInput        = document.getElementById("hargaInput");
 const hargaMessage      = document.getElementById("hargaMessage");
@@ -305,6 +306,14 @@ function formatRupiah(value) {
     return "Rp " + num.toLocaleString("id-ID");
 }
 
+function formatTanggalHarga(isoString) {
+    if (!isoString) return "Belum pernah diubah";
+    const d = new Date(isoString);
+    return "Diperbarui " + d.toLocaleDateString("id-ID", {
+        day: "numeric", month: "long", year: "numeric"
+    }) + " " + d.toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit" });
+}
+
 function openHargaModal(productId) {
     const product = productsData.find(p => String(p.id) === String(productId));
     if (!product) return;
@@ -312,6 +321,7 @@ function openHargaModal(productId) {
     currentHargaProductId = productId;
     hargaProductName.textContent = `${product.code} — ${product.name}`;
     hargaDisplay.textContent = formatRupiah(product.harga_beli);
+    hargaUpdatedAt.textContent = formatTanggalHarga(product.harga_updated_at);
 
     // Reset form
     hargaForm.classList.add("hidden");
@@ -372,9 +382,13 @@ hargaForm.addEventListener("submit", async event => {
 
         // Update data lokal
         const idx = productsData.findIndex(p => String(p.id) === String(currentHargaProductId));
-        if (idx !== -1) productsData[idx].harga_beli = harga;
+        if (idx !== -1) {
+            productsData[idx].harga_beli = harga;
+            productsData[idx].harga_updated_at = data.product?.harga_updated_at || new Date().toISOString();
+        }
 
         hargaDisplay.textContent = formatRupiah(harga);
+        hargaUpdatedAt.textContent = formatTanggalHarga(data.product?.harga_updated_at);
         hargaMessage.textContent = "Harga berhasil disimpan.";
         hargaForm.classList.add("hidden");
         editHargaBtn.classList.remove("hidden");
