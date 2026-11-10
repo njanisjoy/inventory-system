@@ -230,3 +230,19 @@
   color: var(--text-muted);
   margin-top: 6px;
 }
+
+/* Fix tombol Simpan di modal harga */
+#saveHargaBtn {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 7px;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+#saveHargaBtn:hover    { opacity: 0.82; }
+#saveHargaBtn:disabled { opacity: 0.4; cursor: not-allowed; }
