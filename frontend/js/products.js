@@ -419,6 +419,8 @@ const editInfoBtn     = document.getElementById("editInfoBtn");
 const infoForm        = document.getElementById("infoForm");
 const infoImageFile   = document.getElementById("infoImageFile");
 const infoUploadStatus = document.getElementById("infoUploadStatus");
+const infoCropWrap    = document.getElementById("infoCropWrap");
+const infoCropImage   = document.getElementById("infoCropImage");
 const infoDescInput   = document.getElementById("infoDescInput");
 const infoMessage     = document.getElementById("infoMessage");
 const saveInfoBtn     = document.getElementById("saveInfoBtn");
@@ -426,7 +428,17 @@ const cancelInfoEdit  = document.getElementById("cancelInfoEdit");
 const closeInfoModal  = document.getElementById("closeInfoModal");
 
 let currentInfoProductId = null;
-let uploadedImageUrl     = null; // URL hasil upload Cloudinary
+let uploadedImageUrl     = null;
+let cropperInstance      = null;
+
+function destroyCropper() {
+    if (cropperInstance) {
+        cropperInstance.destroy();
+        cropperInstance = null;
+    }
+    infoCropWrap.classList.add("hidden");
+    infoCropImage.src = "";
+}
 
 function showInfoImage(url) {
     if (url) {
@@ -473,6 +485,7 @@ function closeInfoModalFn() {
     infoMessage.textContent = "";
     uploadedImageUrl = null;
     currentInfoProductId = null;
+    destroyCropper();
 }
 
 closeInfoModal.addEventListener("click", closeInfoModalFn);
@@ -489,11 +502,14 @@ cancelInfoEdit.addEventListener("click", () => {
     infoUploadStatus.textContent = "";
     uploadedImageUrl = null;
     infoImageFile.value = "";
+    destroyCropper();
 });
 
-// Validasi file saat dipilih
+// Validasi file dan init Cropper saat dipilih
 infoImageFile.addEventListener("change", () => {
     const file = infoImageFile.files[0];
+    destroyCropper();
+
     if (!file) { infoUploadStatus.textContent = ""; return; }
 
     const allowedTypes = ["image/jpeg", "image/png", "image/webp"];
@@ -510,13 +526,53 @@ infoImageFile.addEventListener("change", () => {
         return;
     }
 
-    infoUploadStatus.textContent = `✓ ${file.name} (${(file.size / 1024).toFixed(0)} KB)`;
+    infoUploadStatus.textContent = `✓ ${file.name} (${(file.size / 1024).toFixed(0)} KB) — Sesuaikan crop di bawah`;
+
+    // Tampilkan Cropper
+    const reader = new FileReader();
+    reader.onload = (e) => {
+        infoCropImage.src = e.target.result;
+        infoCropWrap.classList.remove("hidden");
+
+        // Init Cropper.js
+        cropperInstance = new Cropper(infoCropImage, {
+            aspectRatio: 1,       // square crop — ubah ke NaN untuk bebas
+            viewMode: 1,
+            autoCropArea: 0.9,
+            movable: true,
+            zoomable: false,
+            scalable: false,
+            rotatable: false,
+            responsive: true,
+            background: false
+        });
+    };
+    reader.readAsDataURL(file);
 });
 
+// Ambil blob hasil crop dari Cropper
+function getCroppedBlob() {
+    return new Promise((resolve, reject) => {
+        if (!cropperInstance) {
+            reject(new Error("Belum ada gambar yang di-crop"));
+            return;
+        }
+        cropperInstance.getCroppedCanvas({
+            width: 800,
+            height: 800,
+            imageSmoothingEnabled: true,
+            imageSmoothingQuality: "high"
+        }).toBlob((blob) => {
+            if (!blob) { reject(new Error("Gagal memproses gambar")); return; }
+            resolve(blob);
+        }, "image/jpeg", 0.85);
+    });
+}
+
 // Upload ke Cloudinary
-async function uploadToCloudinary(file) {
+async function uploadToCloudinary(blob) {
     const formData = new FormData();
-    formData.append("file", file);
+    formData.append("file", blob, "product.jpg");
     formData.append("upload_preset", CLOUDINARY_PRESET);
     formData.append("folder", "inventory");
 
@@ -549,8 +605,10 @@ infoForm.addEventListener("submit", async event => {
 
         // Upload gambar baru jika ada
         if (infoImageFile.files[0]) {
+            infoMessage.textContent = "Memproses crop...";
+            const blob = await getCroppedBlob();
             infoMessage.textContent = "Mengupload gambar...";
-            finalImageUrl = await uploadToCloudinary(infoImageFile.files[0]);
+            finalImageUrl = await uploadToCloudinary(blob);
         }
 
         // Simpan ke backend
@@ -580,6 +638,7 @@ infoForm.addEventListener("submit", async event => {
         editInfoBtn.classList.remove("hidden");
         infoImageFile.value = "";
         infoUploadStatus.textContent = "";
+        destroyCropper();
 
     } catch (err) {
         console.error(err);

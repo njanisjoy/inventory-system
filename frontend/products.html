@@ -621,10 +621,19 @@
                     <div class="form-group">
                         <label for="infoImageFile">Foto Produk</label>
                         <div class="info-upload-hint">
-                            Maks. 300 KB · JPG, PNG, WEBP
+                            Maks. 300 KB · JPG, PNG, WEBP · Pilih foto lalu crop sebelum simpan
                         </div>
                         <input type="file" id="infoImageFile" accept="image/jpeg,image/png,image/webp">
                         <div id="infoUploadStatus" class="info-upload-status"></div>
+                    </div>
+
+                    <!-- Area crop — muncul setelah pilih file -->
+                    <div id="infoCropWrap" class="info-crop-wrap hidden">
+                        <div class="info-crop-label">Sesuaikan crop:</div>
+                        <div class="info-crop-container">
+                            <img id="infoCropImage" src="" alt="crop">
+                        </div>
+                        <div class="info-crop-hint">Geser dan resize kotak crop, lalu klik Simpan</div>
                     </div>
 
                     <!-- Keterangan -->
@@ -651,6 +660,9 @@
     <script src="./js/theme.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/products.js"></script>
+    <!-- Cropper.js untuk crop gambar sebelum upload -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
 
 </body>
 
