@@ -401,6 +401,195 @@ hargaForm.addEventListener("submit", async event => {
 });
 
 // ======================================================
+// MODAL INFO BARANG
+// Cloudinary: cloud = fzryjrx6, preset = inventory_products
+// Batas: 300 KB
+// ======================================================
+
+const CLOUDINARY_CLOUD  = "fzryjrx6";
+const CLOUDINARY_PRESET = "inventory_products";
+const MAX_FILE_BYTES    = 300 * 1024; // 300 KB
+
+const infoModal       = document.getElementById("infoModal");
+const infoProductName = document.getElementById("infoProductName");
+const infoImage       = document.getElementById("infoImage");
+const infoNoImage     = document.getElementById("infoNoImage");
+const infoDesc        = document.getElementById("infoDesc");
+const editInfoBtn     = document.getElementById("editInfoBtn");
+const infoForm        = document.getElementById("infoForm");
+const infoImageFile   = document.getElementById("infoImageFile");
+const infoUploadStatus = document.getElementById("infoUploadStatus");
+const infoDescInput   = document.getElementById("infoDescInput");
+const infoMessage     = document.getElementById("infoMessage");
+const saveInfoBtn     = document.getElementById("saveInfoBtn");
+const cancelInfoEdit  = document.getElementById("cancelInfoEdit");
+const closeInfoModal  = document.getElementById("closeInfoModal");
+
+let currentInfoProductId = null;
+let uploadedImageUrl     = null; // URL hasil upload Cloudinary
+
+function showInfoImage(url) {
+    if (url) {
+        infoImage.src = url;
+        infoImage.classList.remove("hidden");
+        infoNoImage.classList.add("hidden");
+    } else {
+        infoImage.src = "";
+        infoImage.classList.add("hidden");
+        infoNoImage.classList.remove("hidden");
+    }
+}
+
+function openInfoModal(productId) {
+    const product = productsData.find(p => String(p.id) === String(productId));
+    if (!product) return;
+
+    currentInfoProductId = productId;
+    uploadedImageUrl     = null;
+
+    infoProductName.textContent = `${product.code} — ${product.name}`;
+    showInfoImage(product.image_url);
+    infoDesc.textContent = product.description || "Belum ada keterangan.";
+
+    // Reset form
+    infoForm.classList.add("hidden");
+    infoMessage.textContent = "";
+    infoUploadStatus.textContent = "";
+    infoDescInput.value  = product.description || "";
+    infoImageFile.value  = "";
+
+    if (isAdminUtama) {
+        editInfoBtn.classList.remove("hidden");
+    } else {
+        editInfoBtn.classList.add("hidden");
+    }
+
+    infoModal.classList.remove("hidden");
+}
+
+function closeInfoModalFn() {
+    infoModal.classList.add("hidden");
+    infoForm.classList.add("hidden");
+    infoMessage.textContent = "";
+    uploadedImageUrl = null;
+    currentInfoProductId = null;
+}
+
+closeInfoModal.addEventListener("click", closeInfoModalFn);
+
+editInfoBtn.addEventListener("click", () => {
+    infoForm.classList.remove("hidden");
+    editInfoBtn.classList.add("hidden");
+});
+
+cancelInfoEdit.addEventListener("click", () => {
+    infoForm.classList.add("hidden");
+    editInfoBtn.classList.remove("hidden");
+    infoMessage.textContent = "";
+    infoUploadStatus.textContent = "";
+    uploadedImageUrl = null;
+    infoImageFile.value = "";
+});
+
+// Validasi file saat dipilih
+infoImageFile.addEventListener("change", () => {
+    const file = infoImageFile.files[0];
+    if (!file) { infoUploadStatus.textContent = ""; return; }
+
+    const allowedTypes = ["image/jpeg", "image/png", "image/webp"];
+    if (!allowedTypes.includes(file.type)) {
+        infoUploadStatus.textContent = "❌ Format tidak didukung. Gunakan JPG, PNG, atau WEBP.";
+        infoImageFile.value = "";
+        return;
+    }
+
+    if (file.size > MAX_FILE_BYTES) {
+        const kb = (file.size / 1024).toFixed(0);
+        infoUploadStatus.textContent = `❌ Ukuran file ${kb} KB melebihi batas 300 KB. Kompres gambar terlebih dahulu.`;
+        infoImageFile.value = "";
+        return;
+    }
+
+    infoUploadStatus.textContent = `✓ ${file.name} (${(file.size / 1024).toFixed(0)} KB)`;
+});
+
+// Upload ke Cloudinary
+async function uploadToCloudinary(file) {
+    const formData = new FormData();
+    formData.append("file", file);
+    formData.append("upload_preset", CLOUDINARY_PRESET);
+    formData.append("folder", "inventory");
+
+    const res = await fetch(
+        `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD}/image/upload`,
+        { method: "POST", body: formData }
+    );
+
+    if (!res.ok) {
+        const err = await res.json();
+        throw new Error(err.error?.message || "Upload gambar gagal");
+    }
+
+    const data = await res.json();
+    return data.secure_url;
+}
+
+// Submit form info
+infoForm.addEventListener("submit", async event => {
+    event.preventDefault();
+
+    const product = productsData.find(p => String(p.id) === String(currentInfoProductId));
+    if (!product) return;
+
+    saveInfoBtn.disabled = true;
+    infoMessage.textContent = "Menyimpan...";
+
+    try {
+        let finalImageUrl = product.image_url || null;
+
+        // Upload gambar baru jika ada
+        if (infoImageFile.files[0]) {
+            infoMessage.textContent = "Mengupload gambar...";
+            finalImageUrl = await uploadToCloudinary(infoImageFile.files[0]);
+        }
+
+        // Simpan ke backend
+        const description = infoDescInput.value.trim();
+        const res = await fetch(`${BASE_URL}/api/products/${currentInfoProductId}/info`, {
+            method: "PATCH",
+            headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+            body: JSON.stringify({ image_url: finalImageUrl, description })
+        });
+
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.message || "Gagal menyimpan info");
+
+        // Update data lokal
+        const idx = productsData.findIndex(p => String(p.id) === String(currentInfoProductId));
+        if (idx !== -1) {
+            productsData[idx].image_url   = finalImageUrl;
+            productsData[idx].description = description;
+        }
+
+        // Update tampilan modal
+        showInfoImage(finalImageUrl);
+        infoDesc.textContent = description || "Belum ada keterangan.";
+
+        infoMessage.textContent = "Info berhasil disimpan.";
+        infoForm.classList.add("hidden");
+        editInfoBtn.classList.remove("hidden");
+        infoImageFile.value = "";
+        infoUploadStatus.textContent = "";
+
+    } catch (err) {
+        console.error(err);
+        infoMessage.textContent = err.message || "Gagal menyimpan info.";
+    } finally {
+        saveInfoBtn.disabled = false;
+    }
+});
+
+// ======================================================
 // LOAD USER
 // ======================================================
 
@@ -514,6 +703,7 @@ function renderProducts() {
             <td>
                 <button type="button" class="edit-button" data-id="${product.id}">Edit</button>
                 <button type="button" class="harga-button" data-id="${product.id}">Harga</button>
+                <button type="button" class="info-button" data-id="${product.id}">Info</button>
                 ${deleteBtn}
             </td>
         `;
@@ -526,6 +716,10 @@ function renderProducts() {
 
     productsTableBody.querySelectorAll(".harga-button").forEach(btn => {
         btn.addEventListener("click", () => openHargaModal(btn.dataset.id));
+    });
+
+    productsTableBody.querySelectorAll(".info-button").forEach(btn => {
+        btn.addEventListener("click", () => openInfoModal(btn.dataset.id));
     });
 
     productsTableBody.querySelectorAll(".delete-button").forEach(btn => {

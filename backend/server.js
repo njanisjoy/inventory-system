@@ -329,6 +329,7 @@ app.get(
                 p.description,
                 p.harga_beli,
                 p.harga_updated_at,
+                p.image_url,
                 c.name AS category,
                 u.name AS unit,
                 u.symbol AS unit_symbol
@@ -920,6 +921,46 @@ app.patch(
         } catch (error) {
             console.error(error);
             res.status(500).json({ message: "Gagal memperbarui harga", error: error.message });
+        }
+    }
+);
+
+// ======================================================
+// UPDATE INFO BARANG (gambar + keterangan)
+// ADMIN UTAMA SAJA
+// ======================================================
+
+app.patch(
+    "/api/products/:id/info",
+    authenticateToken,
+    authorizeRoles("admin_utama"),
+    async (req, res) => {
+        const productId = req.params.id;
+        const { image_url, description } = req.body;
+
+        try {
+            const result = await pool.query(
+                `UPDATE products
+                 SET image_url   = $1,
+                     description = $2,
+                     updated_at  = CURRENT_TIMESTAMP
+                 WHERE id = $3 AND is_active = TRUE
+                 RETURNING id, code, name, image_url, description;`,
+                [
+                    image_url   || null,
+                    description !== undefined ? String(description).trim() : null,
+                    productId
+                ]
+            );
+
+            if (result.rows.length === 0) {
+                return res.status(404).json({ message: "Produk tidak ditemukan" });
+            }
+
+            res.json({ message: "Info barang berhasil diperbarui", product: result.rows[0] });
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ message: "Gagal memperbarui info barang", error: error.message });
         }
     }
 );

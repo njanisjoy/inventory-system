@@ -585,6 +585,66 @@
         </div>
     </div>
 
+    <!-- MODAL INFO BARANG -->
+    <div id="infoModal" class="modal hidden">
+        <div class="modal-content info-modal-content">
+            <div class="modal-header">
+                <div>
+                    <h2>Info Barang</h2>
+                    <p id="infoProductName">-</p>
+                </div>
+                <button type="button" id="closeInfoModal" class="close-button">&times;</button>
+            </div>
+            <div class="info-modal-body">
+
+                <!-- Gambar produk -->
+                <div class="info-image-wrap">
+                    <img id="infoImage" src="" alt="Foto produk" class="info-image hidden">
+                    <div id="infoNoImage" class="info-no-image">Belum ada foto</div>
+                </div>
+
+                <!-- Keterangan -->
+                <div class="info-desc-block">
+                    <div class="info-desc-label">Keterangan</div>
+                    <div id="infoDesc" class="info-desc-text">-</div>
+                </div>
+
+                <!-- Tombol edit — hanya admin_utama -->
+                <button type="button" id="editInfoBtn" class="hidden edit-button">
+                    Edit Info
+                </button>
+
+                <!-- Form edit — hanya admin_utama -->
+                <form id="infoForm" class="hidden info-form">
+
+                    <!-- Upload gambar -->
+                    <div class="form-group">
+                        <label for="infoImageFile">Foto Produk</label>
+                        <div class="info-upload-hint">
+                            Maks. 300 KB · JPG, PNG, WEBP
+                        </div>
+                        <input type="file" id="infoImageFile" accept="image/jpeg,image/png,image/webp">
+                        <div id="infoUploadStatus" class="info-upload-status"></div>
+                    </div>
+
+                    <!-- Keterangan -->
+                    <div class="form-group">
+                        <label for="infoDescInput">Keterangan</label>
+                        <textarea id="infoDescInput" rows="4" placeholder="Deskripsi barang..."></textarea>
+                    </div>
+
+                    <p id="infoMessage" class="info-message"></p>
+
+                    <div class="form-actions">
+                        <button type="button" id="cancelInfoEdit" class="btn-secondary">Batal</button>
+                        <button type="submit" id="saveInfoBtn">Simpan</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
     <script src="./js/config.js"></script>
     <script src="./js/session.js"></script>
     <script src="./js/sidebar.js"></script>

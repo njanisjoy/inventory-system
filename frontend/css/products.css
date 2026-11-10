@@ -246,3 +246,130 @@
 }
 #saveHargaBtn:hover    { opacity: 0.82; }
 #saveHargaBtn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* ======================================================
+   TOMBOL INFO
+   ====================================================== */
+
+.info-button {
+  padding: 6px 12px;
+  border: 1px solid var(--border-input);
+  border-radius: 5px;
+  background: var(--bg-surface2);
+  color: var(--text-sub);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.1s, color 0.1s;
+  touch-action: manipulation;
+  margin-left: 4px;
+}
+.info-button:hover { background: var(--bg-hover); color: var(--text-primary); }
+
+/* ======================================================
+   MODAL INFO BARANG
+   ====================================================== */
+
+.info-modal-content { max-width: 460px; }
+
+.info-modal-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Gambar */
+.info-image-wrap {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: var(--bg-surface2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.info-no-image {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* Keterangan */
+.info-desc-block {
+  background: var(--bg-surface2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+
+.info-desc-label {
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.info-desc-text {
+  font-size: 13.5px;
+  color: var(--text-body);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Upload hint */
+.info-upload-hint {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.info-upload-status {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-sub);
+  margin-top: 6px;
+  min-height: 18px;
+}
+
+/* Form */
+.info-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info-message {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-sub);
+  min-height: 18px;
+  margin: 0;
+}
+
+/* Tombol Simpan info */
+#saveInfoBtn {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 7px;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+#saveInfoBtn:hover    { opacity: 0.82; }
+#saveInfoBtn:disabled { opacity: 0.4; cursor: not-allowed; }
