@@ -284,6 +284,109 @@ async function deleteProduct(productId, productName) {
 }
 
 // ======================================================
+// MODAL HARGA
+// ======================================================
+
+const hargaModal        = document.getElementById("hargaModal");
+const hargaProductName  = document.getElementById("hargaProductName");
+const hargaDisplay      = document.getElementById("hargaDisplay");
+const hargaForm         = document.getElementById("hargaForm");
+const hargaInput        = document.getElementById("hargaInput");
+const hargaMessage      = document.getElementById("hargaMessage");
+const editHargaBtn      = document.getElementById("editHargaBtn");
+const cancelHargaEdit   = document.getElementById("cancelHargaEdit");
+const saveHargaBtn      = document.getElementById("saveHargaBtn");
+const closeHargaModal   = document.getElementById("closeHargaModal");
+
+let currentHargaProductId = null;
+
+function formatRupiah(value) {
+    const num = Number(value) || 0;
+    return "Rp " + num.toLocaleString("id-ID");
+}
+
+function openHargaModal(productId) {
+    const product = productsData.find(p => String(p.id) === String(productId));
+    if (!product) return;
+
+    currentHargaProductId = productId;
+    hargaProductName.textContent = `${product.code} — ${product.name}`;
+    hargaDisplay.textContent = formatRupiah(product.harga_beli);
+
+    // Reset form
+    hargaForm.classList.add("hidden");
+    hargaMessage.textContent = "";
+    hargaInput.value = product.harga_beli || 0;
+
+    // Tombol edit hanya untuk admin_utama
+    if (isAdminUtama) {
+        editHargaBtn.classList.remove("hidden");
+    } else {
+        editHargaBtn.classList.add("hidden");
+    }
+
+    hargaModal.classList.remove("hidden");
+}
+
+function closeHargaModalFn() {
+    hargaModal.classList.add("hidden");
+    hargaForm.classList.add("hidden");
+    hargaMessage.textContent = "";
+    currentHargaProductId = null;
+}
+
+closeHargaModal.addEventListener("click", closeHargaModalFn);
+
+editHargaBtn.addEventListener("click", () => {
+    hargaForm.classList.remove("hidden");
+    editHargaBtn.classList.add("hidden");
+    hargaInput.focus();
+});
+
+cancelHargaEdit.addEventListener("click", () => {
+    hargaForm.classList.add("hidden");
+    editHargaBtn.classList.remove("hidden");
+    hargaMessage.textContent = "";
+});
+
+hargaForm.addEventListener("submit", async event => {
+    event.preventDefault();
+
+    const harga = Number(hargaInput.value);
+    if (!Number.isFinite(harga) || harga < 0) {
+        hargaMessage.textContent = "Harga harus berupa angka 0 atau lebih.";
+        return;
+    }
+
+    hargaMessage.textContent = "Menyimpan...";
+    saveHargaBtn.disabled = true;
+
+    try {
+        const res  = await fetch(`${BASE_URL}/api/products/${currentHargaProductId}/harga`, {
+            method: "PATCH",
+            headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+            body: JSON.stringify({ harga_beli: harga })
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.message || "Gagal menyimpan harga");
+
+        // Update data lokal
+        const idx = productsData.findIndex(p => String(p.id) === String(currentHargaProductId));
+        if (idx !== -1) productsData[idx].harga_beli = harga;
+
+        hargaDisplay.textContent = formatRupiah(harga);
+        hargaMessage.textContent = "Harga berhasil disimpan.";
+        hargaForm.classList.add("hidden");
+        editHargaBtn.classList.remove("hidden");
+    } catch (err) {
+        console.error(err);
+        hargaMessage.textContent = err.message || "Gagal menyimpan harga.";
+    } finally {
+        saveHargaBtn.disabled = false;
+    }
+});
+
+// ======================================================
 // LOAD USER
 // ======================================================
 
@@ -396,6 +499,7 @@ function renderProducts() {
             <td>${formatQuantity(product.minimum_stock)} ${product.unit_symbol || ""}</td>
             <td>
                 <button type="button" class="edit-button" data-id="${product.id}">Edit</button>
+                <button type="button" class="harga-button" data-id="${product.id}">Harga</button>
                 ${deleteBtn}
             </td>
         `;
@@ -404,6 +508,10 @@ function renderProducts() {
 
     productsTableBody.querySelectorAll(".edit-button").forEach(btn => {
         btn.addEventListener("click", () => openEditModal(btn.dataset.id));
+    });
+
+    productsTableBody.querySelectorAll(".harga-button").forEach(btn => {
+        btn.addEventListener("click", () => openHargaModal(btn.dataset.id));
     });
 
     productsTableBody.querySelectorAll(".delete-button").forEach(btn => {

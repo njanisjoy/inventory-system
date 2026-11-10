@@ -327,6 +327,7 @@ app.get(
                 p.default_location_id,
                 p.minimum_stock,
                 p.description,
+                p.harga_beli,
                 c.name AS category,
                 u.name AS unit,
                 u.symbol AS unit_symbol
@@ -879,6 +880,45 @@ app.delete(
         } catch (error) {
             console.error(error);
             res.status(500).json({ message: "Gagal menghapus produk", error: error.message });
+        }
+    }
+);
+
+// ======================================================
+// UPDATE HARGA BELI PRODUK
+// ADMIN UTAMA SAJA
+// ======================================================
+
+app.patch(
+    "/api/products/:id/harga",
+    authenticateToken,
+    authorizeRoles("admin_utama"),
+    async (req, res) => {
+        const productId = req.params.id;
+        const { harga_beli } = req.body;
+
+        const parsed = Number(harga_beli);
+        if (!Number.isFinite(parsed) || parsed < 0) {
+            return res.status(400).json({ message: "Harga beli harus berupa angka 0 atau lebih" });
+        }
+
+        try {
+            const result = await pool.query(
+                `UPDATE products
+                 SET harga_beli = $1, updated_at = CURRENT_TIMESTAMP
+                 WHERE id = $2 AND is_active = TRUE
+                 RETURNING id, code, name, harga_beli;`,
+                [parsed, productId]
+            );
+
+            if (result.rows.length === 0) {
+                return res.status(404).json({ message: "Produk tidak ditemukan" });
+            }
+
+            res.json({ message: "Harga berhasil diperbarui", product: result.rows[0] });
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ message: "Gagal memperbarui harga", error: error.message });
         }
     }
 );
