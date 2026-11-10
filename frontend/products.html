@@ -551,7 +551,7 @@
 
     <!-- MODAL HARGA -->
     <div id="hargaModal" class="modal hidden">
-        <div class="modal-content" style="max-width: 380px;">
+        <div class="modal-content harga-modal-content">
             <div class="modal-header">
                 <div>
                     <h2>Info Harga</h2>
@@ -559,29 +559,27 @@
                 </div>
                 <button type="button" id="closeHargaModal" class="close-button">&times;</button>
             </div>
-            <div style="padding: 20px; display: flex; flex-direction: column; gap: 16px;">
-                <div>
-                    <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; color: var(--text-muted); margin-bottom: 6px;">Harga Beli</div>
-                    <div id="hargaDisplay" style="font-size: 24px; font-weight: 700; color: var(--text-primary);">-</div>
+            <div class="harga-modal-body">
+                <div class="harga-info-block">
+                    <div class="harga-label">Harga Beli</div>
+                    <div id="hargaDisplay" class="harga-value">-</div>
                 </div>
 
-                <!-- Form edit harga — hanya admin_utama -->
-                <form id="hargaForm" class="hidden">
-                    <div class="form-group" style="margin-bottom: 0;">
-                        <label for="hargaInput">Ubah Harga Beli</label>
+                <button type="button" id="editHargaBtn" class="hidden edit-button harga-edit-trigger">
+                    Edit Harga
+                </button>
+
+                <form id="hargaForm" class="hidden harga-form">
+                    <div class="form-group">
+                        <label for="hargaInput">Ubah Harga Beli (Rp)</label>
                         <input type="number" id="hargaInput" min="0" step="1" placeholder="0">
                     </div>
-                    <p id="hargaMessage" style="font-size: 13px; font-weight: 600; color: var(--text-sub); min-height: 18px; margin-top: 8px;"></p>
-                    <div class="form-actions" style="margin-top: 12px;">
+                    <p id="hargaMessage" class="harga-message"></p>
+                    <div class="form-actions">
                         <button type="button" id="cancelHargaEdit" class="btn-secondary">Batal</button>
                         <button type="submit" id="saveHargaBtn">Simpan</button>
                     </div>
                 </form>
-
-                <!-- Tombol edit — hanya admin_utama -->
-                <button type="button" id="editHargaBtn" class="hidden edit-button" style="align-self: flex-start;">
-                    Edit Harga
-                </button>
             </div>
         </div>
     </div>
